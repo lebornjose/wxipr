@@ -1,0 +1,1 @@
+﻿<tr><th>标题</th><td><input type="text" name="title"/></td></tr><tr><th>文章类型</th><td><select name="jtype"><option value="">-请选择-</option><:foreach collection="?categorylist?" var="list"><option value="?list.categoryId?">?list.title?</option></:foreach></select></td></tr>

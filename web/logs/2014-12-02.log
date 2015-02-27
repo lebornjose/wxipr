@@ -1,0 +1,572 @@
+﻿--------2014-12-02 08:58:07---------------------------------------------------------------
+	Error:获取dataTable失败
+	MySql.Data.MySqlClient.MySqlException: Unable to connect to any of the specified MySQL hosts.
+  at MySql.Data.MySqlClient.NativeDriver.Open () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Driver.Open () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Driver.Create (MySql.Data.MySqlClient.MySqlConnectionStringBuilder settings) [0x00000] in <filename unknown>:0 -----
+
+--------2014-12-02 08:58:07---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: 获取dataTable失败
+	MySql.Data.MySqlClient.MySqlException: Unable to connect to any of the specified MySQL hosts.
+  at MySql.Data.MySqlClient.NativeDriver.Open () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Driver.Open () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Driver.Create (MySql.Data.MySqlClient.MySqlConnectionStringBuilder settings) [0x00000] in <filename unknown>:0 -----
+  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Select.All () [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Select.Row () [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoManager. (System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoManager..ctor (System.String username) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-12-02 08:59:31---------------------------------------------------------------
+	Error:获取ExcuteScalar失败
+	MySql.Data.MySqlClient.MySqlException: Authentication to host 'sinbo520.mysql.rds.aliyuncs.com' for user 'demo' using method 'mysql_native_password' failed with message: Access denied for user 'demo'@'%' to database 'weixin' ---> MySql.Data.MySqlClient.MySqlException: Access denied for user 'demo'@'%' to database 'weixin'
+  at MySql.Data.MySqlClient.MySqlStream.ReadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.NativeDriver.ReadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket () [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed (System.Exception ex) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate (Boolean reset) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.NativeDriver.Authenticate (System.String authMethod, Boolean reset) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.NativeDriver.Open () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Driver.Open () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Driver.Create (MySql.Data.MySqlClient.MySqlConnectionStringBuilder settings) [0x00000] in <filename unknown>:0 -----SELECT COUNT(article_id) FROM article
+
+--------2014-12-02 08:59:33---------------------------------------------------------------
+	Error:获取ExcuteScalar失败
+	MySql.Data.MySqlClient.MySqlException: Authentication to host 'sinbo520.mysql.rds.aliyuncs.com' for user 'demo' using method 'mysql_native_password' failed with message: Access denied for user 'demo'@'%' to database 'weixin' ---> MySql.Data.MySqlClient.MySqlException: Access denied for user 'demo'@'%' to database 'weixin'
+  at MySql.Data.MySqlClient.MySqlStream.ReadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.NativeDriver.ReadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket () [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed (System.Exception ex) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate (Boolean reset) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.NativeDriver.Authenticate (System.String authMethod, Boolean reset) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.NativeDriver.Open () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Driver.Open () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Driver.Create (MySql.Data.MySqlClient.MySqlConnectionStringBuilder settings) [0x00000] in <filename unknown>:0 -----SELECT COUNT(article_id) FROM article
+
+--------2014-12-02 08:59:50---------------------------------------------------------------
+	Error:获取ExcuteScalar失败
+	MySql.Data.MySqlClient.MySqlException: Authentication to host 'sinbo520.mysql.rds.aliyuncs.com' for user 'demo' using method 'mysql_native_password' failed with message: Access denied for user 'demo'@'%' to database 'weixin' ---> MySql.Data.MySqlClient.MySqlException: Access denied for user 'demo'@'%' to database 'weixin'
+  at MySql.Data.MySqlClient.MySqlStream.ReadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.NativeDriver.ReadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket () [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed (System.Exception ex) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate (Boolean reset) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.NativeDriver.Authenticate (System.String authMethod, Boolean reset) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.NativeDriver.Open () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Driver.Open () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Driver.Create (MySql.Data.MySqlClient.MySqlConnectionStringBuilder settings) [0x00000] in <filename unknown>:0 -----SELECT COUNT(article_id) FROM article
+
+--------2014-12-02 09:01:18---------------------------------------------------------------
+	Error:获取ExcuteScalar失败
+	MySql.Data.MySqlClient.MySqlException: Table 'article.article' doesn't exist
+  at MySql.Data.MySqlClient.MySqlStream.ReadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.NativeDriver.GetResult (System.Int32& affectedRow, System.Int64& insertedId) [0x00000] in <filename unknown>:0 -----SELECT COUNT(article_id) FROM article
+
+--------2014-12-02 09:01:21---------------------------------------------------------------
+	Error:获取ExcuteScalar失败
+	MySql.Data.MySqlClient.MySqlException: Table 'article.article' doesn't exist
+  at MySql.Data.MySqlClient.MySqlStream.ReadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.NativeDriver.GetResult (System.Int32& affectedRow, System.Int64& insertedId) [0x00000] in <filename unknown>:0 -----SELECT COUNT(article_id) FROM article
+
+--------2014-12-02 09:02:32---------------------------------------------------------------
+	Error:获取ExcuteScalar失败
+	MySql.Data.MySqlClient.MySqlException: Table 'article.article' doesn't exist
+  at MySql.Data.MySqlClient.MySqlStream.ReadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.NativeDriver.GetResult (System.Int32& affectedRow, System.Int64& insertedId) [0x00000] in <filename unknown>:0 -----SELECT COUNT(article_id) FROM article
+
+--------2014-12-02 09:02:34---------------------------------------------------------------
+	Error:获取ExcuteScalar失败
+	MySql.Data.MySqlClient.MySqlException: Table 'article.article' doesn't exist
+  at MySql.Data.MySqlClient.MySqlStream.ReadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.NativeDriver.GetResult (System.Int32& affectedRow, System.Int64& insertedId) [0x00000] in <filename unknown>:0 -----SELECT COUNT(article_id) FROM article
+
+--------2014-12-02 10:29:07---------------------------------------------------------------
+	Error:应用错误
+	System.Threading.ThreadAbortException: Thread was being aborted
+  at Jabinfo.JabinfoController._JabinfoExcute (System.String[] userParam, Jabinfo.JabinfoContext context) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-12-02 10:34:09---------------------------------------------------------------
+	Error:应用错误
+	System.Threading.ThreadAbortException: Thread was being aborted
+  at Jabinfo.JabinfoController._JabinfoExcute (System.String[] userParam, Jabinfo.JabinfoContext context) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-12-02 10:42:57---------------------------------------------------------------
+	Error:获取ExcuteScalar失败
+	MySql.Data.MySqlClient.MySqlException: Fatal error encountered during command execution. ---> MySql.Data.MySqlClient.MySqlException: Parameter '?categoryId' must be defined.
+  at MySql.Data.MySqlClient.Statement.SerializeParameter (MySql.Data.MySqlClient.MySqlParameterCollection parameters, MySql.Data.MySqlClient.MySqlPacket packet, System.String parmName, Int32 parameterIndex) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.InternalBindParameters (System.String sql, MySql.Data.MySqlClient.MySqlParameterCollection parameters, MySql.Data.MySqlClient.MySqlPacket packet) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.BindParameters () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.Execute () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.PreparableStatement.Execute () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteScalar () [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Select.ExcuteScalar () [0x00000] in <filename unknown>:0 -----SELECT COUNT(*) FROM `article` `category_id`=?categoryId
+
+--------2014-12-02 10:44:23---------------------------------------------------------------
+	Error:获取ExcuteScalar失败
+	MySql.Data.MySqlClient.MySqlException: Fatal error encountered during command execution. ---> MySql.Data.MySqlClient.MySqlException: Parameter '?categoryId' must be defined.
+  at MySql.Data.MySqlClient.Statement.SerializeParameter (MySql.Data.MySqlClient.MySqlParameterCollection parameters, MySql.Data.MySqlClient.MySqlPacket packet, System.String parmName, Int32 parameterIndex) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.InternalBindParameters (System.String sql, MySql.Data.MySqlClient.MySqlParameterCollection parameters, MySql.Data.MySqlClient.MySqlPacket packet) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.BindParameters () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.Execute () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.PreparableStatement.Execute () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteScalar () [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Select.ExcuteScalar () [0x00000] in <filename unknown>:0 -----SELECT COUNT(*) FROM `article` `category_id`=?categoryId
+
+--------2014-12-02 10:44:49---------------------------------------------------------------
+	Error:获取ExcuteScalar失败
+	MySql.Data.MySqlClient.MySqlException: Fatal error encountered during command execution. ---> MySql.Data.MySqlClient.MySqlException: Parameter '?categoryId' must be defined.
+  at MySql.Data.MySqlClient.Statement.SerializeParameter (MySql.Data.MySqlClient.MySqlParameterCollection parameters, MySql.Data.MySqlClient.MySqlPacket packet, System.String parmName, Int32 parameterIndex) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.InternalBindParameters (System.String sql, MySql.Data.MySqlClient.MySqlParameterCollection parameters, MySql.Data.MySqlClient.MySqlPacket packet) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.BindParameters () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.Execute () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.PreparableStatement.Execute () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteScalar () [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Select.ExcuteScalar () [0x00000] in <filename unknown>:0 -----SELECT COUNT(*) FROM `article` `category_id`=?categoryId
+
+--------2014-12-02 10:47:18---------------------------------------------------------------
+	Error:获取ExcuteScalar失败
+	MySql.Data.MySqlClient.MySqlException: Fatal error encountered during command execution. ---> MySql.Data.MySqlClient.MySqlException: Parameter '?categoryId' must be defined.
+  at MySql.Data.MySqlClient.Statement.SerializeParameter (MySql.Data.MySqlClient.MySqlParameterCollection parameters, MySql.Data.MySqlClient.MySqlPacket packet, System.String parmName, Int32 parameterIndex) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.InternalBindParameters (System.String sql, MySql.Data.MySqlClient.MySqlParameterCollection parameters, MySql.Data.MySqlClient.MySqlPacket packet) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.BindParameters () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.Execute () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.PreparableStatement.Execute () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteScalar () [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Select.ExcuteScalar () [0x00000] in <filename unknown>:0 -----SELECT COUNT(*) FROM `article` `category_id`=?categoryId
+
+--------2014-12-02 10:50:26---------------------------------------------------------------
+	Error:获取ExcuteScalar失败
+	MySql.Data.MySqlClient.MySqlException: Fatal error encountered during command execution. ---> MySql.Data.MySqlClient.MySqlException: Parameter '?categoryId' must be defined.
+  at MySql.Data.MySqlClient.Statement.SerializeParameter (MySql.Data.MySqlClient.MySqlParameterCollection parameters, MySql.Data.MySqlClient.MySqlPacket packet, System.String parmName, Int32 parameterIndex) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.InternalBindParameters (System.String sql, MySql.Data.MySqlClient.MySqlParameterCollection parameters, MySql.Data.MySqlClient.MySqlPacket packet) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.BindParameters () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.Execute () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.PreparableStatement.Execute () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteScalar () [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Select.ExcuteScalar () [0x00000] in <filename unknown>:0 -----SELECT COUNT(*) FROM `article` `category_id`=?categoryId
+
+--------2014-12-02 10:51:31---------------------------------------------------------------
+	Error:获取ExcuteScalar失败
+	MySql.Data.MySqlClient.MySqlException: Fatal error encountered during command execution. ---> MySql.Data.MySqlClient.MySqlException: Parameter '?categoryId' must be defined.
+  at MySql.Data.MySqlClient.Statement.SerializeParameter (MySql.Data.MySqlClient.MySqlParameterCollection parameters, MySql.Data.MySqlClient.MySqlPacket packet, System.String parmName, Int32 parameterIndex) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.InternalBindParameters (System.String sql, MySql.Data.MySqlClient.MySqlParameterCollection parameters, MySql.Data.MySqlClient.MySqlPacket packet) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.BindParameters () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.Execute () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.PreparableStatement.Execute () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteScalar () [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Select.ExcuteScalar () [0x00000] in <filename unknown>:0 -----SELECT COUNT(*) FROM `article` `category_id`=?categoryId
+
+--------2014-12-02 10:53:11---------------------------------------------------------------
+	Error:获取ExcuteScalar失败
+	MySql.Data.MySqlClient.MySqlException: Fatal error encountered during command execution. ---> MySql.Data.MySqlClient.MySqlException: Parameter '?categoryId' must be defined.
+  at MySql.Data.MySqlClient.Statement.SerializeParameter (MySql.Data.MySqlClient.MySqlParameterCollection parameters, MySql.Data.MySqlClient.MySqlPacket packet, System.String parmName, Int32 parameterIndex) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.InternalBindParameters (System.String sql, MySql.Data.MySqlClient.MySqlParameterCollection parameters, MySql.Data.MySqlClient.MySqlPacket packet) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.BindParameters () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.Execute () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.PreparableStatement.Execute () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteScalar () [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Select.ExcuteScalar () [0x00000] in <filename unknown>:0 -----SELECT COUNT(*) FROM where `article` `category_id`=?categoryId
+
+--------2014-12-02 10:53:41---------------------------------------------------------------
+	Error:获取ExcuteScalar失败
+	MySql.Data.MySqlClient.MySqlException: Fatal error encountered during command execution. ---> MySql.Data.MySqlClient.MySqlException: Parameter '?categoryId' must be defined.
+  at MySql.Data.MySqlClient.Statement.SerializeParameter (MySql.Data.MySqlClient.MySqlParameterCollection parameters, MySql.Data.MySqlClient.MySqlPacket packet, System.String parmName, Int32 parameterIndex) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.InternalBindParameters (System.String sql, MySql.Data.MySqlClient.MySqlParameterCollection parameters, MySql.Data.MySqlClient.MySqlPacket packet) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.BindParameters () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.Execute () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.PreparableStatement.Execute () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteScalar () [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Select.ExcuteScalar () [0x00000] in <filename unknown>:0 -----SELECT COUNT(*) FROM where `article` `category_id`=?categoryId
+
+--------2014-12-02 11:00:34---------------------------------------------------------------
+	Error:获取ExcuteScalar失败
+	MySql.Data.MySqlClient.MySqlException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+  at MySql.Data.MySqlClient.MySqlStream.ReadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.NativeDriver.GetResult (System.Int32& affectedRow, System.Int64& insertedId) [0x00000] in <filename unknown>:0 -----SELECT COUNT(*) FROM
+
+--------2014-12-02 11:02:04---------------------------------------------------------------
+	Error:获取ExcuteScalar失败
+	MySql.Data.MySqlClient.MySqlException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+  at MySql.Data.MySqlClient.MySqlStream.ReadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.NativeDriver.GetResult (System.Int32& affectedRow, System.Int64& insertedId) [0x00000] in <filename unknown>:0 -----SELECT COUNT(*) FROM
+
+--------2014-12-02 11:02:49---------------------------------------------------------------
+	Error:获取ExcuteScalar失败
+	MySql.Data.MySqlClient.MySqlException: Fatal error encountered during command execution. ---> MySql.Data.MySqlClient.MySqlException: Parameter '?categoryId' must be defined.
+  at MySql.Data.MySqlClient.Statement.SerializeParameter (MySql.Data.MySqlClient.MySqlParameterCollection parameters, MySql.Data.MySqlClient.MySqlPacket packet, System.String parmName, Int32 parameterIndex) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.InternalBindParameters (System.String sql, MySql.Data.MySqlClient.MySqlParameterCollection parameters, MySql.Data.MySqlClient.MySqlPacket packet) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.BindParameters () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.Execute () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.PreparableStatement.Execute () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteScalar () [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Select.ExcuteScalar () [0x00000] in <filename unknown>:0 -----SELECT COUNT(*) FROM `article` where `category_id`=?categoryId
+
+--------2014-12-02 11:03:36---------------------------------------------------------------
+	Error:获取dataTable失败
+	MySql.Data.MySqlClient.MySqlException: Fatal error encountered during command execution. ---> MySql.Data.MySqlClient.MySqlException: Parameter '?categoryId' must be defined.
+  at MySql.Data.MySqlClient.Statement.SerializeParameter (MySql.Data.MySqlClient.MySqlParameterCollection parameters, MySql.Data.MySqlClient.MySqlPacket packet, System.String parmName, Int32 parameterIndex) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.InternalBindParameters (System.String sql, MySql.Data.MySqlClient.MySqlParameterCollection parameters, MySql.Data.MySqlClient.MySqlPacket packet) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.BindParameters () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.Execute () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.PreparableStatement.Execute () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at System.Data.Common.DbCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at System.Data.Common.DbDataAdapter.Fill (System.Data.DataTable dataTable, IDbCommand command, CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at System.Data.Common.DbDataAdapter.Fill (System.Data.DataTable dataTable) [0x00000] in <filename unknown>:0 
+  at (wrapper remoting-invoke-with-check) System.Data.Common.DbDataAdapter:Fill (System.Data.DataTable)
+  at Jabinfo.DB.MySQL.Select.All () [0x00000] in <filename unknown>:0 -----SELECT * FROM `article` where `category_id`=?categoryId LIMIT 0,100
+
+--------2014-12-02 11:05:54---------------------------------------------------------------
+	Error:获取ExcuteScalar失败
+	MySql.Data.MySqlClient.MySqlException: Fatal error encountered during command execution. ---> MySql.Data.MySqlClient.MySqlException: Parameter '?categoryId' must be defined.
+  at MySql.Data.MySqlClient.Statement.SerializeParameter (MySql.Data.MySqlClient.MySqlParameterCollection parameters, MySql.Data.MySqlClient.MySqlPacket packet, System.String parmName, Int32 parameterIndex) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.InternalBindParameters (System.String sql, MySql.Data.MySqlClient.MySqlParameterCollection parameters, MySql.Data.MySqlClient.MySqlPacket packet) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.BindParameters () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.Execute () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.PreparableStatement.Execute () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteScalar () [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Select.ExcuteScalar () [0x00000] in <filename unknown>:0 -----SELECT COUNT(*) FROM `article` where `category_id`=?categoryId
+
+--------2014-12-02 11:14:17---------------------------------------------------------------
+	Error:获取ExcuteScalar失败
+	MySql.Data.MySqlClient.MySqlException: Fatal error encountered during command execution. ---> MySql.Data.MySqlClient.MySqlException: Parameter '?categoryId' must be defined.
+  at MySql.Data.MySqlClient.Statement.SerializeParameter (MySql.Data.MySqlClient.MySqlParameterCollection parameters, MySql.Data.MySqlClient.MySqlPacket packet, System.String parmName, Int32 parameterIndex) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.InternalBindParameters (System.String sql, MySql.Data.MySqlClient.MySqlParameterCollection parameters, MySql.Data.MySqlClient.MySqlPacket packet) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.BindParameters () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.Execute () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.PreparableStatement.Execute () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteScalar () [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Select.ExcuteScalar () [0x00000] in <filename unknown>:0 -----SELECT COUNT(*) FROM `article` where `category_id`=?categoryId
+
+--------2014-12-02 11:19:44---------------------------------------------------------------
+	Error:应用错误
+	System.Threading.ThreadAbortException: Thread was being aborted
+  at Jabinfo.JabinfoController._JabinfoExcute (System.String[] userParam, Jabinfo.JabinfoContext context) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-12-02 11:21:59---------------------------------------------------------------
+	Error:应用错误
+	System.Threading.ThreadAbortException: Thread was being aborted
+  at Jabinfo.JabinfoController._JabinfoExcute (System.String[] userParam, Jabinfo.JabinfoContext context) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-12-02 11:31:36---------------------------------------------------------------
+	Error:获取ExcuteScalar失败
+	MySql.Data.MySqlClient.MySqlException: Fatal error encountered during command execution. ---> MySql.Data.MySqlClient.MySqlException: Parameter '?categoryId' must be defined.
+  at MySql.Data.MySqlClient.Statement.SerializeParameter (MySql.Data.MySqlClient.MySqlParameterCollection parameters, MySql.Data.MySqlClient.MySqlPacket packet, System.String parmName, Int32 parameterIndex) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.InternalBindParameters (System.String sql, MySql.Data.MySqlClient.MySqlParameterCollection parameters, MySql.Data.MySqlClient.MySqlPacket packet) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.BindParameters () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.Execute () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.PreparableStatement.Execute () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteScalar () [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Select.ExcuteScalar () [0x00000] in <filename unknown>:0 -----SELECT COUNT(*) FROM `article` where `category_id`=?categoryId
+
+--------2014-12-02 11:31:54---------------------------------------------------------------
+	Error:获取dataTable失败
+	MySql.Data.MySqlClient.MySqlException: Fatal error encountered during command execution. ---> MySql.Data.MySqlClient.MySqlException: Parameter '?categoryId' must be defined.
+  at MySql.Data.MySqlClient.Statement.SerializeParameter (MySql.Data.MySqlClient.MySqlParameterCollection parameters, MySql.Data.MySqlClient.MySqlPacket packet, System.String parmName, Int32 parameterIndex) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.InternalBindParameters (System.String sql, MySql.Data.MySqlClient.MySqlParameterCollection parameters, MySql.Data.MySqlClient.MySqlPacket packet) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.BindParameters () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.Execute () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.PreparableStatement.Execute () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at System.Data.Common.DbCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at System.Data.Common.DbDataAdapter.Fill (System.Data.DataTable dataTable, IDbCommand command, CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at System.Data.Common.DbDataAdapter.Fill (System.Data.DataTable dataTable) [0x00000] in <filename unknown>:0 
+  at (wrapper remoting-invoke-with-check) System.Data.Common.DbDataAdapter:Fill (System.Data.DataTable)
+  at Jabinfo.DB.MySQL.Select.All () [0x00000] in <filename unknown>:0 -----SELECT * FROM `article` where `category_id`=?categoryId LIMIT 0,100
+
+--------2014-12-02 13:16:01---------------------------------------------------------------
+	Error:应用错误
+	System.Threading.ThreadAbortException: Thread was being aborted
+  at Jabinfo.JabinfoController._JabinfoExcute (System.String[] userParam, Jabinfo.JabinfoContext context) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-12-02 13:17:18---------------------------------------------------------------
+	Error:应用错误
+	System.Threading.ThreadAbortException: Thread was being aborted
+  at Jabinfo.JabinfoController._JabinfoExcute (System.String[] userParam, Jabinfo.JabinfoContext context) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-12-02 13:41:59---------------------------------------------------------------
+	Error:应用错误
+	System.Threading.ThreadAbortException: Thread was being aborted
+  at Jabinfo.JabinfoController._JabinfoExcute (System.String[] userParam, Jabinfo.JabinfoContext context) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-12-02 15:24:24---------------------------------------------------------------
+	Error:执行sql语句Excute失败article
+	Duplicate entry '' for key 'PRIMARY'\nALTER TABLE `links` ADD PRIMARY KEY(`links_id`)
+
+--------2014-12-02 15:24:24---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: 执行sql语句Excute失败article
+	Duplicate entry '' for key 'PRIMARY'\nALTER TABLE `links` ADD PRIMARY KEY(`links_id`)
+  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Query.Excute (System.String sql) [0x00000] in <filename unknown>:0 
+  at  . (System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  . (System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-12-02 15:33:56---------------------------------------------------------------
+	Error:获取ExcuteScalar失败
+	MySql.Data.MySqlClient.MySqlException: Fatal error encountered during command execution. ---> MySql.Data.MySqlClient.MySqlException: Parameter '?categoryId' must be defined.
+  at MySql.Data.MySqlClient.Statement.SerializeParameter (MySql.Data.MySqlClient.MySqlParameterCollection parameters, MySql.Data.MySqlClient.MySqlPacket packet, System.String parmName, Int32 parameterIndex) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.InternalBindParameters (System.String sql, MySql.Data.MySqlClient.MySqlParameterCollection parameters, MySql.Data.MySqlClient.MySqlPacket packet) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.BindParameters () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.Execute () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.PreparableStatement.Execute () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteScalar () [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Select.ExcuteScalar () [0x00000] in <filename unknown>:0 -----SELECT COUNT(*) FROM `article` where `category_id`=?categoryId
+
+--------2014-12-02 15:34:12---------------------------------------------------------------
+	Error:获取ExcuteScalar失败
+	MySql.Data.MySqlClient.MySqlException: Fatal error encountered during command execution. ---> MySql.Data.MySqlClient.MySqlException: Parameter '?categoryId' must be defined.
+  at MySql.Data.MySqlClient.Statement.SerializeParameter (MySql.Data.MySqlClient.MySqlParameterCollection parameters, MySql.Data.MySqlClient.MySqlPacket packet, System.String parmName, Int32 parameterIndex) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.InternalBindParameters (System.String sql, MySql.Data.MySqlClient.MySqlParameterCollection parameters, MySql.Data.MySqlClient.MySqlPacket packet) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.BindParameters () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.Execute () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.PreparableStatement.Execute () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteScalar () [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Select.ExcuteScalar () [0x00000] in <filename unknown>:0 -----SELECT COUNT(*) FROM `article` where `category_id`=?categoryId
+
+--------2014-12-02 15:34:43---------------------------------------------------------------
+	Error:获取ExcuteScalar失败
+	MySql.Data.MySqlClient.MySqlException: Fatal error encountered during command execution. ---> MySql.Data.MySqlClient.MySqlException: Parameter '?categoryId' must be defined.
+  at MySql.Data.MySqlClient.Statement.SerializeParameter (MySql.Data.MySqlClient.MySqlParameterCollection parameters, MySql.Data.MySqlClient.MySqlPacket packet, System.String parmName, Int32 parameterIndex) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.InternalBindParameters (System.String sql, MySql.Data.MySqlClient.MySqlParameterCollection parameters, MySql.Data.MySqlClient.MySqlPacket packet) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.BindParameters () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.Execute () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.PreparableStatement.Execute () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteScalar () [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Select.ExcuteScalar () [0x00000] in <filename unknown>:0 -----SELECT COUNT(*) FROM `article` where `category_id`=?categoryId
+
+--------2014-12-02 15:36:45---------------------------------------------------------------
+	Error:获取ExcuteScalar失败
+	MySql.Data.MySqlClient.MySqlException: Fatal error encountered during command execution. ---> MySql.Data.MySqlClient.MySqlException: Parameter '?categoryId' must be defined.
+  at MySql.Data.MySqlClient.Statement.SerializeParameter (MySql.Data.MySqlClient.MySqlParameterCollection parameters, MySql.Data.MySqlClient.MySqlPacket packet, System.String parmName, Int32 parameterIndex) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.InternalBindParameters (System.String sql, MySql.Data.MySqlClient.MySqlParameterCollection parameters, MySql.Data.MySqlClient.MySqlPacket packet) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.BindParameters () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.Execute () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.PreparableStatement.Execute () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteScalar () [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Select.ExcuteScalar () [0x00000] in <filename unknown>:0 -----SELECT COUNT(*) FROM `article` where `category_id`=?categoryId
+
+--------2014-12-02 15:37:49---------------------------------------------------------------
+	Error:获取ExcuteScalar失败
+	MySql.Data.MySqlClient.MySqlException: Fatal error encountered during command execution. ---> MySql.Data.MySqlClient.MySqlException: Parameter '?categoryId' must be defined.
+  at MySql.Data.MySqlClient.Statement.SerializeParameter (MySql.Data.MySqlClient.MySqlParameterCollection parameters, MySql.Data.MySqlClient.MySqlPacket packet, System.String parmName, Int32 parameterIndex) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.InternalBindParameters (System.String sql, MySql.Data.MySqlClient.MySqlParameterCollection parameters, MySql.Data.MySqlClient.MySqlPacket packet) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.BindParameters () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.Execute () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.PreparableStatement.Execute () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteScalar () [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Select.ExcuteScalar () [0x00000] in <filename unknown>:0 -----SELECT COUNT(`article_id`) FROM `article` WHERE `category_id`=?categoryId
+
+--------2014-12-02 15:41:32---------------------------------------------------------------
+	Error:获取ExcuteScalar失败
+	MySql.Data.MySqlClient.MySqlException: Fatal error encountered during command execution. ---> MySql.Data.MySqlClient.MySqlException: Parameter '?categoryId' must be defined.
+  at MySql.Data.MySqlClient.Statement.SerializeParameter (MySql.Data.MySqlClient.MySqlParameterCollection parameters, MySql.Data.MySqlClient.MySqlPacket packet, System.String parmName, Int32 parameterIndex) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.InternalBindParameters (System.String sql, MySql.Data.MySqlClient.MySqlParameterCollection parameters, MySql.Data.MySqlClient.MySqlPacket packet) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.BindParameters () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.Execute () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.PreparableStatement.Execute () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteScalar () [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Select.ExcuteScalar () [0x00000] in <filename unknown>:0 -----SELECT COUNT(*) FROM `article` WHERE `category_id`=?categoryId
+
+--------2014-12-02 15:41:59---------------------------------------------------------------
+	Error:获取ExcuteScalar失败
+	MySql.Data.MySqlClient.MySqlException: Fatal error encountered during command execution. ---> MySql.Data.MySqlClient.MySqlException: Parameter '?categoryId' must be defined.
+  at MySql.Data.MySqlClient.Statement.SerializeParameter (MySql.Data.MySqlClient.MySqlParameterCollection parameters, MySql.Data.MySqlClient.MySqlPacket packet, System.String parmName, Int32 parameterIndex) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.InternalBindParameters (System.String sql, MySql.Data.MySqlClient.MySqlParameterCollection parameters, MySql.Data.MySqlClient.MySqlPacket packet) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.BindParameters () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.Execute () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.PreparableStatement.Execute () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteScalar () [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Select.ExcuteScalar () [0x00000] in <filename unknown>:0 -----SELECT COUNT(*) FROM `article` WHERE `category_id`=?categoryId
+
+--------2014-12-02 15:42:02---------------------------------------------------------------
+	Error:获取ExcuteScalar失败
+	MySql.Data.MySqlClient.MySqlException: Fatal error encountered during command execution. ---> MySql.Data.MySqlClient.MySqlException: Parameter '?categoryId' must be defined.
+  at MySql.Data.MySqlClient.Statement.SerializeParameter (MySql.Data.MySqlClient.MySqlParameterCollection parameters, MySql.Data.MySqlClient.MySqlPacket packet, System.String parmName, Int32 parameterIndex) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.InternalBindParameters (System.String sql, MySql.Data.MySqlClient.MySqlParameterCollection parameters, MySql.Data.MySqlClient.MySqlPacket packet) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.BindParameters () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.Execute () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.PreparableStatement.Execute () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteScalar () [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Select.ExcuteScalar () [0x00000] in <filename unknown>:0 -----SELECT COUNT(*) FROM `article` WHERE `category_id`=?categoryId
+
+--------2014-12-02 15:42:13---------------------------------------------------------------
+	Error:获取ExcuteScalar失败
+	MySql.Data.MySqlClient.MySqlException: Fatal error encountered during command execution. ---> MySql.Data.MySqlClient.MySqlException: Parameter '?categoryId' must be defined.
+  at MySql.Data.MySqlClient.Statement.SerializeParameter (MySql.Data.MySqlClient.MySqlParameterCollection parameters, MySql.Data.MySqlClient.MySqlPacket packet, System.String parmName, Int32 parameterIndex) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.InternalBindParameters (System.String sql, MySql.Data.MySqlClient.MySqlParameterCollection parameters, MySql.Data.MySqlClient.MySqlPacket packet) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.BindParameters () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.Execute () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.PreparableStatement.Execute () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteScalar () [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Select.ExcuteScalar () [0x00000] in <filename unknown>:0 -----SELECT COUNT(*) FROM `article` WHERE `category_id`=?categoryId
+
+--------2014-12-02 15:43:28---------------------------------------------------------------
+	Error:获取ExcuteScalar失败
+	MySql.Data.MySqlClient.MySqlException: Fatal error encountered during command execution. ---> MySql.Data.MySqlClient.MySqlException: Parameter '?categoryId' must be defined.
+  at MySql.Data.MySqlClient.Statement.SerializeParameter (MySql.Data.MySqlClient.MySqlParameterCollection parameters, MySql.Data.MySqlClient.MySqlPacket packet, System.String parmName, Int32 parameterIndex) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.InternalBindParameters (System.String sql, MySql.Data.MySqlClient.MySqlParameterCollection parameters, MySql.Data.MySqlClient.MySqlPacket packet) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.BindParameters () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.Execute () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.PreparableStatement.Execute () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteScalar () [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Select.ExcuteScalar () [0x00000] in <filename unknown>:0 -----SELECT COUNT(*) FROM `article` WHERE `category_id`=?categoryId
+
+--------2014-12-02 15:44:36---------------------------------------------------------------
+	Error:获取ExcuteScalar失败
+	MySql.Data.MySqlClient.MySqlException: Fatal error encountered during command execution. ---> MySql.Data.MySqlClient.MySqlException: Parameter '?categoryId' must be defined.
+  at MySql.Data.MySqlClient.Statement.SerializeParameter (MySql.Data.MySqlClient.MySqlParameterCollection parameters, MySql.Data.MySqlClient.MySqlPacket packet, System.String parmName, Int32 parameterIndex) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.InternalBindParameters (System.String sql, MySql.Data.MySqlClient.MySqlParameterCollection parameters, MySql.Data.MySqlClient.MySqlPacket packet) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.BindParameters () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.Execute () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.PreparableStatement.Execute () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteScalar () [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Select.ExcuteScalar () [0x00000] in <filename unknown>:0 -----SELECT COUNT(*) FROM `article` WHERE `category_id`=?categoryId
+
+--------2014-12-02 15:46:15---------------------------------------------------------------
+	Error:获取ExcuteScalar失败
+	MySql.Data.MySqlClient.MySqlException: Fatal error encountered during command execution. ---> MySql.Data.MySqlClient.MySqlException: Parameter '?categoryId' must be defined.
+  at MySql.Data.MySqlClient.Statement.SerializeParameter (MySql.Data.MySqlClient.MySqlParameterCollection parameters, MySql.Data.MySqlClient.MySqlPacket packet, System.String parmName, Int32 parameterIndex) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.InternalBindParameters (System.String sql, MySql.Data.MySqlClient.MySqlParameterCollection parameters, MySql.Data.MySqlClient.MySqlPacket packet) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.BindParameters () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.Execute () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.PreparableStatement.Execute () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteScalar () [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Select.ExcuteScalar () [0x00000] in <filename unknown>:0 -----SELECT COUNT(*) FROM `article` WHERE `category_id`=?categoryId
+
+--------2014-12-02 16:06:11---------------------------------------------------------------
+	Error:应用错误
+	System.Threading.ThreadAbortException: Thread was being aborted
+  at Jabinfo.JabinfoController._JabinfoExcute (System.String[] userParam, Jabinfo.JabinfoContext context) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-12-02 17:46:48---------------------------------------------------------------
+	Error:应用错误
+	System.Threading.ThreadAbortException: Thread was being aborted
+  at Jabinfo.JabinfoController._JabinfoExcute (System.String[] userParam, Jabinfo.JabinfoContext context) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+

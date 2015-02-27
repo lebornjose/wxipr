@@ -1,0 +1,27 @@
+﻿--------2014-10-28 13:41:58---------------------------------------------------------------
+	Error:应用错误
+	System.NullReferenceException: Object reference not set to an instance of an object
+  at  . () [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-10-28 14:31:03---------------------------------------------------------------
+	Error:应用错误
+	System.Threading.ThreadAbortException: Thread was being aborted
+  at Jabinfo.JabinfoController._JabinfoExcute (System.String[] userParam, Jabinfo.JabinfoContext context) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-10-28 14:37:47---------------------------------------------------------------
+	Error:应用错误
+	System.NullReferenceException: Object reference not set to an instance of an object
+  at  . (Jabinfo.JabinfoContext , System.String ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-10-28 14:40:51---------------------------------------------------------------
+	Error:获取dataTable失败
+	MySql.Data.MySqlClient.MySqlException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY article_id DESC LIMIT 0,30' at line 1
+  at MySql.Data.MySqlClient.MySqlStream.ReadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.NativeDriver.GetResult (System.Int32& affectedRow, System.Int64& insertedId) [0x00000] in <filename unknown>:0 -----SELECT * FROM article where  ORDER BY article_id DESC LIMIT 0,30
+

@@ -1,0 +1,247 @@
+﻿--------2014-10-24 08:57:19---------------------------------------------------------------
+	Error:获取dataTable失败
+	MySql.Data.MySqlClient.MySqlException: Unable to connect to any of the specified MySQL hosts.
+  at MySql.Data.MySqlClient.NativeDriver.Open () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Driver.Open () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Driver.Create (MySql.Data.MySqlClient.MySqlConnectionStringBuilder settings) [0x00000] in <filename unknown>:0 -----
+
+--------2014-10-24 13:14:07---------------------------------------------------------------
+	Error:应用错误
+	System.Threading.ThreadAbortException: Thread was being aborted
+  at Jabinfo.JabinfoController._JabinfoExcute (System.String[] userParam, Jabinfo.JabinfoContext context) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-10-24 14:11:51---------------------------------------------------------------
+	Error:获取dataTable失败
+	MySql.Data.MySqlClient.MySqlException: Fatal error encountered during command execution. ---> MySql.Data.MySqlClient.MySqlException: Parameter '?article_id' must be defined.
+  at MySql.Data.MySqlClient.Statement.SerializeParameter (MySql.Data.MySqlClient.MySqlParameterCollection parameters, MySql.Data.MySqlClient.MySqlPacket packet, System.String parmName, Int32 parameterIndex) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.InternalBindParameters (System.String sql, MySql.Data.MySqlClient.MySqlParameterCollection parameters, MySql.Data.MySqlClient.MySqlPacket packet) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.BindParameters () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.Execute () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.PreparableStatement.Execute () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at System.Data.Common.DbCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at System.Data.Common.DbDataAdapter.Fill (System.Data.DataTable dataTable, IDbCommand command, CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at System.Data.Common.DbDataAdapter.Fill (System.Data.DataTable dataTable) [0x00000] in <filename unknown>:0 
+  at (wrapper remoting-invoke-with-check) System.Data.Common.DbDataAdapter:Fill (System.Data.DataTable)
+  at Jabinfo.DB.MySQL.Select.All () [0x00000] in <filename unknown>:0 -----SELECT * FROM article WHERE article_id=?article_id LIMIT 0,1
+
+--------2014-10-24 14:12:11---------------------------------------------------------------
+	Error:获取dataTable失败
+	MySql.Data.MySqlClient.MySqlException: Fatal error encountered during command execution. ---> MySql.Data.MySqlClient.MySqlException: Parameter '?article_id' must be defined.
+  at MySql.Data.MySqlClient.Statement.SerializeParameter (MySql.Data.MySqlClient.MySqlParameterCollection parameters, MySql.Data.MySqlClient.MySqlPacket packet, System.String parmName, Int32 parameterIndex) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.InternalBindParameters (System.String sql, MySql.Data.MySqlClient.MySqlParameterCollection parameters, MySql.Data.MySqlClient.MySqlPacket packet) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.BindParameters () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.Execute () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.PreparableStatement.Execute () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at System.Data.Common.DbCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at System.Data.Common.DbDataAdapter.Fill (System.Data.DataTable dataTable, IDbCommand command, CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at System.Data.Common.DbDataAdapter.Fill (System.Data.DataTable dataTable) [0x00000] in <filename unknown>:0 
+  at (wrapper remoting-invoke-with-check) System.Data.Common.DbDataAdapter:Fill (System.Data.DataTable)
+  at Jabinfo.DB.MySQL.Select.All () [0x00000] in <filename unknown>:0 -----SELECT * FROM article WHERE article_id=?article_id LIMIT 0,1
+
+--------2014-10-24 14:12:18---------------------------------------------------------------
+	Error:获取dataTable失败
+	MySql.Data.MySqlClient.MySqlException: Fatal error encountered during command execution. ---> MySql.Data.MySqlClient.MySqlException: Parameter '?article_id' must be defined.
+  at MySql.Data.MySqlClient.Statement.SerializeParameter (MySql.Data.MySqlClient.MySqlParameterCollection parameters, MySql.Data.MySqlClient.MySqlPacket packet, System.String parmName, Int32 parameterIndex) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.InternalBindParameters (System.String sql, MySql.Data.MySqlClient.MySqlParameterCollection parameters, MySql.Data.MySqlClient.MySqlPacket packet) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.BindParameters () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.Execute () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.PreparableStatement.Execute () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at System.Data.Common.DbCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at System.Data.Common.DbDataAdapter.Fill (System.Data.DataTable dataTable, IDbCommand command, CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at System.Data.Common.DbDataAdapter.Fill (System.Data.DataTable dataTable) [0x00000] in <filename unknown>:0 
+  at (wrapper remoting-invoke-with-check) System.Data.Common.DbDataAdapter:Fill (System.Data.DataTable)
+  at Jabinfo.DB.MySQL.Select.All () [0x00000] in <filename unknown>:0 -----SELECT * FROM article WHERE article_id=?article_id LIMIT 0,1
+
+--------2014-10-24 14:12:40---------------------------------------------------------------
+	Error:获取dataTable失败
+	MySql.Data.MySqlClient.MySqlException: Fatal error encountered during command execution. ---> MySql.Data.MySqlClient.MySqlException: Parameter '?article_id' must be defined.
+  at MySql.Data.MySqlClient.Statement.SerializeParameter (MySql.Data.MySqlClient.MySqlParameterCollection parameters, MySql.Data.MySqlClient.MySqlPacket packet, System.String parmName, Int32 parameterIndex) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.InternalBindParameters (System.String sql, MySql.Data.MySqlClient.MySqlParameterCollection parameters, MySql.Data.MySqlClient.MySqlPacket packet) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.BindParameters () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.Execute () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.PreparableStatement.Execute () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at System.Data.Common.DbCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at System.Data.Common.DbDataAdapter.Fill (System.Data.DataTable dataTable, IDbCommand command, CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at System.Data.Common.DbDataAdapter.Fill (System.Data.DataTable dataTable) [0x00000] in <filename unknown>:0 
+  at (wrapper remoting-invoke-with-check) System.Data.Common.DbDataAdapter:Fill (System.Data.DataTable)
+  at Jabinfo.DB.MySQL.Select.All () [0x00000] in <filename unknown>:0 -----SELECT * FROM article WHERE article_id=?article_id LIMIT 0,1
+
+--------2014-10-24 14:13:19---------------------------------------------------------------
+	Error:获取dataTable失败
+	MySql.Data.MySqlClient.MySqlException: Fatal error encountered during command execution. ---> MySql.Data.MySqlClient.MySqlException: Parameter '?article_id' must be defined.
+  at MySql.Data.MySqlClient.Statement.SerializeParameter (MySql.Data.MySqlClient.MySqlParameterCollection parameters, MySql.Data.MySqlClient.MySqlPacket packet, System.String parmName, Int32 parameterIndex) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.InternalBindParameters (System.String sql, MySql.Data.MySqlClient.MySqlParameterCollection parameters, MySql.Data.MySqlClient.MySqlPacket packet) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.BindParameters () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.Execute () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.PreparableStatement.Execute () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at System.Data.Common.DbCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at System.Data.Common.DbDataAdapter.Fill (System.Data.DataTable dataTable, IDbCommand command, CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at System.Data.Common.DbDataAdapter.Fill (System.Data.DataTable dataTable) [0x00000] in <filename unknown>:0 
+  at (wrapper remoting-invoke-with-check) System.Data.Common.DbDataAdapter:Fill (System.Data.DataTable)
+  at Jabinfo.DB.MySQL.Select.All () [0x00000] in <filename unknown>:0 -----SELECT * FROM article WHERE article_id=?article_id LIMIT 0,1
+
+--------2014-10-24 14:13:35---------------------------------------------------------------
+	Error:获取dataTable失败
+	MySql.Data.MySqlClient.MySqlException: Fatal error encountered during command execution. ---> MySql.Data.MySqlClient.MySqlException: Parameter '?article_id' must be defined.
+  at MySql.Data.MySqlClient.Statement.SerializeParameter (MySql.Data.MySqlClient.MySqlParameterCollection parameters, MySql.Data.MySqlClient.MySqlPacket packet, System.String parmName, Int32 parameterIndex) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.InternalBindParameters (System.String sql, MySql.Data.MySqlClient.MySqlParameterCollection parameters, MySql.Data.MySqlClient.MySqlPacket packet) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.BindParameters () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.Execute () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.PreparableStatement.Execute () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at System.Data.Common.DbCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at System.Data.Common.DbDataAdapter.Fill (System.Data.DataTable dataTable, IDbCommand command, CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at System.Data.Common.DbDataAdapter.Fill (System.Data.DataTable dataTable) [0x00000] in <filename unknown>:0 
+  at (wrapper remoting-invoke-with-check) System.Data.Common.DbDataAdapter:Fill (System.Data.DataTable)
+  at Jabinfo.DB.MySQL.Select.All () [0x00000] in <filename unknown>:0 -----SELECT * FROM article WHERE article_id=?article_id LIMIT 0,1
+
+--------2014-10-24 14:13:55---------------------------------------------------------------
+	Error:获取dataTable失败
+	MySql.Data.MySqlClient.MySqlException: Fatal error encountered during command execution. ---> MySql.Data.MySqlClient.MySqlException: Parameter '?article_id' must be defined.
+  at MySql.Data.MySqlClient.Statement.SerializeParameter (MySql.Data.MySqlClient.MySqlParameterCollection parameters, MySql.Data.MySqlClient.MySqlPacket packet, System.String parmName, Int32 parameterIndex) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.InternalBindParameters (System.String sql, MySql.Data.MySqlClient.MySqlParameterCollection parameters, MySql.Data.MySqlClient.MySqlPacket packet) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.BindParameters () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.Execute () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.PreparableStatement.Execute () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at System.Data.Common.DbCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at System.Data.Common.DbDataAdapter.Fill (System.Data.DataTable dataTable, IDbCommand command, CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at System.Data.Common.DbDataAdapter.Fill (System.Data.DataTable dataTable) [0x00000] in <filename unknown>:0 
+  at (wrapper remoting-invoke-with-check) System.Data.Common.DbDataAdapter:Fill (System.Data.DataTable)
+  at Jabinfo.DB.MySQL.Select.All () [0x00000] in <filename unknown>:0 -----SELECT * FROM article WHERE article_id=?article_id LIMIT 0,1
+
+--------2014-10-24 14:16:01---------------------------------------------------------------
+	Error:获取dataTable失败
+	MySql.Data.MySqlClient.MySqlException: Fatal error encountered during command execution. ---> MySql.Data.MySqlClient.MySqlException: Parameter '?article_id' must be defined.
+  at MySql.Data.MySqlClient.Statement.SerializeParameter (MySql.Data.MySqlClient.MySqlParameterCollection parameters, MySql.Data.MySqlClient.MySqlPacket packet, System.String parmName, Int32 parameterIndex) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.InternalBindParameters (System.String sql, MySql.Data.MySqlClient.MySqlParameterCollection parameters, MySql.Data.MySqlClient.MySqlPacket packet) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.BindParameters () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.Execute () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.PreparableStatement.Execute () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at System.Data.Common.DbCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at System.Data.Common.DbDataAdapter.Fill (System.Data.DataTable dataTable, IDbCommand command, CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at System.Data.Common.DbDataAdapter.Fill (System.Data.DataTable dataTable) [0x00000] in <filename unknown>:0 
+  at (wrapper remoting-invoke-with-check) System.Data.Common.DbDataAdapter:Fill (System.Data.DataTable)
+  at Jabinfo.DB.MySQL.Select.All () [0x00000] in <filename unknown>:0 -----SELECT * FROM article WHERE article_id=?article_id LIMIT 0,1
+
+--------2014-10-24 14:16:29---------------------------------------------------------------
+	Error:获取dataTable失败
+	MySql.Data.MySqlClient.MySqlException: Fatal error encountered during command execution. ---> MySql.Data.MySqlClient.MySqlException: Parameter '?article_id' must be defined.
+  at MySql.Data.MySqlClient.Statement.SerializeParameter (MySql.Data.MySqlClient.MySqlParameterCollection parameters, MySql.Data.MySqlClient.MySqlPacket packet, System.String parmName, Int32 parameterIndex) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.InternalBindParameters (System.String sql, MySql.Data.MySqlClient.MySqlParameterCollection parameters, MySql.Data.MySqlClient.MySqlPacket packet) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.BindParameters () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.Execute () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.PreparableStatement.Execute () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at System.Data.Common.DbCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at System.Data.Common.DbDataAdapter.Fill (System.Data.DataTable dataTable, IDbCommand command, CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at System.Data.Common.DbDataAdapter.Fill (System.Data.DataTable dataTable) [0x00000] in <filename unknown>:0 
+  at (wrapper remoting-invoke-with-check) System.Data.Common.DbDataAdapter:Fill (System.Data.DataTable)
+  at Jabinfo.DB.MySQL.Select.All () [0x00000] in <filename unknown>:0 -----SELECT * FROM article WHERE article_id=?article_id LIMIT 0,1
+
+--------2014-10-24 14:17:40---------------------------------------------------------------
+	Error:获取dataTable失败
+	MySql.Data.MySqlClient.MySqlException: Fatal error encountered during command execution. ---> MySql.Data.MySqlClient.MySqlException: Parameter '?article_id' must be defined.
+  at MySql.Data.MySqlClient.Statement.SerializeParameter (MySql.Data.MySqlClient.MySqlParameterCollection parameters, MySql.Data.MySqlClient.MySqlPacket packet, System.String parmName, Int32 parameterIndex) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.InternalBindParameters (System.String sql, MySql.Data.MySqlClient.MySqlParameterCollection parameters, MySql.Data.MySqlClient.MySqlPacket packet) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.BindParameters () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.Execute () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.PreparableStatement.Execute () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at System.Data.Common.DbCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at System.Data.Common.DbDataAdapter.Fill (System.Data.DataTable dataTable, IDbCommand command, CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at System.Data.Common.DbDataAdapter.Fill (System.Data.DataTable dataTable) [0x00000] in <filename unknown>:0 
+  at (wrapper remoting-invoke-with-check) System.Data.Common.DbDataAdapter:Fill (System.Data.DataTable)
+  at Jabinfo.DB.MySQL.Select.All () [0x00000] in <filename unknown>:0 -----SELECT * FROM article_detail WHERE article_id=?article_id LIMIT 0,1
+
+--------2014-10-24 16:30:21---------------------------------------------------------------
+	Error:获取dataTable失败
+	MySql.Data.MySqlClient.MySqlException: Fatal error encountered during command execution. ---> MySql.Data.MySqlClient.MySqlException: Parameter '?CategoryId' must be defined.
+  at MySql.Data.MySqlClient.Statement.SerializeParameter (MySql.Data.MySqlClient.MySqlParameterCollection parameters, MySql.Data.MySqlClient.MySqlPacket packet, System.String parmName, Int32 parameterIndex) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.InternalBindParameters (System.String sql, MySql.Data.MySqlClient.MySqlParameterCollection parameters, MySql.Data.MySqlClient.MySqlPacket packet) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.BindParameters () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.Execute () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.PreparableStatement.Execute () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at System.Data.Common.DbCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at System.Data.Common.DbDataAdapter.Fill (System.Data.DataTable dataTable, IDbCommand command, CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at System.Data.Common.DbDataAdapter.Fill (System.Data.DataTable dataTable) [0x00000] in <filename unknown>:0 
+  at (wrapper remoting-invoke-with-check) System.Data.Common.DbDataAdapter:Fill (System.Data.DataTable)
+  at Jabinfo.DB.MySQL.Select.All () [0x00000] in <filename unknown>:0 -----SELECT * FROM category where parent_id=?CategoryId ORDER BY category_id DESC LIMIT 0,100
+
+--------2014-10-24 16:48:52---------------------------------------------------------------
+	Error:获取dataTable失败
+	MySql.Data.MySqlClient.MySqlException: Fatal error encountered during command execution. ---> MySql.Data.MySqlClient.MySqlException: Parameter '?CategoryId' must be defined.
+  at MySql.Data.MySqlClient.Statement.SerializeParameter (MySql.Data.MySqlClient.MySqlParameterCollection parameters, MySql.Data.MySqlClient.MySqlPacket packet, System.String parmName, Int32 parameterIndex) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.InternalBindParameters (System.String sql, MySql.Data.MySqlClient.MySqlParameterCollection parameters, MySql.Data.MySqlClient.MySqlPacket packet) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.BindParameters () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.Execute () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.PreparableStatement.Execute () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at System.Data.Common.DbCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at System.Data.Common.DbDataAdapter.Fill (System.Data.DataTable dataTable, IDbCommand command, CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at System.Data.Common.DbDataAdapter.Fill (System.Data.DataTable dataTable) [0x00000] in <filename unknown>:0 
+  at (wrapper remoting-invoke-with-check) System.Data.Common.DbDataAdapter:Fill (System.Data.DataTable)
+  at Jabinfo.DB.MySQL.Select.All () [0x00000] in <filename unknown>:0 -----SELECT * FROM category where parent_id=?CategoryId ORDER BY category_id DESC LIMIT 0,100
+
+--------2014-10-24 17:10:53---------------------------------------------------------------
+	Error:执行Update失败
+	UPDATE `article` SET  where `article_id`=?article_id\nMySql.Data.MySqlClient.MySqlException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where `article_id`=NULL' at line 1
+  at MySql.Data.MySqlClient.MySqlStream.ReadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.NativeDriver.GetResult (System.Int32& affectedRow, System.Int64& insertedId) [0x00000] in <filename unknown>:0 \nMySql.Data.MySqlClient.MySqlPacket ReadPacket()\nMySql.Data
+

@@ -1,0 +1,12 @@
+﻿--------2015-01-19 20:09:19---------------------------------------------------------------
+	Error:应用错误
+	System.Threading.ThreadAbortException: Thread was being aborted
+  at Jabinfo.JabinfoController._JabinfoExcute (System.String[] userParam, Jabinfo.JabinfoContext context) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2015-01-19 20:18:01---------------------------------------------------------------
+	Error:应用错误
+	System.Threading.ThreadAbortException: Thread was being aborted
+  at Jabinfo.JabinfoController._JabinfoExcute (System.String[] userParam, Jabinfo.JabinfoContext context) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+

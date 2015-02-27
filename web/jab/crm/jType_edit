@@ -1,0 +1,1 @@
+﻿<tr><th>标题</th><td><input type="hidden" name="typeId" value="?jType.typeId?" /><input type="text" maxlength="50" name="title" value="?jType.title?" koo="act-jump-need" /></td></tr><tr><th>排序</th><td><input type="text" maxlength="10" name="index" value="?jType.index?" koo="digit" /></td></tr>

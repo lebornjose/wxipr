@@ -1,0 +1,1 @@
+<tr><th>内容</th><td><textarea name="reply" cosl="10" rows="8"></textarea><input type="hidden" name="requestId" koo="act-jump" value="?requestId?"/></td></tr>

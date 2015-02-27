@@ -1,0 +1,17 @@
+﻿<Properties StartupItem="web/web.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="project/Crm/Controller/Job.cs">
+    <Files>
+      <File FileName="project/Crm/Controller/Article.cs" Line="1" Column="1" />
+      <File FileName="project/Crm/Controller/Category.cs" Line="1" Column="1" />
+      <File FileName="project/Crm/Controller/Follow.cs" Line="1" Column="1" />
+      <File FileName="project/Crm/Controller/Upload.cs" Line="1" Column="1" />
+      <File FileName="project/Crm/Controller/Job.cs" Line="74" Column="74" />
+      <File FileName="project/Crm/VO/JobMapper.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

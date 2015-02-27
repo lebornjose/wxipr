@@ -1,0 +1,1369 @@
+﻿--------2014-10-21 17:02:58---------------------------------------------------------------
+	Error:获取dataTable失败
+	MySql.Data.MySqlClient.MySqlException: Authentication to host '127.0.0.1' for user 'root' using method 'mysql_native_password' failed with message: Access denied for user 'root'@'localhost' (using password: YES) ---> MySql.Data.MySqlClient.MySqlException: Access denied for user 'root'@'localhost' (using password: YES)
+  at MySql.Data.MySqlClient.MySqlStream.ReadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.NativeDriver.ReadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket () [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed (System.Exception ex) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate (Boolean reset) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.NativeDriver.Authenticate (System.String authMethod, Boolean reset) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.NativeDriver.Open () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Driver.Open () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Driver.Create (MySql.Data.MySqlClient.MySqlConnectionStringBuilder settings) [0x00000] in <filename unknown>:0 -----
+
+--------2014-10-21 17:03:13---------------------------------------------------------------
+	Error:获取dataTable失败
+	MySql.Data.MySqlClient.MySqlException: Authentication to host '127.0.0.1' for user 'root' using method 'mysql_native_password' failed with message: Access denied for user 'root'@'localhost' (using password: YES) ---> MySql.Data.MySqlClient.MySqlException: Access denied for user 'root'@'localhost' (using password: YES)
+  at MySql.Data.MySqlClient.MySqlStream.ReadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.NativeDriver.ReadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket () [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed (System.Exception ex) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate (Boolean reset) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.NativeDriver.Authenticate (System.String authMethod, Boolean reset) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.NativeDriver.Open () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Driver.Open () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Driver.Create (MySql.Data.MySqlClient.MySqlConnectionStringBuilder settings) [0x00000] in <filename unknown>:0 -----
+
+--------2014-10-21 17:03:13---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: 获取dataTable失败
+	MySql.Data.MySqlClient.MySqlException: Authentication to host '127.0.0.1' for user 'root' using method 'mysql_native_password' failed with message: Access denied for user 'root'@'localhost' (using password: YES) ---> MySql.Data.MySqlClient.MySqlException: Access denied for user 'root'@'localhost' (using password: YES)
+  at MySql.Data.MySqlClient.MySqlStream.ReadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.NativeDriver.ReadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket () [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed (System.Exception ex) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate (Boolean reset) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.NativeDriver.Authenticate (System.String authMethod, Boolean reset) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.NativeDriver.Open () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Driver.Open () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Driver.Create (MySql.Data.MySqlClient.MySqlConnectionStringBuilder settings) [0x00000] in <filename unknown>:0 -----
+  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Select.All () [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Select.Row () [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoManager. (System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoManager..ctor (System.String username) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-10-21 17:05:24---------------------------------------------------------------
+	Error:获取dataTable失败
+	MySql.Data.MySqlClient.MySqlException: Authentication to host '127.0.0.1' for user 'root' using method 'mysql_native_password' failed with message: Access denied for user 'root'@'localhost' (using password: YES) ---> MySql.Data.MySqlClient.MySqlException: Access denied for user 'root'@'localhost' (using password: YES)
+  at MySql.Data.MySqlClient.MySqlStream.ReadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.NativeDriver.ReadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket () [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed (System.Exception ex) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate (Boolean reset) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.NativeDriver.Authenticate (System.String authMethod, Boolean reset) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.NativeDriver.Open () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Driver.Open () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Driver.Create (MySql.Data.MySqlClient.MySqlConnectionStringBuilder settings) [0x00000] in <filename unknown>:0 -----
+
+--------2014-10-21 17:20:07---------------------------------------------------------------
+	Error:获取dataTable失败
+	MySql.Data.MySqlClient.MySqlException: Authentication to host '127.0.0.1' for user 'root' using method 'mysql_native_password' failed with message: Access denied for user 'root'@'localhost' (using password: YES) ---> MySql.Data.MySqlClient.MySqlException: Access denied for user 'root'@'localhost' (using password: YES)
+  at MySql.Data.MySqlClient.MySqlStream.ReadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.NativeDriver.ReadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket () [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed (System.Exception ex) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate (Boolean reset) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.NativeDriver.Authenticate (System.String authMethod, Boolean reset) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.NativeDriver.Open () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Driver.Open () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Driver.Create (MySql.Data.MySqlClient.MySqlConnectionStringBuilder settings) [0x00000] in <filename unknown>:0 -----
+
+--------2014-10-21 17:32:01---------------------------------------------------------------
+	Error:获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+
+--------2014-10-21 17:32:01---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: 获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Query.ExcuteScalar (System.String sql) [0x00000] in <filename unknown>:0 
+  at  . (System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-10-21 17:32:04---------------------------------------------------------------
+	Error:获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+
+--------2014-10-21 17:32:04---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: 获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Query.ExcuteScalar (System.String sql) [0x00000] in <filename unknown>:0 
+  at  . (System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-10-21 17:32:14---------------------------------------------------------------
+	Error:获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+
+--------2014-10-21 17:32:14---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: 获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Query.ExcuteScalar (System.String sql) [0x00000] in <filename unknown>:0 
+  at  . (System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-10-21 17:32:41---------------------------------------------------------------
+	Error:获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+
+--------2014-10-21 17:32:41---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: 获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Query.ExcuteScalar (System.String sql) [0x00000] in <filename unknown>:0 
+  at  . (System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-10-21 17:33:54---------------------------------------------------------------
+	Error:获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+
+--------2014-10-21 17:33:54---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: 获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Query.ExcuteScalar (System.String sql) [0x00000] in <filename unknown>:0 
+  at  . (System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-10-21 17:33:56---------------------------------------------------------------
+	Error:获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+
+--------2014-10-21 17:33:56---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: 获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Query.ExcuteScalar (System.String sql) [0x00000] in <filename unknown>:0 
+  at  . (System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-10-21 17:33:56---------------------------------------------------------------
+	Error:获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+
+--------2014-10-21 17:33:56---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: 获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Query.ExcuteScalar (System.String sql) [0x00000] in <filename unknown>:0 
+  at  . (System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-10-21 17:33:57---------------------------------------------------------------
+	Error:获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+
+--------2014-10-21 17:33:57---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: 获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Query.ExcuteScalar (System.String sql) [0x00000] in <filename unknown>:0 
+  at  . (System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-10-21 17:34:48---------------------------------------------------------------
+	Error:获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+
+--------2014-10-21 17:34:48---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: 获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Query.ExcuteScalar (System.String sql) [0x00000] in <filename unknown>:0 
+  at  . (System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-10-21 17:34:49---------------------------------------------------------------
+	Error:获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+
+--------2014-10-21 17:34:49---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: 获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Query.ExcuteScalar (System.String sql) [0x00000] in <filename unknown>:0 
+  at  . (System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-10-21 17:34:50---------------------------------------------------------------
+	Error:获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+
+--------2014-10-21 17:34:50---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: 获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Query.ExcuteScalar (System.String sql) [0x00000] in <filename unknown>:0 
+  at  . (System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-10-21 17:34:50---------------------------------------------------------------
+	Error:获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+
+--------2014-10-21 17:34:50---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: 获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Query.ExcuteScalar (System.String sql) [0x00000] in <filename unknown>:0 
+  at  . (System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-10-21 17:34:51---------------------------------------------------------------
+	Error:获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+
+--------2014-10-21 17:34:51---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: 获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Query.ExcuteScalar (System.String sql) [0x00000] in <filename unknown>:0 
+  at  . (System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-10-21 17:34:51---------------------------------------------------------------
+	Error:获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+
+--------2014-10-21 17:34:51---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: 获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Query.ExcuteScalar (System.String sql) [0x00000] in <filename unknown>:0 
+  at  . (System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-10-21 17:38:02---------------------------------------------------------------
+	Error:获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+
+--------2014-10-21 17:38:02---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: 获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Query.ExcuteScalar (System.String sql) [0x00000] in <filename unknown>:0 
+  at  . (System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-10-21 17:38:07---------------------------------------------------------------
+	Error:获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'links'
+
+--------2014-10-21 17:38:07---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: 获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'links'
+  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Query.ExcuteScalar (System.String sql) [0x00000] in <filename unknown>:0 
+  at  . (System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-10-21 17:38:12---------------------------------------------------------------
+	Error:获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'question'
+
+--------2014-10-21 17:38:12---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: 获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'question'
+  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Query.ExcuteScalar (System.String sql) [0x00000] in <filename unknown>:0 
+  at  . (System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-10-21 17:38:27---------------------------------------------------------------
+	Error:获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+
+--------2014-10-21 17:38:27---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: 获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Query.ExcuteScalar (System.String sql) [0x00000] in <filename unknown>:0 
+  at  . (System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-10-21 17:39:51---------------------------------------------------------------
+	Error:获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+
+--------2014-10-21 17:39:51---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: 获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Query.ExcuteScalar (System.String sql) [0x00000] in <filename unknown>:0 
+  at  . (System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-10-21 17:39:52---------------------------------------------------------------
+	Error:获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+
+--------2014-10-21 17:39:52---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: 获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Query.ExcuteScalar (System.String sql) [0x00000] in <filename unknown>:0 
+  at  . (System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-10-21 17:39:52---------------------------------------------------------------
+	Error:获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+
+--------2014-10-21 17:39:52---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: 获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Query.ExcuteScalar (System.String sql) [0x00000] in <filename unknown>:0 
+  at  . (System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-10-21 17:39:53---------------------------------------------------------------
+	Error:获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+
+--------2014-10-21 17:39:53---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: 获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Query.ExcuteScalar (System.String sql) [0x00000] in <filename unknown>:0 
+  at  . (System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-10-21 17:39:54---------------------------------------------------------------
+	Error:获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+
+--------2014-10-21 17:39:54---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: 获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Query.ExcuteScalar (System.String sql) [0x00000] in <filename unknown>:0 
+  at  . (System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-10-21 17:39:54---------------------------------------------------------------
+	Error:获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+
+--------2014-10-21 17:39:54---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: 获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Query.ExcuteScalar (System.String sql) [0x00000] in <filename unknown>:0 
+  at  . (System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-10-21 17:40:06---------------------------------------------------------------
+	Error:获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+
+--------2014-10-21 17:40:06---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: 获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Query.ExcuteScalar (System.String sql) [0x00000] in <filename unknown>:0 
+  at  . (System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-10-21 17:40:17---------------------------------------------------------------
+	Error:获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+
+--------2014-10-21 17:40:17---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: 获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Query.ExcuteScalar (System.String sql) [0x00000] in <filename unknown>:0 
+  at  . (System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-10-21 17:40:18---------------------------------------------------------------
+	Error:获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+
+--------2014-10-21 17:40:18---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: 获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Query.ExcuteScalar (System.String sql) [0x00000] in <filename unknown>:0 
+  at  . (System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-10-21 17:40:18---------------------------------------------------------------
+	Error:获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+
+--------2014-10-21 17:40:18---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: 获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Query.ExcuteScalar (System.String sql) [0x00000] in <filename unknown>:0 
+  at  . (System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-10-21 17:40:18---------------------------------------------------------------
+	Error:获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+
+--------2014-10-21 17:40:18---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: 获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Query.ExcuteScalar (System.String sql) [0x00000] in <filename unknown>:0 
+  at  . (System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-10-21 17:40:18---------------------------------------------------------------
+	Error:获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+
+--------2014-10-21 17:40:18---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: 获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Query.ExcuteScalar (System.String sql) [0x00000] in <filename unknown>:0 
+  at  . (System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-10-21 17:40:19---------------------------------------------------------------
+	Error:获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+
+--------2014-10-21 17:40:19---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: 获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Query.ExcuteScalar (System.String sql) [0x00000] in <filename unknown>:0 
+  at  . (System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-10-21 17:40:32---------------------------------------------------------------
+	Error:获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+
+--------2014-10-21 17:40:32---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: 获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Query.ExcuteScalar (System.String sql) [0x00000] in <filename unknown>:0 
+  at  . (System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-10-21 17:40:33---------------------------------------------------------------
+	Error:获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+
+--------2014-10-21 17:40:33---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: 获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Query.ExcuteScalar (System.String sql) [0x00000] in <filename unknown>:0 
+  at  . (System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-10-21 17:40:33---------------------------------------------------------------
+	Error:获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+
+--------2014-10-21 17:40:33---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: 获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Query.ExcuteScalar (System.String sql) [0x00000] in <filename unknown>:0 
+  at  . (System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-10-21 17:40:33---------------------------------------------------------------
+	Error:获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+
+--------2014-10-21 17:40:33---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: 获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Query.ExcuteScalar (System.String sql) [0x00000] in <filename unknown>:0 
+  at  . (System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-10-21 17:40:33---------------------------------------------------------------
+	Error:获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+
+--------2014-10-21 17:40:33---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: 获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Query.ExcuteScalar (System.String sql) [0x00000] in <filename unknown>:0 
+  at  . (System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-10-21 17:40:34---------------------------------------------------------------
+	Error:获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+
+--------2014-10-21 17:40:34---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: 获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Query.ExcuteScalar (System.String sql) [0x00000] in <filename unknown>:0 
+  at  . (System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-10-21 17:40:57---------------------------------------------------------------
+	Error:获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+
+--------2014-10-21 17:40:57---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: 获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Query.ExcuteScalar (System.String sql) [0x00000] in <filename unknown>:0 
+  at  . (System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-10-21 17:40:58---------------------------------------------------------------
+	Error:获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+
+--------2014-10-21 17:40:58---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: 获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Query.ExcuteScalar (System.String sql) [0x00000] in <filename unknown>:0 
+  at  . (System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-10-21 17:40:58---------------------------------------------------------------
+	Error:获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+
+--------2014-10-21 17:40:58---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: 获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Query.ExcuteScalar (System.String sql) [0x00000] in <filename unknown>:0 
+  at  . (System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-10-21 17:40:58---------------------------------------------------------------
+	Error:获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+
+--------2014-10-21 17:40:58---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: 获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Query.ExcuteScalar (System.String sql) [0x00000] in <filename unknown>:0 
+  at  . (System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-10-21 17:40:58---------------------------------------------------------------
+	Error:获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+
+--------2014-10-21 17:40:58---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: 获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Query.ExcuteScalar (System.String sql) [0x00000] in <filename unknown>:0 
+  at  . (System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-10-21 17:41:36---------------------------------------------------------------
+	Error:获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+
+--------2014-10-21 17:41:36---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: 获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Query.ExcuteScalar (System.String sql) [0x00000] in <filename unknown>:0 
+  at  . (System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-10-21 17:41:49---------------------------------------------------------------
+	Error:获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article_detail'
+
+--------2014-10-21 17:41:49---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: 获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article_detail'
+  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Query.ExcuteScalar (System.String sql) [0x00000] in <filename unknown>:0 
+  at  . (System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-10-21 17:41:51---------------------------------------------------------------
+	Error:获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article_detail'
+
+--------2014-10-21 17:41:51---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: 获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article_detail'
+  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Query.ExcuteScalar (System.String sql) [0x00000] in <filename unknown>:0 
+  at  . (System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-10-21 17:41:52---------------------------------------------------------------
+	Error:获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article_detail'
+
+--------2014-10-21 17:41:52---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: 获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article_detail'
+  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Query.ExcuteScalar (System.String sql) [0x00000] in <filename unknown>:0 
+  at  . (System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-10-21 17:41:52---------------------------------------------------------------
+	Error:获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article_detail'
+
+--------2014-10-21 17:41:52---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: 获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article_detail'
+  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Query.ExcuteScalar (System.String sql) [0x00000] in <filename unknown>:0 
+  at  . (System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-10-21 17:41:52---------------------------------------------------------------
+	Error:获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article_detail'
+
+--------2014-10-21 17:41:52---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: 获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article_detail'
+  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Query.ExcuteScalar (System.String sql) [0x00000] in <filename unknown>:0 
+  at  . (System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-10-21 17:41:53---------------------------------------------------------------
+	Error:获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article_detail'
+
+--------2014-10-21 17:41:53---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: 获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article_detail'
+  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Query.ExcuteScalar (System.String sql) [0x00000] in <filename unknown>:0 
+  at  . (System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-10-21 17:42:04---------------------------------------------------------------
+	Error:获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article_detail'
+
+--------2014-10-21 17:42:04---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: 获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article_detail'
+  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Query.ExcuteScalar (System.String sql) [0x00000] in <filename unknown>:0 
+  at  . (System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-10-21 17:42:06---------------------------------------------------------------
+	Error:获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'feeds'
+
+--------2014-10-21 17:42:06---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: 获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'feeds'
+  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Query.ExcuteScalar (System.String sql) [0x00000] in <filename unknown>:0 
+  at  . (System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-10-21 17:42:22---------------------------------------------------------------
+	Error:获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article_detail'
+
+--------2014-10-21 17:42:22---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: 获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article_detail'
+  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Query.ExcuteScalar (System.String sql) [0x00000] in <filename unknown>:0 
+  at  . (System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-10-21 17:42:23---------------------------------------------------------------
+	Error:获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article_detail'
+
+--------2014-10-21 17:42:23---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: 获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article_detail'
+  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Query.ExcuteScalar (System.String sql) [0x00000] in <filename unknown>:0 
+  at  . (System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-10-21 17:42:44---------------------------------------------------------------
+	Error:获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+
+--------2014-10-21 17:42:44---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: 获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Query.ExcuteScalar (System.String sql) [0x00000] in <filename unknown>:0 
+  at  . (System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-10-21 17:42:45---------------------------------------------------------------
+	Error:获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+
+--------2014-10-21 17:42:45---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: 获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Query.ExcuteScalar (System.String sql) [0x00000] in <filename unknown>:0 
+  at  . (System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-10-21 17:42:45---------------------------------------------------------------
+	Error:获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+
+--------2014-10-21 17:42:45---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: 获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Query.ExcuteScalar (System.String sql) [0x00000] in <filename unknown>:0 
+  at  . (System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-10-21 17:42:45---------------------------------------------------------------
+	Error:获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+
+--------2014-10-21 17:42:45---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: 获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Query.ExcuteScalar (System.String sql) [0x00000] in <filename unknown>:0 
+  at  . (System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-10-21 17:42:46---------------------------------------------------------------
+	Error:获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+
+--------2014-10-21 17:42:46---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: 获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Query.ExcuteScalar (System.String sql) [0x00000] in <filename unknown>:0 
+  at  . (System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-10-21 17:42:46---------------------------------------------------------------
+	Error:获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+
+--------2014-10-21 17:42:46---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: 获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Query.ExcuteScalar (System.String sql) [0x00000] in <filename unknown>:0 
+  at  . (System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-10-21 17:42:59---------------------------------------------------------------
+	Error:获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+
+--------2014-10-21 17:42:59---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: 获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Query.ExcuteScalar (System.String sql) [0x00000] in <filename unknown>:0 
+  at  . (System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-10-21 17:43:00---------------------------------------------------------------
+	Error:获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+
+--------2014-10-21 17:43:00---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: 获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Query.ExcuteScalar (System.String sql) [0x00000] in <filename unknown>:0 
+  at  . (System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-10-21 17:43:00---------------------------------------------------------------
+	Error:获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+
+--------2014-10-21 17:43:00---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: 获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Query.ExcuteScalar (System.String sql) [0x00000] in <filename unknown>:0 
+  at  . (System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-10-21 17:43:00---------------------------------------------------------------
+	Error:获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+
+--------2014-10-21 17:43:00---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: 获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Query.ExcuteScalar (System.String sql) [0x00000] in <filename unknown>:0 
+  at  . (System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-10-21 17:43:01---------------------------------------------------------------
+	Error:获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article_detail'
+
+--------2014-10-21 17:43:01---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: 获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article_detail'
+  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Query.ExcuteScalar (System.String sql) [0x00000] in <filename unknown>:0 
+  at  . (System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-10-21 17:44:43---------------------------------------------------------------
+	Error:获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+
+--------2014-10-21 17:44:43---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: 获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Query.ExcuteScalar (System.String sql) [0x00000] in <filename unknown>:0 
+  at  . (System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-10-21 17:45:42---------------------------------------------------------------
+	Error:获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+
+--------2014-10-21 17:45:42---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: 获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Query.ExcuteScalar (System.String sql) [0x00000] in <filename unknown>:0 
+  at  . (System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-10-21 17:45:53---------------------------------------------------------------
+	Error:获取GetDataTable失败deal
+	Unable to connect to any of the specified MySQL hosts.\nshow tables;
+
+--------2014-10-21 17:45:53---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: 获取GetDataTable失败deal
+	Unable to connect to any of the specified MySQL hosts.\nshow tables;
+  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Query.All (System.String sql) [0x00000] in <filename unknown>:0 
+  at  . (System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext , System.String ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-10-21 17:46:00---------------------------------------------------------------
+	Error:获取GetDataTable失败product
+	Unable to connect to any of the specified MySQL hosts.\nshow tables;
+
+--------2014-10-21 17:46:00---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: 获取GetDataTable失败product
+	Unable to connect to any of the specified MySQL hosts.\nshow tables;
+  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Query.All (System.String sql) [0x00000] in <filename unknown>:0 
+  at  . (System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext , System.String ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-10-21 17:46:03---------------------------------------------------------------
+	Error:获取GetDataTable失败basic
+	Unable to connect to any of the specified MySQL hosts.\nshow tables;
+
+--------2014-10-21 17:46:03---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: 获取GetDataTable失败basic
+	Unable to connect to any of the specified MySQL hosts.\nshow tables;
+  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Query.All (System.String sql) [0x00000] in <filename unknown>:0 
+  at  . (System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext , System.String ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-10-21 17:46:08---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: <h2>找不到team数据库链接配置</h2>
+  at Jabinfo.JabinfoDB.Instance (System.String name) [0x00000] in <filename unknown>:0 
+  at  . (System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext , System.String ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-10-21 21:01:29---------------------------------------------------------------
+	Error:获取dataTable失败
+	MySql.Data.MySqlClient.MySqlException: Unable to connect to any of the specified MySQL hosts.
+  at MySql.Data.MySqlClient.NativeDriver.Open () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Driver.Open () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Driver.Create (MySql.Data.MySqlClient.MySqlConnectionStringBuilder settings) [0x00000] in <filename unknown>:0 -----
+
+--------2014-10-21 21:01:39---------------------------------------------------------------
+	Error:获取dataTable失败
+	MySql.Data.MySqlClient.MySqlException: Unable to connect to any of the specified MySQL hosts.
+  at MySql.Data.MySqlClient.NativeDriver.Open () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Driver.Open () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Driver.Create (MySql.Data.MySqlClient.MySqlConnectionStringBuilder settings) [0x00000] in <filename unknown>:0 -----
+
+--------2014-10-21 21:01:44---------------------------------------------------------------
+	Error:获取dataTable失败
+	MySql.Data.MySqlClient.MySqlException: Unable to connect to any of the specified MySQL hosts.
+  at MySql.Data.MySqlClient.NativeDriver.Open () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Driver.Open () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Driver.Create (MySql.Data.MySqlClient.MySqlConnectionStringBuilder settings) [0x00000] in <filename unknown>:0 -----
+
+--------2014-10-21 21:02:28---------------------------------------------------------------
+	Error:获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+
+--------2014-10-21 21:02:28---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: 获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Query.ExcuteScalar (System.String sql) [0x00000] in <filename unknown>:0 
+  at  . (System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-10-21 21:02:29---------------------------------------------------------------
+	Error:获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+
+--------2014-10-21 21:02:29---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: 获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Query.ExcuteScalar (System.String sql) [0x00000] in <filename unknown>:0 
+  at  . (System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-10-21 21:02:30---------------------------------------------------------------
+	Error:获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+
+--------2014-10-21 21:02:30---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: 获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Query.ExcuteScalar (System.String sql) [0x00000] in <filename unknown>:0 
+  at  . (System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-10-21 21:03:08---------------------------------------------------------------
+	Error:获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+
+--------2014-10-21 21:03:08---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: 获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Query.ExcuteScalar (System.String sql) [0x00000] in <filename unknown>:0 
+  at  . (System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-10-21 21:03:11---------------------------------------------------------------
+	Error:获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+
+--------2014-10-21 21:03:11---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: 获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Query.ExcuteScalar (System.String sql) [0x00000] in <filename unknown>:0 
+  at  . (System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-10-21 21:03:13---------------------------------------------------------------
+	Error:获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+
+--------2014-10-21 21:03:13---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: 获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Query.ExcuteScalar (System.String sql) [0x00000] in <filename unknown>:0 
+  at  . (System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-10-21 21:03:13---------------------------------------------------------------
+	Error:获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+
+--------2014-10-21 21:03:13---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: 获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Query.ExcuteScalar (System.String sql) [0x00000] in <filename unknown>:0 
+  at  . (System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-10-21 21:03:14---------------------------------------------------------------
+	Error:获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+
+--------2014-10-21 21:03:14---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: 获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Query.ExcuteScalar (System.String sql) [0x00000] in <filename unknown>:0 
+  at  . (System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-10-21 21:03:14---------------------------------------------------------------
+	Error:获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+
+--------2014-10-21 21:03:14---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: 获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Query.ExcuteScalar (System.String sql) [0x00000] in <filename unknown>:0 
+  at  . (System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-10-21 21:03:54---------------------------------------------------------------
+	Error:获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+
+--------2014-10-21 21:03:54---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: 获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Query.ExcuteScalar (System.String sql) [0x00000] in <filename unknown>:0 
+  at  . (System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-10-21 21:07:49---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: <h2>找不到lifa数据库链接配置</h2>
+  at Jabinfo.JabinfoDB.Instance (System.String name) [0x00000] in <filename unknown>:0 
+  at  . (System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext , System.String ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-10-21 21:08:53---------------------------------------------------------------
+	Error:获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+
+--------2014-10-21 21:08:53---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: 获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Query.ExcuteScalar (System.String sql) [0x00000] in <filename unknown>:0 
+  at  . (System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-10-21 21:08:54---------------------------------------------------------------
+	Error:获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+
+--------2014-10-21 21:08:54---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: 获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Query.ExcuteScalar (System.String sql) [0x00000] in <filename unknown>:0 
+  at  . (System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-10-21 21:08:55---------------------------------------------------------------
+	Error:获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+
+--------2014-10-21 21:08:55---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: 获取ExcuteScalar失败article
+	Unable to connect to any of the specified MySQL hosts.\nshow tables like 'article'
+  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Query.ExcuteScalar (System.String sql) [0x00000] in <filename unknown>:0 
+  at  . (System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-10-21 21:20:35---------------------------------------------------------------
+	Error:执行sql语句Excute失败article
+	Duplicate column name 'jtype'\nALTER TABLE `article` ADD COLUMN  `jtype` CHAR(0) DEFAULT ''
+
+--------2014-10-21 21:20:35---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: 执行sql语句Excute失败article
+	Duplicate column name 'jtype'\nALTER TABLE `article` ADD COLUMN  `jtype` CHAR(0) DEFAULT ''
+  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Query.Excute (System.String sql) [0x00000] in <filename unknown>:0 
+  at  . (System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  . (System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+

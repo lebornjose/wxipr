@@ -1,0 +1,218 @@
+@charset "UTF-8";
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wx\/dev\/sass\/base\/reset\.scss}line{font-family:\000031}}
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td {
+  margin: 0;
+  padding: 0; }
+
+/** 设置默认字体 **/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wx\/dev\/sass\/base\/reset\.scss}line{font-family:\000037}}
+body, button, input, select, textarea {
+  font: 12px tahoma, arial, 宋体; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wx\/dev\/sass\/base\/reset\.scss}line{font-family:\0000312}}
+address, cite, dfn, em, var {
+  font-style: normal; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wx\/dev\/sass\/base\/reset\.scss}line{font-family:\0000313}}
+code, kbd, pre, samp {
+  font-family: courier new, courier, monospace; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wx\/dev\/sass\/base\/reset\.scss}line{font-family:\0000314}}
+small {
+  font-size: 12px; }
+
+/** 重置文本格式元素 **/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wx\/dev\/sass\/base\/reset\.scss}line{font-family:\0000318}}
+a {
+  text-decoration: none;
+  color: #666666; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wx\/dev\/sass\/base\/reset\.scss}line{font-family:\0000319}}
+a:hover {
+  color: #ff6600;
+  text-decoration: none; }
+
+/** 重置表单元素 **/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wx\/dev\/sass\/base\/reset\.scss}line{font-family:\0000321}}
+legend {
+  color: #000; }
+
+/* for ie6 */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wx\/dev\/sass\/base\/reset\.scss}line{font-family:\0000322}}
+fieldset, img {
+  border: 0; }
+
+/* img 搭车：让链接里的 img 无边框 */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wx\/dev\/sass\/base\/reset\.scss}line{font-family:\0000323}}
+button, input, select, textarea {
+  font-size: 100%; }
+
+/* 使得表单元素在 ie 下能继承字体大小 */
+/** 重置表格元素 **/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wx\/dev\/sass\/base\/reset\.scss}line{font-family:\0000326}}
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* 重置 HTML5 元素 */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wx\/dev\/sass\/base\/reset\.scss}line{font-family:\0000329}}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section,
+summary, time, mark, audio, video {
+  display: block;
+  margin: 0;
+  padding: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wx\/dev\/sass\/base\/reset\.scss}line{font-family:\0000335}}
+mark {
+  background: #ff0; }
+
+/*修复IE 6不居中bug*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wx\/dev\/sass\/base\/reset\.scss}line{font-family:\0000338}}
+.body {
+  BACKGROUND-POSITION: left top;
+  BACKGROUND-REPEAT: repeat-x;
+  background-color: #e7e8eb;
+  font-family: 'Segoe UI', 'Open Sans', sans-serif;
+  font-weight: 300; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wx\/dev\/sass\/base\/reset\.scss}line{font-family:\0000345}}
+body.dark {
+  text-align: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wx\/dev\/sass\/base\/reset\.scss}line{font-family:\0000348}}
+:focus {
+  outline: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wx\/dev\/sass\/base\/reset\.scss}line{font-family:\0000351}}
+.layout {
+  width: 960px;
+  *text-align: left;
+  margin: 0 auto; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wx\/dev\/sass\/base\/reset\.scss}line{font-family:\0000357}}
+.clearfix, .layout, ul.left, dl.left, ol.left {
+  *display: inline;
+  *zoom: 1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wx\/dev\/sass\/base\/reset\.scss}line{font-family:\0000360}}
+  .clearfix:after, .layout:after, ul.left:after, dl.left:after, ol.left:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wx\/dev\/sass\/base\/reset\.scss}line{font-family:\0000369}}
+ul, ol li {
+  list-style: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wx\/dev\/sass\/base\/reset\.scss}line{font-family:\0000373}}
+ul.left li, ol.left li, dl.left dt, dl.left dd {
+  float: left;
+  display: block;
+  list-style: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wx\/dev\/sass\/base\/reset\.scss}line{font-family:\0000380}}
+.inlinefix, .inline-block, .bns-data-page .action span, .bns-data-page .action a {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wx\/dev\/sass\/base\/reset\.scss}line{font-family:\0000388}}
+.breakfix {
+  /*禁止换行 */
+  word-break: keep-all;
+  word-wrap: normal;
+  white-space: nowrap;
+  overflow: visible; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wx\/dev\/sass\/base\/reset\.scss}line{font-family:\0000395}}
+.keepfix {
+  /*强制超出换行 */
+  word-break: break-all;
+  word-wrap: break-word;
+  white-space: normal;
+  overflow: hidden; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wx\/dev\/sass\/base\/reset\.scss}line{font-family:\00003101}}
+.leftfix {
+  margin-left: -3px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wx\/dev\/sass\/base\/reset\.scss}line{font-family:\00003104}}
+.block {
+  color: #333; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wx\/dev\/sass\/base\/reset\.scss}line{font-family:\00003107}}
+.red {
+  color: red; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wx\/dev\/sass\/page\/detail\.scss}line{font-family:\000031}}
+.wx_content {
+  margin: 10px auto;
+  background: #fff;
+  background-color: white;
+  border-bottom-color: #d9dadc;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-image-outset: 0px;
+  border-image-repeat: stretch;
+  border-image-slice: 100%;
+  border-image-source: none;
+  border-image-width: 1;
+  border-left-color: #d9dadc;
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-right-color: #d9dadc;
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-top-color: #d9dadc;
+  border-top-style: solid;
+  border-top-width: 0px;
+  padding-bottom: 78px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wx\/dev\/sass\/page\/detail\.scss}line{font-family:\0000326}}
+  .wx_content .title {
+    border-bottom-color: #e7e7eb;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    display: block;
+    font-family: 'Helvetica Neue', Helvetica, 'Hiragino Sans GB', 'Microsoft YaHei', 微软雅黑, Arial, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    padding-bottom: 10px;
+    word-wrap: break-word; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wx\/dev\/sass\/page\/detail\.scss}line{font-family:\0000342}}
+  .wx_content .list {
+    line-height: 25px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wx\/dev\/sass\/page\/detail\.scss}line{font-family:\0000344}}
+    .wx_content .list .date, .wx_content .list .text {
+      color: #8c8c8c;
+      font-family: 'Helvetica Neue', Helvetica, 'Hiragino Sans GB', 'Microsoft YaHei', 微软雅黑, Arial, sans-serif;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: normal;
+      height: 19px;
+      line-height: 19.2000007629395px;
+      margin-right: 6px;
+      max-width: none;
+      overflow-x: hidden;
+      overflow-y: hidden;
+      text-overflow: ellipsis;
+      vertical-align: middle;
+      white-space: nowrap;
+      width: 62.71875px;
+      word-wrap: normal; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wx\/dev\/sass\/page\/detail\.scss}line{font-family:\0000362}}
+    .wx_content .list .origin {
+      color: #607fa6; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wx\/dev\/sass\/page\/detail\.scss}line{font-family:\0000366}}
+  .wx_content .main {
+    text-align: center;
+    padding-bottom: 20px;
+    font-family: 'Helvetica Neue', Helvetica, 'Hiragino Sans GB', 'Microsoft YaHei', 微软雅黑, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 25.6000003814697px; }

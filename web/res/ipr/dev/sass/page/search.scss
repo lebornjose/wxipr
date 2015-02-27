@@ -1,0 +1,28 @@
+.ipr-sea-content{
+  width:90%;
+  margin: 10px auto;
+  h3{
+  	font-size: 18px;
+    line-height: 40px;
+  }	
+  dl{
+  	height: 120px;
+  	margin-left: 5%;
+  }
+  dt{
+  	color: #00a498;
+  	font-weight: bold;
+  	font-size: 14px;
+  	line-height: 25px;
+  	display: list-item;
+    text-align: -webkit-match-parent;
+  }
+  .text{
+  	height: 60px;
+  	overflow: hidden;
+  }
+  .over{
+  	margin-top:10px;
+  	color: #999;
+  }
+}

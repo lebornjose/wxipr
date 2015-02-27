@@ -1,0 +1,413 @@
+﻿--------2014-11-26 08:40:23---------------------------------------------------------------
+	Error:获取dataTable失败
+	MySql.Data.MySqlClient.MySqlException: Unable to connect to any of the specified MySQL hosts.
+  at MySql.Data.MySqlClient.NativeDriver.Open () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Driver.Open () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Driver.Create (MySql.Data.MySqlClient.MySqlConnectionStringBuilder settings) [0x00000] in <filename unknown>:0 -----
+
+--------2014-11-26 08:40:23---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: 获取dataTable失败
+	MySql.Data.MySqlClient.MySqlException: Unable to connect to any of the specified MySQL hosts.
+  at MySql.Data.MySqlClient.NativeDriver.Open () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Driver.Open () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Driver.Create (MySql.Data.MySqlClient.MySqlConnectionStringBuilder settings) [0x00000] in <filename unknown>:0 -----
+  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Select.All () [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Select.Row () [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoManager. (System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoManager..ctor (System.String username) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-11-26 11:37:26---------------------------------------------------------------
+	Error:https://api.weixin.qq.com/cgi-bin/menu/create?access_token=
+	Encoding name '{
+"button":[ 
+{	
+"name":"产品",
+"sub_button":[
+{	
+   "type":"click",
+   "name":"无糖系列", 
+   "key":"gtt_menu_001001"
+},
+{	
+   "type":"click",
+   "name":"干果系列", 
+   "key":"gtt_menu_001002"
+},
+{	
+   "type":"click",
+   "name":"休闲系列", 
+   "key":"gtt_menu_001003"
+},
+{	
+   "type":"click",
+   "name":"儿童系列", 
+   "key":"gtt_menu_001004"
+ }]
+},
+{
+"name":"活动", 
+"sub_button":[
+{	
+   "type":"click",
+   "name":"抽奖", 
+   "key":"gtt_menu_002001"
+},
+{	
+   "type":"view",
+   "name":"获奖名单", 
+   "url":"http://www.guotaotao.com/apps/honor_list.aspx"
+},
+{	
+   "type":"click",
+   "name":"优惠券", 
+   "key":"gtt_menu_002003"
+ }]
+},
+{
+"name":"帮助",
+"sub_button":[
+{	
+   "type":"view",
+   "name":"关于我们", 
+   "url":"http://www.guotaotao.com/apps/aboutus.aspx"
+},
+{	
+   "type":"view",
+   "name":"联系我们", 
+   "url":"http://www.guotaotao.com/apps/contactus.aspx"
+},
+{	
+   "type":"view",
+   "name":"查询订单", 
+   "url":"http://www.guotaotao.com/apps/orders_chaxun.aspx"
+},
+{	
+   "type":"view",
+   "name":"留言反馈", 
+   "url":"http://www.guotaotao.com/apps/feedback.aspx"
+ }]
+}]
+}
+' not supported
+Parameter name: name
+
+--------2014-11-26 11:37:26---------------------------------------------------------------
+	Error:https://api.weixin.qq.com/cgi-bin/menu/create?access_token=
+	Encoding name '{
+"button":[ 
+{	
+"name":"产品",
+"sub_button":[
+{	
+   "type":"click",
+   "name":"无糖系列", 
+   "key":"gtt_menu_001001"
+},
+{	
+   "type":"click",
+   "name":"干果系列", 
+   "key":"gtt_menu_001002"
+},
+{	
+   "type":"click",
+   "name":"休闲系列", 
+   "key":"gtt_menu_001003"
+},
+{	
+   "type":"click",
+   "name":"儿童系列", 
+   "key":"gtt_menu_001004"
+ }]
+},
+{
+"name":"活动", 
+"sub_button":[
+{	
+   "type":"click",
+   "name":"抽奖", 
+   "key":"gtt_menu_002001"
+},
+{	
+   "type":"view",
+   "name":"获奖名单", 
+   "url":"http://www.guotaotao.com/apps/honor_list.aspx"
+},
+{	
+   "type":"click",
+   "name":"优惠券", 
+   "key":"gtt_menu_002003"
+ }]
+},
+{
+"name":"帮助",
+"sub_button":[
+{	
+   "type":"view",
+   "name":"关于我们", 
+   "url":"http://www.guotaotao.com/apps/aboutus.aspx"
+},
+{	
+   "type":"view",
+   "name":"联系我们", 
+   "url":"http://www.guotaotao.com/apps/contactus.aspx"
+},
+{	
+   "type":"view",
+   "name":"查询订单", 
+   "url":"http://www.guotaotao.com/apps/orders_chaxun.aspx"
+},
+{	
+   "type":"view",
+   "name":"留言反馈", 
+   "url":"http://www.guotaotao.com/apps/feedback.aspx"
+ }]
+}]
+}
+' not supported
+Parameter name: name
+
+--------2014-11-26 11:37:56---------------------------------------------------------------
+	Error:https://api.weixin.qq.com/cgi-bin/menu/create?access_token=
+	Encoding name '{
+"button":[ 
+{	
+"name":"产品",
+"sub_button":[
+{	
+   "type":"click",
+   "name":"无糖系列", 
+   "key":"gtt_menu_001001"
+},
+{	
+   "type":"click",
+   "name":"干果系列", 
+   "key":"gtt_menu_001002"
+},
+{	
+   "type":"click",
+   "name":"休闲系列", 
+   "key":"gtt_menu_001003"
+},
+{	
+   "type":"click",
+   "name":"儿童系列", 
+   "key":"gtt_menu_001004"
+ }]
+},
+{
+"name":"活动", 
+"sub_button":[
+{	
+   "type":"click",
+   "name":"抽奖", 
+   "key":"gtt_menu_002001"
+},
+{	
+   "type":"view",
+   "name":"获奖名单", 
+   "url":"http://www.guotaotao.com/apps/honor_list.aspx"
+},
+{	
+   "type":"click",
+   "name":"优惠券", 
+   "key":"gtt_menu_002003"
+ }]
+},
+{
+"name":"帮助",
+"sub_button":[
+{	
+   "type":"view",
+   "name":"关于我们", 
+   "url":"http://www.guotaotao.com/apps/aboutus.aspx"
+},
+{	
+   "type":"view",
+   "name":"联系我们", 
+   "url":"http://www.guotaotao.com/apps/contactus.aspx"
+},
+{	
+   "type":"view",
+   "name":"查询订单", 
+   "url":"http://www.guotaotao.com/apps/orders_chaxun.aspx"
+},
+{	
+   "type":"view",
+   "name":"留言反馈", 
+   "url":"http://www.guotaotao.com/apps/feedback.aspx"
+ }]
+}]
+}
+' not supported
+Parameter name: name
+
+--------2014-11-26 12:31:17---------------------------------------------------------------
+	Error:https://api.weixin.qq.com/cgi-bin/menu/create?access_token=
+	Encoding name '{
+"button":[ 
+{	
+"name":"产品",
+"sub_button":[
+{	
+   "type":"click",
+   "name":"无糖系列", 
+   "key":"gtt_menu_001001"
+},
+{	
+   "type":"click",
+   "name":"干果系列", 
+   "key":"gtt_menu_001002"
+},
+{	
+   "type":"click",
+   "name":"休闲系列", 
+   "key":"gtt_menu_001003"
+},
+{	
+   "type":"click",
+   "name":"儿童系列", 
+   "key":"gtt_menu_001004"
+ }]
+},
+{
+"name":"活动", 
+"sub_button":[
+{	
+   "type":"click",
+   "name":"抽奖", 
+   "key":"gtt_menu_002001"
+},
+{	
+   "type":"view",
+   "name":"获奖名单", 
+   "url":"http://www.guotaotao.com/apps/honor_list.aspx"
+},
+{	
+   "type":"click",
+   "name":"优惠券", 
+   "key":"gtt_menu_002003"
+ }]
+},
+{
+"name":"帮助",
+"sub_button":[
+{	
+   "type":"view",
+   "name":"关于我们", 
+   "url":"http://www.guotaotao.com/apps/aboutus.aspx"
+},
+{	
+   "type":"view",
+   "name":"联系我们", 
+   "url":"http://www.guotaotao.com/apps/contactus.aspx"
+},
+{	
+   "type":"view",
+   "name":"查询订单", 
+   "url":"http://www.guotaotao.com/apps/orders_chaxun.aspx"
+},
+{	
+   "type":"view",
+   "name":"留言反馈", 
+   "url":"http://www.guotaotao.com/apps/feedback.aspx"
+ }]
+}]
+}
+' not supported
+Parameter name: name
+
+--------2014-11-26 14:11:54---------------------------------------------------------------
+	Error:获取dataTable失败
+	MySql.Data.MySqlClient.MySqlException: Unable to connect to any of the specified MySQL hosts. ---> System.Threading.ThreadAbortException: Thread was being aborted
+  at (wrapper managed-to-native) System.Threading.WaitHandle:WaitOne_internal (System.Threading.WaitHandle,intptr,int,bool)
+  at System.Threading.WaitHandle.WaitOne (Int32 millisecondsTimeout, Boolean exitContext) [0x00000] in <filename unknown>:0 
+  at MySql.Data.Common.MyNetworkStream.CreateSocketStream (MySql.Data.MySqlClient.MySqlConnectionStringBuilder settings, System.Net.IPAddress ip, Boolean unix) [0x00000] in <filename unknown>:0 
+  at MySql.Data.Common.MyNetworkStream.CreateStream (MySql.Data.MySqlClient.MySqlConnectionStringBuilder settings, Boolean unix) [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at MySql.Data.MySqlClient.NativeDriver.Open () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Driver.Open () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Driver.Create (MySql.Data.MySqlClient.MySqlConnectionStringBuilder settings) [0x00000] in <filename unknown>:0 -----
+
+--------2014-11-26 15:52:22---------------------------------------------------------------
+	Error:应用错误
+	System.Threading.ThreadAbortException: Thread was being aborted
+  at Jabinfo.JabinfoController._JabinfoExcute (System.String[] userParam, Jabinfo.JabinfoContext context) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-11-26 15:55:05---------------------------------------------------------------
+	Error:应用错误
+	System.Threading.ThreadAbortException: Thread was being aborted
+  at Jabinfo.JabinfoController._JabinfoExcute (System.String[] userParam, Jabinfo.JabinfoContext context) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-11-26 15:55:14---------------------------------------------------------------
+	Error:应用错误
+	System.Threading.ThreadAbortException: Thread was being aborted
+  at Jabinfo.JabinfoController._JabinfoExcute (System.String[] userParam, Jabinfo.JabinfoContext context) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-11-26 15:55:31---------------------------------------------------------------
+	Error:应用错误
+	System.Threading.ThreadAbortException: Thread was being aborted
+  at Jabinfo.JabinfoController._JabinfoExcute (System.String[] userParam, Jabinfo.JabinfoContext context) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-11-26 15:55:33---------------------------------------------------------------
+	Error:应用错误
+	System.Threading.ThreadAbortException: Thread was being aborted
+  at Jabinfo.JabinfoController._JabinfoExcute (System.String[] userParam, Jabinfo.JabinfoContext context) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-11-26 15:55:42---------------------------------------------------------------
+	Error:应用错误
+	System.Threading.ThreadAbortException: Thread was being aborted
+  at Jabinfo.JabinfoController._JabinfoExcute (System.String[] userParam, Jabinfo.JabinfoContext context) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-11-26 15:55:44---------------------------------------------------------------
+	Error:应用错误
+	System.Threading.ThreadAbortException: Thread was being aborted
+  at Jabinfo.JabinfoController._JabinfoExcute (System.String[] userParam, Jabinfo.JabinfoContext context) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-11-26 15:56:26---------------------------------------------------------------
+	Error:应用错误
+	System.Threading.ThreadAbortException: Thread was being aborted
+  at Jabinfo.JabinfoController._JabinfoExcute (System.String[] userParam, Jabinfo.JabinfoContext context) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-11-26 15:56:28---------------------------------------------------------------
+	Error:应用错误
+	System.Threading.ThreadAbortException: Thread was being aborted
+  at Jabinfo.JabinfoController._JabinfoExcute (System.String[] userParam, Jabinfo.JabinfoContext context) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-11-26 15:56:58---------------------------------------------------------------
+	Error:应用错误
+	System.Threading.ThreadAbortException: Thread was being aborted
+  at Jabinfo.JabinfoController._JabinfoExcute (System.String[] userParam, Jabinfo.JabinfoContext context) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-11-26 15:58:42---------------------------------------------------------------
+	Error:应用错误
+	System.Threading.ThreadAbortException: Thread was being aborted
+  at Jabinfo.JabinfoController._JabinfoExcute (System.String[] userParam, Jabinfo.JabinfoContext context) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-11-26 15:59:03---------------------------------------------------------------
+	Error:应用错误
+	System.Threading.ThreadAbortException: Thread was being aborted
+  at Jabinfo.JabinfoController._JabinfoExcute (System.String[] userParam, Jabinfo.JabinfoContext context) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-11-26 15:59:13---------------------------------------------------------------
+	Error:应用错误
+	System.Threading.ThreadAbortException: Thread was being aborted
+  at Jabinfo.JabinfoController._JabinfoExcute (System.String[] userParam, Jabinfo.JabinfoContext context) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+

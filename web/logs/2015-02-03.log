@@ -1,0 +1,12 @@
+﻿--------2015-02-03 15:43:21---------------------------------------------------------------
+	Error:获取ExcuteScalar失败crm
+	You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '2'%'' at line 1\nSELECT COUNT(*) from `job` WHERE type='2' and title like '%and type='2'%'
+
+--------2015-02-03 15:43:55---------------------------------------------------------------
+	Error:获取ExcuteScalar失败crm
+	You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '='2' and title like '%type='2'%'' at line 1\nSELECT COUNT(*) from `job` WHERE ='2' and title like '%type='2'%'
+
+--------2015-02-03 15:44:14---------------------------------------------------------------
+	Error:获取ExcuteScalar失败crm
+	You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '2'%'' at line 1\nSELECT COUNT(*) from `job` WHERE type='2' and title like '%and type='2'%'
+

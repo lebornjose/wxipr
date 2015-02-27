@@ -1,0 +1,282 @@
+﻿--------2015-02-05 14:50:42---------------------------------------------------------------
+	Error:获取dataTable失败
+	MySql.Data.MySqlClient.MySqlException: Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.TimeoutException: Timeout in IO operation
+  at MySql.Data.MySqlClient.TimedStream.StopTimer () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.TimedStream.Read (System.Byte[] buffer, Int32 offset, Int32 count) [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at MySql.Data.MySqlClient.ExceptionInterceptor.Throw (System.Exception exception) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlConnection.Throw (System.Exception ex) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlConnection.HandleTimeoutOrThreadAbort (System.Exception ex) [0x00000] in <filename unknown>:0 
+  at (wrapper remoting-invoke-with-check) MySql.Data.MySqlClient.MySqlConnection:HandleTimeoutOrThreadAbort (System.Exception)
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Driver.Configure (MySql.Data.MySqlClient.MySqlConnection connection) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlConnection.Open () [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Select.All () [0x00000] in <filename unknown>:0 -----
+
+--------2015-02-05 14:51:20---------------------------------------------------------------
+	Error:获取dataTable失败
+	MySql.Data.MySqlClient.MySqlException: Reading from the stream has failed. ---> System.IO.IOException: Read failure ---> System.Net.Sockets.SocketException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+  at System.Net.Sockets.Socket.Receive (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags) [0x00000] in <filename unknown>:0 
+  at System.Net.Sockets.NetworkStream.Read (System.Byte[] buffer, Int32 offset, Int32 size) [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at System.Net.Sockets.NetworkStream.Read (System.Byte[] buffer, Int32 offset, Int32 size) [0x00000] in <filename unknown>:0 
+  at MySql.Data.Common.MyNetworkStream.Read (System.Byte[] buffer, Int32 offset, Int32 count) [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at MySql.Data.MySqlClient.MySqlStream.LoadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlStream.ReadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.NativeDriver.ReadOk (Boolean read) [0x00000] in <filename unknown>:0 -----
+
+--------2015-02-05 14:51:20---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: 获取dataTable失败
+	MySql.Data.MySqlClient.MySqlException: Reading from the stream has failed. ---> System.IO.IOException: Read failure ---> System.Net.Sockets.SocketException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+  at System.Net.Sockets.Socket.Receive (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags) [0x00000] in <filename unknown>:0 
+  at System.Net.Sockets.NetworkStream.Read (System.Byte[] buffer, Int32 offset, Int32 size) [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at System.Net.Sockets.NetworkStream.Read (System.Byte[] buffer, Int32 offset, Int32 size) [0x00000] in <filename unknown>:0 
+  at MySql.Data.Common.MyNetworkStream.Read (System.Byte[] buffer, Int32 offset, Int32 count) [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at MySql.Data.MySqlClient.MySqlStream.LoadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlStream.ReadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.NativeDriver.ReadOk (Boolean read) [0x00000] in <filename unknown>:0 -----
+  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Select.All () [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Select.Row () [0x00000] in <filename unknown>:0 
+  at  . (System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext , System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2015-02-05 14:51:25---------------------------------------------------------------
+	Error:获取dataTable失败
+	MySql.Data.MySqlClient.MySqlException: Authentication to host 'sinbo520.mysql.rds.aliyuncs.com' for user 'develop' using method 'mysql_native_password' failed with message: Reading from the stream has failed. ---> MySql.Data.MySqlClient.MySqlException: Reading from the stream has failed. ---> System.IO.IOException: Read failure ---> System.Net.Sockets.SocketException: Connection reset by peer
+  at System.Net.Sockets.Socket.Receive (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags) [0x00000] in <filename unknown>:0 
+  at System.Net.Sockets.NetworkStream.Read (System.Byte[] buffer, Int32 offset, Int32 size) [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at System.Net.Sockets.NetworkStream.Read (System.Byte[] buffer, Int32 offset, Int32 size) [0x00000] in <filename unknown>:0 
+  at MySql.Data.Common.MyNetworkStream.Read (System.Byte[] buffer, Int32 offset, Int32 count) [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at MySql.Data.MySqlClient.MySqlStream.LoadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlStream.ReadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.NativeDriver.ReadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket () [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed (System.Exception ex) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate (Boolean reset) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.NativeDriver.Authenticate (System.String authMethod, Boolean reset) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.NativeDriver.Open () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Driver.Open () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Driver.Create (MySql.Data.MySqlClient.MySqlConnectionStringBuilder settings) [0x00000] in <filename unknown>:0 -----
+
+--------2015-02-05 14:51:25---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: 获取dataTable失败
+	MySql.Data.MySqlClient.MySqlException: Authentication to host 'sinbo520.mysql.rds.aliyuncs.com' for user 'develop' using method 'mysql_native_password' failed with message: Reading from the stream has failed. ---> MySql.Data.MySqlClient.MySqlException: Reading from the stream has failed. ---> System.IO.IOException: Read failure ---> System.Net.Sockets.SocketException: Connection reset by peer
+  at System.Net.Sockets.Socket.Receive (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags) [0x00000] in <filename unknown>:0 
+  at System.Net.Sockets.NetworkStream.Read (System.Byte[] buffer, Int32 offset, Int32 size) [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at System.Net.Sockets.NetworkStream.Read (System.Byte[] buffer, Int32 offset, Int32 size) [0x00000] in <filename unknown>:0 
+  at MySql.Data.Common.MyNetworkStream.Read (System.Byte[] buffer, Int32 offset, Int32 count) [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at MySql.Data.MySqlClient.MySqlStream.LoadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlStream.ReadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.NativeDriver.ReadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket () [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed (System.Exception ex) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate (Boolean reset) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.NativeDriver.Authenticate (System.String authMethod, Boolean reset) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.NativeDriver.Open () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Driver.Open () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Driver.Create (MySql.Data.MySqlClient.MySqlConnectionStringBuilder settings) [0x00000] in <filename unknown>:0 -----
+  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Select.All () [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Select.Row () [0x00000] in <filename unknown>:0 
+  at  . (System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2015-02-05 14:51:57---------------------------------------------------------------
+	Error:获取dataTable失败
+	MySql.Data.MySqlClient.MySqlException: Fatal error encountered during data read. ---> MySql.Data.MySqlClient.MySqlException: Reading from the stream has failed. ---> System.IO.IOException: Read failure ---> System.Net.Sockets.SocketException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+  at System.Net.Sockets.Socket.Receive (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags) [0x00000] in <filename unknown>:0 
+  at System.Net.Sockets.NetworkStream.Read (System.Byte[] buffer, Int32 offset, Int32 size) [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at System.Net.Sockets.NetworkStream.Read (System.Byte[] buffer, Int32 offset, Int32 size) [0x00000] in <filename unknown>:0 
+  at MySql.Data.Common.MyNetworkStream.Read (System.Byte[] buffer, Int32 offset, Int32 count) [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at MySql.Data.MySqlClient.MySqlStream.LoadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlStream.ReadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.NativeDriver.FetchDataRow (Int32 statementId, Int32 columns) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Driver.FetchDataRow (Int32 statementId, Int32 columns) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.ResultSet.GetNextRow () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.ResultSet.NextRow (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at MySql.Data.MySqlClient.MySqlDataReader.Read () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Driver.LoadServerProperties (MySql.Data.MySqlClient.MySqlConnection connection) [0x00000] in <filename unknown>:0 -----
+
+--------2015-02-05 14:52:00---------------------------------------------------------------
+	Error:获取dataTable失败
+	MySql.Data.MySqlClient.MySqlException: Fatal error encountered during command execution. ---> MySql.Data.MySqlClient.MySqlException: Fatal error encountered attempting to read the resultset. ---> MySql.Data.MySqlClient.MySqlException: Reading from the stream has failed. ---> System.IO.IOException: Read failure ---> System.Net.Sockets.SocketException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+  at System.Net.Sockets.Socket.Receive (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags) [0x00000] in <filename unknown>:0 
+  at System.Net.Sockets.NetworkStream.Read (System.Byte[] buffer, Int32 offset, Int32 size) [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at System.Net.Sockets.NetworkStream.Read (System.Byte[] buffer, Int32 offset, Int32 size) [0x00000] in <filename unknown>:0 
+  at MySql.Data.Common.MyNetworkStream.Read (System.Byte[] buffer, Int32 offset, Int32 count) [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at MySql.Data.MySqlClient.MySqlStream.LoadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlStream.ReadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.NativeDriver.GetResult (System.Int32& affectedRow, System.Int64& insertedId) [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at MySql.Data.MySqlClient.MySqlDataReader.NextResult () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader () [0x00000] in <filename unknown>:0 
+  at (wrapper remoting-invoke-with-check) MySql.Data.MySqlClient.MySqlCommand:ExecuteReader ()
+  at MySql.Data.MySqlClient.Driver.LoadCharacterSets (MySql.Data.MySqlClient.MySqlConnection connection) [0x00000] in <filename unknown>:0 -----
+
+--------2015-02-05 14:52:01---------------------------------------------------------------
+	Error:获取dataTable失败
+	MySql.Data.MySqlClient.MySqlException: Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.TimeoutException: Timeout in IO operation
+  at MySql.Data.MySqlClient.TimedStream.StopTimer () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.TimedStream.Read (System.Byte[] buffer, Int32 offset, Int32 count) [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at MySql.Data.MySqlClient.ExceptionInterceptor.Throw (System.Exception exception) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlConnection.Throw (System.Exception ex) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlConnection.HandleTimeoutOrThreadAbort (System.Exception ex) [0x00000] in <filename unknown>:0 
+  at (wrapper remoting-invoke-with-check) MySql.Data.MySqlClient.MySqlConnection:HandleTimeoutOrThreadAbort (System.Exception)
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteScalar () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Driver.GetTimeZoneOffset (MySql.Data.MySqlClient.MySqlConnection con) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Driver.LoadServerProperties (MySql.Data.MySqlClient.MySqlConnection connection) [0x00000] in <filename unknown>:0 -----
+
+--------2015-02-05 14:52:02---------------------------------------------------------------
+	Error:获取dataTable失败
+	MySql.Data.MySqlClient.MySqlException: Fatal error encountered during command execution. ---> MySql.Data.MySqlClient.MySqlException: Fatal error encountered attempting to read the resultset. ---> MySql.Data.MySqlClient.MySqlException: Reading from the stream has failed. ---> System.IO.IOException: Read failure ---> System.Net.Sockets.SocketException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+  at System.Net.Sockets.Socket.Receive (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags) [0x00000] in <filename unknown>:0 
+  at System.Net.Sockets.NetworkStream.Read (System.Byte[] buffer, Int32 offset, Int32 size) [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at System.Net.Sockets.NetworkStream.Read (System.Byte[] buffer, Int32 offset, Int32 size) [0x00000] in <filename unknown>:0 
+  at MySql.Data.Common.MyNetworkStream.Read (System.Byte[] buffer, Int32 offset, Int32 count) [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at MySql.Data.MySqlClient.MySqlStream.LoadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlStream.ReadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.NativeDriver.GetResult (System.Int32& affectedRow, System.Int64& insertedId) [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at MySql.Data.MySqlClient.MySqlDataReader.NextResult () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteScalar () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Driver.GetTimeZoneOffset (MySql.Data.MySqlClient.MySqlConnection con) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Driver.LoadServerProperties (MySql.Data.MySqlClient.MySqlConnection connection) [0x00000] in <filename unknown>:0 -----
+
+--------2015-02-05 14:52:04---------------------------------------------------------------
+	Error:获取dataTable失败
+	MySql.Data.MySqlClient.MySqlException: Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.TimeoutException: Timeout in IO operation
+  at MySql.Data.MySqlClient.TimedStream.StopTimer () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.TimedStream.Read (System.Byte[] buffer, Int32 offset, Int32 count) [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at MySql.Data.MySqlClient.ExceptionInterceptor.Throw (System.Exception exception) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlConnection.Throw (System.Exception ex) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlConnection.HandleTimeoutOrThreadAbort (System.Exception ex) [0x00000] in <filename unknown>:0 
+  at (wrapper remoting-invoke-with-check) MySql.Data.MySqlClient.MySqlConnection:HandleTimeoutOrThreadAbort (System.Exception)
+  at MySql.Data.MySqlClient.MySqlDataReader.Read () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Driver.LoadServerProperties (MySql.Data.MySqlClient.MySqlConnection connection) [0x00000] in <filename unknown>:0 -----
+
+--------2015-02-05 14:52:19---------------------------------------------------------------
+	Error:获取dataTable失败
+	MySql.Data.MySqlClient.MySqlException: Fatal error encountered during data read. ---> MySql.Data.MySqlClient.MySqlException: Reading from the stream has failed. ---> System.IO.IOException: Read failure ---> System.Net.Sockets.SocketException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+  at System.Net.Sockets.Socket.Receive (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags) [0x00000] in <filename unknown>:0 
+  at System.Net.Sockets.NetworkStream.Read (System.Byte[] buffer, Int32 offset, Int32 size) [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at System.Net.Sockets.NetworkStream.Read (System.Byte[] buffer, Int32 offset, Int32 size) [0x00000] in <filename unknown>:0 
+  at MySql.Data.Common.MyNetworkStream.Read (System.Byte[] buffer, Int32 offset, Int32 count) [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at MySql.Data.MySqlClient.MySqlStream.LoadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlStream.ReadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.NativeDriver.FetchDataRow (Int32 statementId, Int32 columns) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Driver.FetchDataRow (Int32 statementId, Int32 columns) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.ResultSet.GetNextRow () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.ResultSet.NextRow (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at MySql.Data.MySqlClient.MySqlDataReader.Read () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Driver.LoadCharacterSets (MySql.Data.MySqlClient.MySqlConnection connection) [0x00000] in <filename unknown>:0 -----
+
+--------2015-02-05 14:52:20---------------------------------------------------------------
+	Error:获取dataTable失败
+	MySql.Data.MySqlClient.MySqlException: Fatal error encountered during command execution. ---> MySql.Data.MySqlClient.MySqlException: Fatal error encountered attempting to read the resultset. ---> MySql.Data.MySqlClient.MySqlException: Reading from the stream has failed. ---> System.IO.IOException: Read failure ---> System.Net.Sockets.SocketException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+  at System.Net.Sockets.Socket.Receive (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags) [0x00000] in <filename unknown>:0 
+  at System.Net.Sockets.NetworkStream.Read (System.Byte[] buffer, Int32 offset, Int32 size) [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at System.Net.Sockets.NetworkStream.Read (System.Byte[] buffer, Int32 offset, Int32 size) [0x00000] in <filename unknown>:0 
+  at MySql.Data.Common.MyNetworkStream.Read (System.Byte[] buffer, Int32 offset, Int32 count) [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at MySql.Data.MySqlClient.MySqlStream.LoadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlStream.ReadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.NativeDriver.GetResult (System.Int32& affectedRow, System.Int64& insertedId) [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at MySql.Data.MySqlClient.MySqlDataReader.NextResult () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Driver.Configure (MySql.Data.MySqlClient.MySqlConnection connection) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlConnection.Open () [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Select.All () [0x00000] in <filename unknown>:0 -----
+
+--------2015-02-05 14:52:25---------------------------------------------------------------
+	Error:获取dataTable失败
+	MySql.Data.MySqlClient.MySqlException: Authentication to host 'sinbo520.mysql.rds.aliyuncs.com' for user 'develop' using method 'mysql_native_password' failed with message: Reading from the stream has failed. ---> MySql.Data.MySqlClient.MySqlException: Reading from the stream has failed. ---> System.IO.EndOfStreamException: Failed to read past end of stream.
+  at MySql.Data.MySqlClient.MySqlStream.ReadFully (System.IO.Stream stream, System.Byte[] buffer, Int32 offset, Int32 count) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlStream.LoadPacket () [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at MySql.Data.MySqlClient.MySqlStream.LoadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlStream.ReadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.NativeDriver.ReadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket () [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed (System.Exception ex) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate (Boolean reset) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.NativeDriver.Authenticate (System.String authMethod, Boolean reset) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.NativeDriver.Open () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Driver.Open () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Driver.Create (MySql.Data.MySqlClient.MySqlConnectionStringBuilder settings) [0x00000] in <filename unknown>:0 -----
+
+--------2015-02-05 14:52:25---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: 获取dataTable失败
+	MySql.Data.MySqlClient.MySqlException: Authentication to host 'sinbo520.mysql.rds.aliyuncs.com' for user 'develop' using method 'mysql_native_password' failed with message: Reading from the stream has failed. ---> MySql.Data.MySqlClient.MySqlException: Reading from the stream has failed. ---> System.IO.EndOfStreamException: Failed to read past end of stream.
+  at MySql.Data.MySqlClient.MySqlStream.ReadFully (System.IO.Stream stream, System.Byte[] buffer, Int32 offset, Int32 count) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlStream.LoadPacket () [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at MySql.Data.MySqlClient.MySqlStream.LoadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlStream.ReadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.NativeDriver.ReadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket () [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed (System.Exception ex) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate (Boolean reset) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.NativeDriver.Authenticate (System.String authMethod, Boolean reset) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.NativeDriver.Open () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Driver.Open () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Driver.Create (MySql.Data.MySqlClient.MySqlConnectionStringBuilder settings) [0x00000] in <filename unknown>:0 -----
+  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Select.All () [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Select.Row () [0x00000] in <filename unknown>:0 
+  at  . (System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext , System.String ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+

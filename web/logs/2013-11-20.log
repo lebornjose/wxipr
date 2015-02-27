@@ -1,0 +1,12 @@
+﻿--------2013-11-20 14:45:10---------------------------------------------------------------
+	Error:获取ExcuteScalar失败
+	Unable to connect to any of the specified MySQL hosts.-----SELECT content FROM `template`  where template_id='tma_systemconfig' limit 0,30
+
+--------2013-11-20 15:43:44---------------------------------------------------------------
+	Error:获取ExcuteScalar失败
+	Unable to connect to any of the specified MySQL hosts.-----SELECT content FROM `template`  where template_id='tma_systemconfig' limit 0,30
+
+--------2013-11-20 15:45:07---------------------------------------------------------------
+	Error:获取ExcuteScalar失败
+	Unable to connect to any of the specified MySQL hosts.-----SELECT content FROM `template`  where template_id='tma_systemconfig' limit 0,30
+

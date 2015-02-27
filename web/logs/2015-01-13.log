@@ -1,0 +1,663 @@
+﻿--------2015-01-13 10:15:27---------------------------------------------------------------
+	Error:执行sql语句Excute失败crm
+	Incorrect column name 'Label	'\nCREATE TABLE `request` (`request_id` char(24) COMMENT '编号',
+	`ToUserName` varchar(50) COMMENT '开发者微信号' DEFAULT '',
+	`FromUserName` varchar(50) COMMENT ' 发送房Id' DEFAULT '',
+	`CreateTime` int(11) COMMENT '创建时间' DEFAULT 0,
+	`MsgType` varchar(20) COMMENT '消息类型' DEFAULT '',
+	`Content` text COMMENT '内容',
+	`MsgId` char(64) COMMENT '消息id' DEFAULT '',
+	`Location_X` varchar(50) COMMENT '地理位置维度',
+	`Location_Y` varchar(50) COMMENT '地理位置经度',
+	`Scale` varchar(50) COMMENT '地图缩放大小',
+	`Label	` varchar(200) COMMENT '地理位置信息',
+	`PicUrl` varchar(200) COMMENT '图片链接',
+	`Title` varchar(50) COMMENT '标题',
+	`Description` varchar(200) COMMENT '',
+	`Url` varchar(100) COMMENT '连接地址',
+	`MediaId` varchar(200) COMMENT '媒体ID',
+	`Event` varchar(30) COMMENT '时间',
+	`EventKey` varchar(100) COMMENT '响应',
+	PRIMARY KEY  (`request_id`)
+) COMMENT '接收消息';
+
+
+
+--------2015-01-13 10:15:27---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: 执行sql语句Excute失败crm
+	Incorrect column name 'Label	'\nCREATE TABLE `request` (`request_id` char(24) COMMENT '编号',
+	`ToUserName` varchar(50) COMMENT '开发者微信号' DEFAULT '',
+	`FromUserName` varchar(50) COMMENT ' 发送房Id' DEFAULT '',
+	`CreateTime` int(11) COMMENT '创建时间' DEFAULT 0,
+	`MsgType` varchar(20) COMMENT '消息类型' DEFAULT '',
+	`Content` text COMMENT '内容',
+	`MsgId` char(64) COMMENT '消息id' DEFAULT '',
+	`Location_X` varchar(50) COMMENT '地理位置维度',
+	`Location_Y` varchar(50) COMMENT '地理位置经度',
+	`Scale` varchar(50) COMMENT '地图缩放大小',
+	`Label	` varchar(200) COMMENT '地理位置信息',
+	`PicUrl` varchar(200) COMMENT '图片链接',
+	`Title` varchar(50) COMMENT '标题',
+	`Description` varchar(200) COMMENT '',
+	`Url` varchar(100) COMMENT '连接地址',
+	`MediaId` varchar(200) COMMENT '媒体ID',
+	`Event` varchar(30) COMMENT '时间',
+	`EventKey` varchar(100) COMMENT '响应',
+	PRIMARY KEY  (`request_id`)
+) COMMENT '接收消息';
+
+
+  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Query.Excute (System.String sql) [0x00000] in <filename unknown>:0 
+  at  . (System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2015-01-13 10:15:36---------------------------------------------------------------
+	Error:执行sql语句Excute失败crm
+	Incorrect column name 'Label	'\nCREATE TABLE `request` (`request_id` char(24) COMMENT '编号',
+	`ToUserName` varchar(50) COMMENT '开发者微信号' DEFAULT '',
+	`FromUserName` varchar(50) COMMENT ' 发送房Id' DEFAULT '',
+	`CreateTime` int(11) COMMENT '创建时间' DEFAULT 0,
+	`MsgType` varchar(20) COMMENT '消息类型' DEFAULT '',
+	`Content` text COMMENT '内容',
+	`MsgId` char(64) COMMENT '消息id' DEFAULT '',
+	`Location_X` varchar(50) COMMENT '地理位置维度',
+	`Location_Y` varchar(50) COMMENT '地理位置经度',
+	`Scale` varchar(50) COMMENT '地图缩放大小',
+	`Label	` varchar(200) COMMENT '地理位置信息',
+	`PicUrl` varchar(200) COMMENT '图片链接',
+	`Title` varchar(50) COMMENT '标题',
+	`Description` varchar(200) COMMENT '',
+	`Url` varchar(100) COMMENT '连接地址',
+	`MediaId` varchar(200) COMMENT '媒体ID',
+	`Event` varchar(30) COMMENT '时间',
+	`EventKey` varchar(100) COMMENT '响应',
+	PRIMARY KEY  (`request_id`)
+) COMMENT '接收消息';
+
+
+
+--------2015-01-13 10:15:36---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: 执行sql语句Excute失败crm
+	Incorrect column name 'Label	'\nCREATE TABLE `request` (`request_id` char(24) COMMENT '编号',
+	`ToUserName` varchar(50) COMMENT '开发者微信号' DEFAULT '',
+	`FromUserName` varchar(50) COMMENT ' 发送房Id' DEFAULT '',
+	`CreateTime` int(11) COMMENT '创建时间' DEFAULT 0,
+	`MsgType` varchar(20) COMMENT '消息类型' DEFAULT '',
+	`Content` text COMMENT '内容',
+	`MsgId` char(64) COMMENT '消息id' DEFAULT '',
+	`Location_X` varchar(50) COMMENT '地理位置维度',
+	`Location_Y` varchar(50) COMMENT '地理位置经度',
+	`Scale` varchar(50) COMMENT '地图缩放大小',
+	`Label	` varchar(200) COMMENT '地理位置信息',
+	`PicUrl` varchar(200) COMMENT '图片链接',
+	`Title` varchar(50) COMMENT '标题',
+	`Description` varchar(200) COMMENT '',
+	`Url` varchar(100) COMMENT '连接地址',
+	`MediaId` varchar(200) COMMENT '媒体ID',
+	`Event` varchar(30) COMMENT '时间',
+	`EventKey` varchar(100) COMMENT '响应',
+	PRIMARY KEY  (`request_id`)
+) COMMENT '接收消息';
+
+
+  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Query.Excute (System.String sql) [0x00000] in <filename unknown>:0 
+  at  . (System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2015-01-13 10:15:39---------------------------------------------------------------
+	Error:执行sql语句Excute失败crm
+	Incorrect column name 'Label	'\nCREATE TABLE `request` (`request_id` char(24) COMMENT '编号',
+	`ToUserName` varchar(50) COMMENT '开发者微信号' DEFAULT '',
+	`FromUserName` varchar(50) COMMENT ' 发送房Id' DEFAULT '',
+	`CreateTime` int(11) COMMENT '创建时间' DEFAULT 0,
+	`MsgType` varchar(20) COMMENT '消息类型' DEFAULT '',
+	`Content` text COMMENT '内容',
+	`MsgId` char(64) COMMENT '消息id' DEFAULT '',
+	`Location_X` varchar(50) COMMENT '地理位置维度',
+	`Location_Y` varchar(50) COMMENT '地理位置经度',
+	`Scale` varchar(50) COMMENT '地图缩放大小',
+	`Label	` varchar(200) COMMENT '地理位置信息',
+	`PicUrl` varchar(200) COMMENT '图片链接',
+	`Title` varchar(50) COMMENT '标题',
+	`Description` varchar(200) COMMENT '',
+	`Url` varchar(100) COMMENT '连接地址',
+	`MediaId` varchar(200) COMMENT '媒体ID',
+	`Event` varchar(30) COMMENT '时间',
+	`EventKey` varchar(100) COMMENT '响应',
+	PRIMARY KEY  (`request_id`)
+) COMMENT '接收消息';
+
+
+
+--------2015-01-13 10:15:39---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: 执行sql语句Excute失败crm
+	Incorrect column name 'Label	'\nCREATE TABLE `request` (`request_id` char(24) COMMENT '编号',
+	`ToUserName` varchar(50) COMMENT '开发者微信号' DEFAULT '',
+	`FromUserName` varchar(50) COMMENT ' 发送房Id' DEFAULT '',
+	`CreateTime` int(11) COMMENT '创建时间' DEFAULT 0,
+	`MsgType` varchar(20) COMMENT '消息类型' DEFAULT '',
+	`Content` text COMMENT '内容',
+	`MsgId` char(64) COMMENT '消息id' DEFAULT '',
+	`Location_X` varchar(50) COMMENT '地理位置维度',
+	`Location_Y` varchar(50) COMMENT '地理位置经度',
+	`Scale` varchar(50) COMMENT '地图缩放大小',
+	`Label	` varchar(200) COMMENT '地理位置信息',
+	`PicUrl` varchar(200) COMMENT '图片链接',
+	`Title` varchar(50) COMMENT '标题',
+	`Description` varchar(200) COMMENT '',
+	`Url` varchar(100) COMMENT '连接地址',
+	`MediaId` varchar(200) COMMENT '媒体ID',
+	`Event` varchar(30) COMMENT '时间',
+	`EventKey` varchar(100) COMMENT '响应',
+	PRIMARY KEY  (`request_id`)
+) COMMENT '接收消息';
+
+
+  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Query.Excute (System.String sql) [0x00000] in <filename unknown>:0 
+  at  . (System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2015-01-13 10:16:03---------------------------------------------------------------
+	Error:执行sql语句Excute失败crm
+	Incorrect column name 'Label	'\nCREATE TABLE `request` (`request_id` char(24) COMMENT '编号',
+	`ToUserName` varchar(50) COMMENT '开发者微信号' DEFAULT '',
+	`FromUserName` varchar(50) COMMENT ' 发送房Id' DEFAULT '',
+	`CreateTime` int(11) COMMENT '创建时间' DEFAULT 0,
+	`MsgType` varchar(20) COMMENT '消息类型' DEFAULT '',
+	`Content` text COMMENT '内容',
+	`MsgId` char(64) COMMENT '消息id' DEFAULT '',
+	`Location_X` varchar(50) COMMENT '地理位置维度',
+	`Location_Y` varchar(50) COMMENT '地理位置经度',
+	`Scale` varchar(50) COMMENT '地图缩放大小',
+	`Label	` varchar(200) COMMENT '地理位置信息',
+	`PicUrl` varchar(200) COMMENT '图片链接',
+	`Title` varchar(50) COMMENT '标题',
+	`Description` varchar(200) COMMENT '',
+	`Url` varchar(100) COMMENT '连接地址',
+	`MediaId` varchar(200) COMMENT '媒体ID',
+	`Event` varchar(30) COMMENT '时间',
+	`EventKey` varchar(100) COMMENT '响应',
+	PRIMARY KEY  (`request_id`)
+) COMMENT '接收消息';
+
+
+
+--------2015-01-13 10:16:03---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: 执行sql语句Excute失败crm
+	Incorrect column name 'Label	'\nCREATE TABLE `request` (`request_id` char(24) COMMENT '编号',
+	`ToUserName` varchar(50) COMMENT '开发者微信号' DEFAULT '',
+	`FromUserName` varchar(50) COMMENT ' 发送房Id' DEFAULT '',
+	`CreateTime` int(11) COMMENT '创建时间' DEFAULT 0,
+	`MsgType` varchar(20) COMMENT '消息类型' DEFAULT '',
+	`Content` text COMMENT '内容',
+	`MsgId` char(64) COMMENT '消息id' DEFAULT '',
+	`Location_X` varchar(50) COMMENT '地理位置维度',
+	`Location_Y` varchar(50) COMMENT '地理位置经度',
+	`Scale` varchar(50) COMMENT '地图缩放大小',
+	`Label	` varchar(200) COMMENT '地理位置信息',
+	`PicUrl` varchar(200) COMMENT '图片链接',
+	`Title` varchar(50) COMMENT '标题',
+	`Description` varchar(200) COMMENT '',
+	`Url` varchar(100) COMMENT '连接地址',
+	`MediaId` varchar(200) COMMENT '媒体ID',
+	`Event` varchar(30) COMMENT '时间',
+	`EventKey` varchar(100) COMMENT '响应',
+	PRIMARY KEY  (`request_id`)
+) COMMENT '接收消息';
+
+
+  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Query.Excute (System.String sql) [0x00000] in <filename unknown>:0 
+  at  . (System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2015-01-13 10:16:19---------------------------------------------------------------
+	Error:执行sql语句Excute失败crm
+	Incorrect column name 'Label	'\nCREATE TABLE `request` (`request_id` char(24) COMMENT '编号',
+	`ToUserName` varchar(50) COMMENT '开发者微信号' DEFAULT '',
+	`FromUserName` varchar(50) COMMENT ' 发送房Id' DEFAULT '',
+	`CreateTime` int(11) COMMENT '创建时间' DEFAULT 0,
+	`MsgType` varchar(20) COMMENT '消息类型' DEFAULT '',
+	`Content` text COMMENT '内容',
+	`MsgId` char(64) COMMENT '消息id' DEFAULT '',
+	`Location_X` varchar(50) COMMENT '地理位置维度',
+	`Location_Y` varchar(50) COMMENT '地理位置经度',
+	`Scale` varchar(50) COMMENT '地图缩放大小',
+	`Label	` varchar(200) COMMENT '地理位置信息',
+	`PicUrl` varchar(200) COMMENT '图片链接',
+	`Title` varchar(50) COMMENT '标题',
+	`Description` varchar(200) COMMENT '',
+	`Url` varchar(100) COMMENT '连接地址',
+	`MediaId` varchar(200) COMMENT '媒体ID',
+	`Event` varchar(30) COMMENT '时间',
+	`EventKey` varchar(100) COMMENT '响应',
+	PRIMARY KEY  (`request_id`)
+) COMMENT '接收消息';
+
+
+
+--------2015-01-13 10:16:19---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: 执行sql语句Excute失败crm
+	Incorrect column name 'Label	'\nCREATE TABLE `request` (`request_id` char(24) COMMENT '编号',
+	`ToUserName` varchar(50) COMMENT '开发者微信号' DEFAULT '',
+	`FromUserName` varchar(50) COMMENT ' 发送房Id' DEFAULT '',
+	`CreateTime` int(11) COMMENT '创建时间' DEFAULT 0,
+	`MsgType` varchar(20) COMMENT '消息类型' DEFAULT '',
+	`Content` text COMMENT '内容',
+	`MsgId` char(64) COMMENT '消息id' DEFAULT '',
+	`Location_X` varchar(50) COMMENT '地理位置维度',
+	`Location_Y` varchar(50) COMMENT '地理位置经度',
+	`Scale` varchar(50) COMMENT '地图缩放大小',
+	`Label	` varchar(200) COMMENT '地理位置信息',
+	`PicUrl` varchar(200) COMMENT '图片链接',
+	`Title` varchar(50) COMMENT '标题',
+	`Description` varchar(200) COMMENT '',
+	`Url` varchar(100) COMMENT '连接地址',
+	`MediaId` varchar(200) COMMENT '媒体ID',
+	`Event` varchar(30) COMMENT '时间',
+	`EventKey` varchar(100) COMMENT '响应',
+	PRIMARY KEY  (`request_id`)
+) COMMENT '接收消息';
+
+
+  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Query.Excute (System.String sql) [0x00000] in <filename unknown>:0 
+  at  . (System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2015-01-13 10:16:23---------------------------------------------------------------
+	Error:执行sql语句Excute失败crm
+	Incorrect column name 'Label	'\nCREATE TABLE `request` (`request_id` char(24) COMMENT '编号',
+	`ToUserName` varchar(50) COMMENT '开发者微信号' DEFAULT '',
+	`FromUserName` varchar(50) COMMENT ' 发送房Id' DEFAULT '',
+	`CreateTime` int(11) COMMENT '创建时间' DEFAULT 0,
+	`MsgType` varchar(20) COMMENT '消息类型' DEFAULT '',
+	`Content` text COMMENT '内容',
+	`MsgId` char(64) COMMENT '消息id' DEFAULT '',
+	`Location_X` varchar(50) COMMENT '地理位置维度',
+	`Location_Y` varchar(50) COMMENT '地理位置经度',
+	`Scale` varchar(50) COMMENT '地图缩放大小',
+	`Label	` varchar(200) COMMENT '地理位置信息',
+	`PicUrl` varchar(200) COMMENT '图片链接',
+	`Title` varchar(50) COMMENT '标题',
+	`Description` varchar(200) COMMENT '',
+	`Url` varchar(100) COMMENT '连接地址',
+	`MediaId` varchar(200) COMMENT '媒体ID',
+	`Event` varchar(30) COMMENT '时间',
+	`EventKey` varchar(100) COMMENT '响应',
+	PRIMARY KEY  (`request_id`)
+) COMMENT '接收消息';
+
+
+
+--------2015-01-13 10:16:23---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: 执行sql语句Excute失败crm
+	Incorrect column name 'Label	'\nCREATE TABLE `request` (`request_id` char(24) COMMENT '编号',
+	`ToUserName` varchar(50) COMMENT '开发者微信号' DEFAULT '',
+	`FromUserName` varchar(50) COMMENT ' 发送房Id' DEFAULT '',
+	`CreateTime` int(11) COMMENT '创建时间' DEFAULT 0,
+	`MsgType` varchar(20) COMMENT '消息类型' DEFAULT '',
+	`Content` text COMMENT '内容',
+	`MsgId` char(64) COMMENT '消息id' DEFAULT '',
+	`Location_X` varchar(50) COMMENT '地理位置维度',
+	`Location_Y` varchar(50) COMMENT '地理位置经度',
+	`Scale` varchar(50) COMMENT '地图缩放大小',
+	`Label	` varchar(200) COMMENT '地理位置信息',
+	`PicUrl` varchar(200) COMMENT '图片链接',
+	`Title` varchar(50) COMMENT '标题',
+	`Description` varchar(200) COMMENT '',
+	`Url` varchar(100) COMMENT '连接地址',
+	`MediaId` varchar(200) COMMENT '媒体ID',
+	`Event` varchar(30) COMMENT '时间',
+	`EventKey` varchar(100) COMMENT '响应',
+	PRIMARY KEY  (`request_id`)
+) COMMENT '接收消息';
+
+
+  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Query.Excute (System.String sql) [0x00000] in <filename unknown>:0 
+  at  . (System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2015-01-13 10:16:23---------------------------------------------------------------
+	Error:执行sql语句Excute失败crm
+	Incorrect column name 'Label	'\nCREATE TABLE `request` (`request_id` char(24) COMMENT '编号',
+	`ToUserName` varchar(50) COMMENT '开发者微信号' DEFAULT '',
+	`FromUserName` varchar(50) COMMENT ' 发送房Id' DEFAULT '',
+	`CreateTime` int(11) COMMENT '创建时间' DEFAULT 0,
+	`MsgType` varchar(20) COMMENT '消息类型' DEFAULT '',
+	`Content` text COMMENT '内容',
+	`MsgId` char(64) COMMENT '消息id' DEFAULT '',
+	`Location_X` varchar(50) COMMENT '地理位置维度',
+	`Location_Y` varchar(50) COMMENT '地理位置经度',
+	`Scale` varchar(50) COMMENT '地图缩放大小',
+	`Label	` varchar(200) COMMENT '地理位置信息',
+	`PicUrl` varchar(200) COMMENT '图片链接',
+	`Title` varchar(50) COMMENT '标题',
+	`Description` varchar(200) COMMENT '',
+	`Url` varchar(100) COMMENT '连接地址',
+	`MediaId` varchar(200) COMMENT '媒体ID',
+	`Event` varchar(30) COMMENT '时间',
+	`EventKey` varchar(100) COMMENT '响应',
+	PRIMARY KEY  (`request_id`)
+) COMMENT '接收消息';
+
+
+
+--------2015-01-13 10:16:23---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: 执行sql语句Excute失败crm
+	Incorrect column name 'Label	'\nCREATE TABLE `request` (`request_id` char(24) COMMENT '编号',
+	`ToUserName` varchar(50) COMMENT '开发者微信号' DEFAULT '',
+	`FromUserName` varchar(50) COMMENT ' 发送房Id' DEFAULT '',
+	`CreateTime` int(11) COMMENT '创建时间' DEFAULT 0,
+	`MsgType` varchar(20) COMMENT '消息类型' DEFAULT '',
+	`Content` text COMMENT '内容',
+	`MsgId` char(64) COMMENT '消息id' DEFAULT '',
+	`Location_X` varchar(50) COMMENT '地理位置维度',
+	`Location_Y` varchar(50) COMMENT '地理位置经度',
+	`Scale` varchar(50) COMMENT '地图缩放大小',
+	`Label	` varchar(200) COMMENT '地理位置信息',
+	`PicUrl` varchar(200) COMMENT '图片链接',
+	`Title` varchar(50) COMMENT '标题',
+	`Description` varchar(200) COMMENT '',
+	`Url` varchar(100) COMMENT '连接地址',
+	`MediaId` varchar(200) COMMENT '媒体ID',
+	`Event` varchar(30) COMMENT '时间',
+	`EventKey` varchar(100) COMMENT '响应',
+	PRIMARY KEY  (`request_id`)
+) COMMENT '接收消息';
+
+
+  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Query.Excute (System.String sql) [0x00000] in <filename unknown>:0 
+  at  . (System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2015-01-13 10:16:25---------------------------------------------------------------
+	Error:执行sql语句Excute失败crm
+	Incorrect column name 'Label	'\nCREATE TABLE `request` (`request_id` char(24) COMMENT '编号',
+	`ToUserName` varchar(50) COMMENT '开发者微信号' DEFAULT '',
+	`FromUserName` varchar(50) COMMENT ' 发送房Id' DEFAULT '',
+	`CreateTime` int(11) COMMENT '创建时间' DEFAULT 0,
+	`MsgType` varchar(20) COMMENT '消息类型' DEFAULT '',
+	`Content` text COMMENT '内容',
+	`MsgId` char(64) COMMENT '消息id' DEFAULT '',
+	`Location_X` varchar(50) COMMENT '地理位置维度',
+	`Location_Y` varchar(50) COMMENT '地理位置经度',
+	`Scale` varchar(50) COMMENT '地图缩放大小',
+	`Label	` varchar(200) COMMENT '地理位置信息',
+	`PicUrl` varchar(200) COMMENT '图片链接',
+	`Title` varchar(50) COMMENT '标题',
+	`Description` varchar(200) COMMENT '',
+	`Url` varchar(100) COMMENT '连接地址',
+	`MediaId` varchar(200) COMMENT '媒体ID',
+	`Event` varchar(30) COMMENT '时间',
+	`EventKey` varchar(100) COMMENT '响应',
+	PRIMARY KEY  (`request_id`)
+) COMMENT '接收消息';
+
+
+
+--------2015-01-13 10:16:25---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: 执行sql语句Excute失败crm
+	Incorrect column name 'Label	'\nCREATE TABLE `request` (`request_id` char(24) COMMENT '编号',
+	`ToUserName` varchar(50) COMMENT '开发者微信号' DEFAULT '',
+	`FromUserName` varchar(50) COMMENT ' 发送房Id' DEFAULT '',
+	`CreateTime` int(11) COMMENT '创建时间' DEFAULT 0,
+	`MsgType` varchar(20) COMMENT '消息类型' DEFAULT '',
+	`Content` text COMMENT '内容',
+	`MsgId` char(64) COMMENT '消息id' DEFAULT '',
+	`Location_X` varchar(50) COMMENT '地理位置维度',
+	`Location_Y` varchar(50) COMMENT '地理位置经度',
+	`Scale` varchar(50) COMMENT '地图缩放大小',
+	`Label	` varchar(200) COMMENT '地理位置信息',
+	`PicUrl` varchar(200) COMMENT '图片链接',
+	`Title` varchar(50) COMMENT '标题',
+	`Description` varchar(200) COMMENT '',
+	`Url` varchar(100) COMMENT '连接地址',
+	`MediaId` varchar(200) COMMENT '媒体ID',
+	`Event` varchar(30) COMMENT '时间',
+	`EventKey` varchar(100) COMMENT '响应',
+	PRIMARY KEY  (`request_id`)
+) COMMENT '接收消息';
+
+
+  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Query.Excute (System.String sql) [0x00000] in <filename unknown>:0 
+  at  . (System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2015-01-13 10:16:25---------------------------------------------------------------
+	Error:执行sql语句Excute失败crm
+	Incorrect column name 'Label	'\nCREATE TABLE `request` (`request_id` char(24) COMMENT '编号',
+	`ToUserName` varchar(50) COMMENT '开发者微信号' DEFAULT '',
+	`FromUserName` varchar(50) COMMENT ' 发送房Id' DEFAULT '',
+	`CreateTime` int(11) COMMENT '创建时间' DEFAULT 0,
+	`MsgType` varchar(20) COMMENT '消息类型' DEFAULT '',
+	`Content` text COMMENT '内容',
+	`MsgId` char(64) COMMENT '消息id' DEFAULT '',
+	`Location_X` varchar(50) COMMENT '地理位置维度',
+	`Location_Y` varchar(50) COMMENT '地理位置经度',
+	`Scale` varchar(50) COMMENT '地图缩放大小',
+	`Label	` varchar(200) COMMENT '地理位置信息',
+	`PicUrl` varchar(200) COMMENT '图片链接',
+	`Title` varchar(50) COMMENT '标题',
+	`Description` varchar(200) COMMENT '',
+	`Url` varchar(100) COMMENT '连接地址',
+	`MediaId` varchar(200) COMMENT '媒体ID',
+	`Event` varchar(30) COMMENT '时间',
+	`EventKey` varchar(100) COMMENT '响应',
+	PRIMARY KEY  (`request_id`)
+) COMMENT '接收消息';
+
+
+
+--------2015-01-13 10:16:25---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: 执行sql语句Excute失败crm
+	Incorrect column name 'Label	'\nCREATE TABLE `request` (`request_id` char(24) COMMENT '编号',
+	`ToUserName` varchar(50) COMMENT '开发者微信号' DEFAULT '',
+	`FromUserName` varchar(50) COMMENT ' 发送房Id' DEFAULT '',
+	`CreateTime` int(11) COMMENT '创建时间' DEFAULT 0,
+	`MsgType` varchar(20) COMMENT '消息类型' DEFAULT '',
+	`Content` text COMMENT '内容',
+	`MsgId` char(64) COMMENT '消息id' DEFAULT '',
+	`Location_X` varchar(50) COMMENT '地理位置维度',
+	`Location_Y` varchar(50) COMMENT '地理位置经度',
+	`Scale` varchar(50) COMMENT '地图缩放大小',
+	`Label	` varchar(200) COMMENT '地理位置信息',
+	`PicUrl` varchar(200) COMMENT '图片链接',
+	`Title` varchar(50) COMMENT '标题',
+	`Description` varchar(200) COMMENT '',
+	`Url` varchar(100) COMMENT '连接地址',
+	`MediaId` varchar(200) COMMENT '媒体ID',
+	`Event` varchar(30) COMMENT '时间',
+	`EventKey` varchar(100) COMMENT '响应',
+	PRIMARY KEY  (`request_id`)
+) COMMENT '接收消息';
+
+
+  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Query.Excute (System.String sql) [0x00000] in <filename unknown>:0 
+  at  . (System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2015-01-13 10:16:25---------------------------------------------------------------
+	Error:执行sql语句Excute失败crm
+	Incorrect column name 'Label	'\nCREATE TABLE `request` (`request_id` char(24) COMMENT '编号',
+	`ToUserName` varchar(50) COMMENT '开发者微信号' DEFAULT '',
+	`FromUserName` varchar(50) COMMENT ' 发送房Id' DEFAULT '',
+	`CreateTime` int(11) COMMENT '创建时间' DEFAULT 0,
+	`MsgType` varchar(20) COMMENT '消息类型' DEFAULT '',
+	`Content` text COMMENT '内容',
+	`MsgId` char(64) COMMENT '消息id' DEFAULT '',
+	`Location_X` varchar(50) COMMENT '地理位置维度',
+	`Location_Y` varchar(50) COMMENT '地理位置经度',
+	`Scale` varchar(50) COMMENT '地图缩放大小',
+	`Label	` varchar(200) COMMENT '地理位置信息',
+	`PicUrl` varchar(200) COMMENT '图片链接',
+	`Title` varchar(50) COMMENT '标题',
+	`Description` varchar(200) COMMENT '',
+	`Url` varchar(100) COMMENT '连接地址',
+	`MediaId` varchar(200) COMMENT '媒体ID',
+	`Event` varchar(30) COMMENT '时间',
+	`EventKey` varchar(100) COMMENT '响应',
+	PRIMARY KEY  (`request_id`)
+) COMMENT '接收消息';
+
+
+
+--------2015-01-13 10:16:25---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: 执行sql语句Excute失败crm
+	Incorrect column name 'Label	'\nCREATE TABLE `request` (`request_id` char(24) COMMENT '编号',
+	`ToUserName` varchar(50) COMMENT '开发者微信号' DEFAULT '',
+	`FromUserName` varchar(50) COMMENT ' 发送房Id' DEFAULT '',
+	`CreateTime` int(11) COMMENT '创建时间' DEFAULT 0,
+	`MsgType` varchar(20) COMMENT '消息类型' DEFAULT '',
+	`Content` text COMMENT '内容',
+	`MsgId` char(64) COMMENT '消息id' DEFAULT '',
+	`Location_X` varchar(50) COMMENT '地理位置维度',
+	`Location_Y` varchar(50) COMMENT '地理位置经度',
+	`Scale` varchar(50) COMMENT '地图缩放大小',
+	`Label	` varchar(200) COMMENT '地理位置信息',
+	`PicUrl` varchar(200) COMMENT '图片链接',
+	`Title` varchar(50) COMMENT '标题',
+	`Description` varchar(200) COMMENT '',
+	`Url` varchar(100) COMMENT '连接地址',
+	`MediaId` varchar(200) COMMENT '媒体ID',
+	`Event` varchar(30) COMMENT '时间',
+	`EventKey` varchar(100) COMMENT '响应',
+	PRIMARY KEY  (`request_id`)
+) COMMENT '接收消息';
+
+
+  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Query.Excute (System.String sql) [0x00000] in <filename unknown>:0 
+  at  . (System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2015-01-13 10:16:25---------------------------------------------------------------
+	Error:执行sql语句Excute失败crm
+	Incorrect column name 'Label	'\nCREATE TABLE `request` (`request_id` char(24) COMMENT '编号',
+	`ToUserName` varchar(50) COMMENT '开发者微信号' DEFAULT '',
+	`FromUserName` varchar(50) COMMENT ' 发送房Id' DEFAULT '',
+	`CreateTime` int(11) COMMENT '创建时间' DEFAULT 0,
+	`MsgType` varchar(20) COMMENT '消息类型' DEFAULT '',
+	`Content` text COMMENT '内容',
+	`MsgId` char(64) COMMENT '消息id' DEFAULT '',
+	`Location_X` varchar(50) COMMENT '地理位置维度',
+	`Location_Y` varchar(50) COMMENT '地理位置经度',
+	`Scale` varchar(50) COMMENT '地图缩放大小',
+	`Label	` varchar(200) COMMENT '地理位置信息',
+	`PicUrl` varchar(200) COMMENT '图片链接',
+	`Title` varchar(50) COMMENT '标题',
+	`Description` varchar(200) COMMENT '',
+	`Url` varchar(100) COMMENT '连接地址',
+	`MediaId` varchar(200) COMMENT '媒体ID',
+	`Event` varchar(30) COMMENT '时间',
+	`EventKey` varchar(100) COMMENT '响应',
+	PRIMARY KEY  (`request_id`)
+) COMMENT '接收消息';
+
+
+
+--------2015-01-13 10:16:25---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: 执行sql语句Excute失败crm
+	Incorrect column name 'Label	'\nCREATE TABLE `request` (`request_id` char(24) COMMENT '编号',
+	`ToUserName` varchar(50) COMMENT '开发者微信号' DEFAULT '',
+	`FromUserName` varchar(50) COMMENT ' 发送房Id' DEFAULT '',
+	`CreateTime` int(11) COMMENT '创建时间' DEFAULT 0,
+	`MsgType` varchar(20) COMMENT '消息类型' DEFAULT '',
+	`Content` text COMMENT '内容',
+	`MsgId` char(64) COMMENT '消息id' DEFAULT '',
+	`Location_X` varchar(50) COMMENT '地理位置维度',
+	`Location_Y` varchar(50) COMMENT '地理位置经度',
+	`Scale` varchar(50) COMMENT '地图缩放大小',
+	`Label	` varchar(200) COMMENT '地理位置信息',
+	`PicUrl` varchar(200) COMMENT '图片链接',
+	`Title` varchar(50) COMMENT '标题',
+	`Description` varchar(200) COMMENT '',
+	`Url` varchar(100) COMMENT '连接地址',
+	`MediaId` varchar(200) COMMENT '媒体ID',
+	`Event` varchar(30) COMMENT '时间',
+	`EventKey` varchar(100) COMMENT '响应',
+	PRIMARY KEY  (`request_id`)
+) COMMENT '接收消息';
+
+
+  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Query.Excute (System.String sql) [0x00000] in <filename unknown>:0 
+  at  . (System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2015-01-13 15:12:37---------------------------------------------------------------
+	Error:获取dataTable失败
+	MySql.Data.MySqlClient.MySqlException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%'互联网'% LIMIT 0,4' at line 1
+  at MySql.Data.MySqlClient.MySqlStream.ReadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.NativeDriver.GetResult (System.Int32& affectedRow, System.Int64& insertedId) [0x00000] in <filename unknown>:0 -----SELECT * FROM `article` WHERE `keyword` LIKE %?keyword% LIMIT 0,4
+
+--------2015-01-13 15:13:07---------------------------------------------------------------
+	Error:获取dataTable失败
+	MySql.Data.MySqlClient.MySqlException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%'互联网'% LIMIT 0,4' at line 1
+  at MySql.Data.MySqlClient.MySqlStream.ReadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.NativeDriver.GetResult (System.Int32& affectedRow, System.Int64& insertedId) [0x00000] in <filename unknown>:0 -----SELECT * FROM `article` WHERE `keyword` LIKE %?keyword% LIMIT 0,4
+
+--------2015-01-13 15:13:26---------------------------------------------------------------
+	Error:获取dataTable失败
+	MySql.Data.MySqlClient.MySqlException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%'互联网'% LIMIT 0,4' at line 1
+  at MySql.Data.MySqlClient.MySqlStream.ReadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.NativeDriver.GetResult (System.Int32& affectedRow, System.Int64& insertedId) [0x00000] in <filename unknown>:0 -----SELECT * FROM `article` WHERE `keyword` LIKE %?keyword% LIMIT 0,4
+
+--------2015-01-13 15:13:42---------------------------------------------------------------
+	Error:获取dataTable失败
+	MySql.Data.MySqlClient.MySqlException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%'互联网'% LIMIT 0,4' at line 1
+  at MySql.Data.MySqlClient.MySqlStream.ReadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.NativeDriver.GetResult (System.Int32& affectedRow, System.Int64& insertedId) [0x00000] in <filename unknown>:0 -----SELECT * FROM `article` WHERE `keyword` LIKE %?keyword% LIMIT 0,4
+
+--------2015-01-13 15:14:58---------------------------------------------------------------
+	Error:获取dataTable失败
+	MySql.Data.MySqlClient.MySqlException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%'互联网'% LIMIT 0,4' at line 1
+  at MySql.Data.MySqlClient.MySqlStream.ReadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.NativeDriver.GetResult (System.Int32& affectedRow, System.Int64& insertedId) [0x00000] in <filename unknown>:0 -----SELECT * FROM `article` WHERE `keyword` LIKE %?keyword% LIMIT 0,4
+
+--------2015-01-13 15:20:13---------------------------------------------------------------
+	Error:获取dataTable失败
+	MySql.Data.MySqlClient.MySqlException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%'互联网'% LIMIT 0,4' at line 1
+  at MySql.Data.MySqlClient.MySqlStream.ReadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.NativeDriver.GetResult (System.Int32& affectedRow, System.Int64& insertedId) [0x00000] in <filename unknown>:0 -----SELECT * FROM `article` WHERE `keyword` LIKE %?keyword% LIMIT 0,4
+

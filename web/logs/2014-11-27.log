@@ -1,0 +1,88 @@
+﻿--------2014-11-27 10:06:31---------------------------------------------------------------
+	Error:应用错误
+	System.Threading.ThreadAbortException: Thread was being aborted
+  at Jabinfo.JabinfoController._JabinfoExcute (System.String[] userParam, Jabinfo.JabinfoContext context) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-11-27 10:06:38---------------------------------------------------------------
+	Error:https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=wx6522a9d862ae7a0f&secret=2742914b63c29a7084d81025790d506f
+	Error getting response stream (ReadDone2): ReceiveFailure
+
+--------2014-11-27 10:09:54---------------------------------------------------------------
+	Error:应用错误
+	System.Threading.ThreadAbortException: Thread was being aborted
+  at Jabinfo.JabinfoController._JabinfoExcute (System.String[] userParam, Jabinfo.JabinfoContext context) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-11-27 10:29:12---------------------------------------------------------------
+	Error:https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=wx6522a9d862ae7a0f&secret=2742914b63c29a7084d81025790d506f
+	Error getting response stream (ReadDone1): ReceiveFailure
+
+--------2014-11-27 10:55:42---------------------------------------------------------------
+	Error:https://api.weixin.qq.com/cgi-bin/menu/delete?access_token=0
+	Thread was being aborted
+
+--------2014-11-27 10:55:42---------------------------------------------------------------
+	Error:应用错误
+	System.Threading.ThreadAbortException: Thread was being aborted
+  at Jabinfo.JabinfoController._JabinfoExcute (System.String[] userParam, Jabinfo.JabinfoContext context) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-11-27 20:46:24---------------------------------------------------------------
+	Error:获取dataTable失败
+	MySql.Data.MySqlClient.MySqlException: Unable to connect to any of the specified MySQL hosts.
+  at MySql.Data.MySqlClient.NativeDriver.Open () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Driver.Open () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Driver.Create (MySql.Data.MySqlClient.MySqlConnectionStringBuilder settings) [0x00000] in <filename unknown>:0 -----
+
+--------2014-11-27 20:46:24---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: 获取dataTable失败
+	MySql.Data.MySqlClient.MySqlException: Unable to connect to any of the specified MySQL hosts.
+  at MySql.Data.MySqlClient.NativeDriver.Open () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Driver.Open () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Driver.Create (MySql.Data.MySqlClient.MySqlConnectionStringBuilder settings) [0x00000] in <filename unknown>:0 -----
+  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Select.All () [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Select.Row () [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoManager. (System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoManager..ctor (System.String username) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-11-27 22:40:58---------------------------------------------------------------
+	Error:http://127.0.0.1:8060/article/home/index<xml>
+<ToUserName><![CDATA[onb4AtxTIDJAhuLJkVR9pvXPys2I]]></ToUserName>
+<FromUserName><![CDATA[]]></FromUserName>
+<CreateTime>1417093515</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[dsasdas]]></Content>
+<MsgId>1234567890123456</MsgId>
+</xml>
+	System.Threading.ThreadAbortException: Thread was being aborted
+  at (wrapper managed-to-native) System.Threading.WaitHandle:WaitOne_internal (System.Threading.WaitHandle,intptr,int,bool)
+  at System.Threading.WaitHandle.WaitOne (Int32 millisecondsTimeout, Boolean exitContext) [0x00000] in <filename unknown>:0 
+  at System.Net.SimpleAsyncResult.WaitUntilComplete (Int32 timeout, Boolean exitContext) [0x00000] in <filename unknown>:0 
+  at System.Net.HttpWebRequest.EndGetResponse (IAsyncResult asyncResult) [0x00000] in <filename unknown>:0 
+  at System.Net.HttpWebRequest.GetResponse () [0x00000] in <filename unknown>:0 
+  at Jabinfo.Help.Http.Post (System.String url, System.String data, System.String encode, Boolean isHttps) [0x00000] in <filename unknown>:0 
+
+--------2014-11-27 22:40:58---------------------------------------------------------------
+	Error:应用错误
+	System.Threading.ThreadAbortException: Thread was being aborted
+  at Jabinfo.JabinfoController._JabinfoExcute (System.String[] userParam, Jabinfo.JabinfoContext context) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-11-27 22:50:14---------------------------------------------------------------
+	Error:获取dataTable失败
+	MySql.Data.MySqlClient.MySqlException: Unable to connect to any of the specified MySQL hosts. ---> System.Threading.ThreadAbortException: Thread was being aborted
+  at (wrapper managed-to-native) System.Threading.WaitHandle:WaitOne_internal (System.Threading.WaitHandle,intptr,int,bool)
+  at System.Threading.WaitHandle.WaitOne (Int32 millisecondsTimeout, Boolean exitContext) [0x00000] in <filename unknown>:0 
+  at MySql.Data.Common.MyNetworkStream.CreateSocketStream (MySql.Data.MySqlClient.MySqlConnectionStringBuilder settings, System.Net.IPAddress ip, Boolean unix) [0x00000] in <filename unknown>:0 
+  at MySql.Data.Common.MyNetworkStream.CreateStream (MySql.Data.MySqlClient.MySqlConnectionStringBuilder settings, Boolean unix) [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at MySql.Data.MySqlClient.NativeDriver.Open () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Driver.Open () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Driver.Create (MySql.Data.MySqlClient.MySqlConnectionStringBuilder settings) [0x00000] in <filename unknown>:0 -----
+

@@ -1,0 +1,73 @@
+﻿--------2013-12-07 22:04:32---------------------------------------------------------------
+	Error:zento_home_login
+	System.TimeoutException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 ---> System.IO.IOException: 无法从传输连接中读取数据: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。。 ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 MySql.Data.Common.MyNetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 MySql.Data.Common.MyNetworkStream.HandleOrRethrowException(Exception e)
+   在 MySql.Data.Common.MyNetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   在 MySql.Data.MySqlClient.TimedStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   在 System.IO.BufferedStream.Read(Byte[] array, Int32 offset, Int32 count)
+   在 MySql.Data.MySqlClient.MySqlStream.ReadFully(Stream stream, Byte[] buffer, Int32 offset, Int32 count)
+   在 MySql.Data.MySqlClient.MySqlStream.LoadPacket()
+   在 MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.Open()
+   在 MySql.Data.MySqlClient.Driver.Open()
+   在 MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   在 MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   在 MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 Sinbo.QueryMysql.ExcuteScalar(CommandType cmdType, String cmdText) 位置 d:\project\apps\JabinfoFramework\Jabinfo\Schema\MySQL\Query.cs:行号 167
+   在 Sinbo.TemplateHelp.Parse(String E4) 位置 d:\project\apps\JabinfoFramework\Jabinfo\Engine\Helper.cs:行号 58
+   在 Sinbo.Template.L2(Expression L3) 位置 d:\project\apps\JabinfoFramework\Jabinfo\Engine\TemplateManager.cs:行号 285
+
+--------2013-12-07 22:04:37---------------------------------------------------------------
+	Error:zento_home_login
+	System.TimeoutException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 ---> System.IO.IOException: 无法从传输连接中读取数据: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。。 ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 MySql.Data.Common.MyNetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 MySql.Data.Common.MyNetworkStream.HandleOrRethrowException(Exception e)
+   在 MySql.Data.Common.MyNetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   在 MySql.Data.MySqlClient.TimedStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   在 System.IO.BufferedStream.Read(Byte[] array, Int32 offset, Int32 count)
+   在 MySql.Data.MySqlClient.MySqlStream.ReadFully(Stream stream, Byte[] buffer, Int32 offset, Int32 count)
+   在 MySql.Data.MySqlClient.MySqlStream.LoadPacket()
+   在 MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.Open()
+   在 MySql.Data.MySqlClient.Driver.Open()
+   在 MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   在 MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   在 MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 Sinbo.QueryMysql.ExcuteScalar(CommandType cmdType, String cmdText) 位置 d:\project\apps\JabinfoFramework\Jabinfo\Schema\MySQL\Query.cs:行号 167
+   在 Sinbo.TemplateHelp.Parse(String E4) 位置 d:\project\apps\JabinfoFramework\Jabinfo\Engine\Helper.cs:行号 58
+   在 Sinbo.Template.L2(Expression L3) 位置 d:\project\apps\JabinfoFramework\Jabinfo\Engine\TemplateManager.cs:行号 285
+	POSITOIN:   在 Jabinfo.JabinfoLoger.Error(String title, String message) 位置 d:\project\apps\JabinfoFramework\Jabinfo\JabinfoLoger.cs:行号 207
+   在 Sinbo.Template.L2(Expression L3) 位置 d:\project\apps\JabinfoFramework\Jabinfo\Engine\TemplateManager.cs:行号 519
+   在 Sinbo.Template.K8(Expression K9) 位置 d:\project\apps\JabinfoFramework\Jabinfo\Engine\TemplateManager.cs:行号 222
+   在 Sinbo.Template.K5(Element K6) 位置 d:\project\apps\JabinfoFramework\Jabinfo\Engine\TemplateManager.cs:行号 213
+   在 Sinbo.Template.K2(List`1 K3) 位置 d:\project\apps\JabinfoFramework\Jabinfo\Engine\TemplateManager.cs:行号 201
+   在 Sinbo.Template.E7(TextWriter F1) 位置 d:\project\apps\JabinfoFramework\Jabinfo\Engine\TemplateManager.cs:行号 173
+   在 Sinbo.Template.E6() 位置 d:\project\apps\JabinfoFramework\Jabinfo\Engine\TemplateManager.cs:行号 72
+   在 Jabinfo.JabinfoView.Render() 位置 d:\project\apps\JabinfoFramework\Jabinfo\JabinfoView.cs:行号 109
+   在 Jabinfo.Zento.Home.login() 位置 d:\project\zento\project\Zento\Home.cs:行号 39
+	URL:http://localhost:6178/
+	Referrer:
+	POST:
+	GET:
+	COOKIE:uid=1002032132328300875; ukey=0brGsPW8CAdrX49aloGTFPpZOiI8N0PO; username=sinbo%40jabinfo.com; 
+	DATA:
+	IP:::1
+
+

@@ -1,0 +1,14 @@
+﻿--------2015-01-16 09:33:48---------------------------------------------------------------
+	Error:应用错误
+	System.NullReferenceException: Object reference not set to an instance of an object
+  at  . (Jabinfo.JabinfoContext , System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2015-01-16 09:37:41---------------------------------------------------------------
+	Error:应用错误
+	System.NullReferenceException: Object reference not set to an instance of an object
+  at  . (Jabinfo.JabinfoContext , System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+

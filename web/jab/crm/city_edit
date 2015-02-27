@@ -1,0 +1,1 @@
+<tr><th>名称</th><td><input type="text" maxlength="50" name="title" value="?city.title?" /><input type="hidden" maxlength="24" name="cityId" value="?city.cityId?" /></td></tr><tr><th>排序</th><td><input type="text" maxlength="10" name="index" value="?city.index?" /></td></tr>

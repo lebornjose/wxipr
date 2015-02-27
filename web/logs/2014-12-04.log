@@ -1,0 +1,46 @@
+﻿--------2014-12-04 14:16:23---------------------------------------------------------------
+	Error:执行sql语句Excute失败article
+	Table 'up' already exists\nCREATE TABLE `up` (`up_id` char(24) COMMENT '编号',
+	`title` varchar(30) COMMENT '名称' DEFAULT '',
+	`type` varchar(30) COMMENT '类型' DEFAULT '',
+	`media_id` varchar(50) COMMENT '唯一标示' DEFAULT '',
+	`created` int(11) COMMENT '上传时间' DEFAULT 0,
+	PRIMARY KEY  (`up_id`)
+) COMMENT '文件上传';
+
+
+
+--------2014-12-04 14:16:23---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: 执行sql语句Excute失败article
+	Table 'up' already exists\nCREATE TABLE `up` (`up_id` char(24) COMMENT '编号',
+	`title` varchar(30) COMMENT '名称' DEFAULT '',
+	`type` varchar(30) COMMENT '类型' DEFAULT '',
+	`media_id` varchar(50) COMMENT '唯一标示' DEFAULT '',
+	`created` int(11) COMMENT '上传时间' DEFAULT 0,
+	PRIMARY KEY  (`up_id`)
+) COMMENT '文件上传';
+
+
+  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Query.Excute (System.String sql) [0x00000] in <filename unknown>:0 
+  at  . (System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-12-04 15:24:21---------------------------------------------------------------
+	Error:应用错误
+	System.ArgumentNullException: Argument cannot be null.
+Parameter name: key
+  at System.Collections.Generic.Dictionary`2[System.String,Jabinfo.DB.Interface.IQuery].ContainsKey (System.String key) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoDB.Instance (System.String name) [0x00000] in <filename unknown>:0 
+  at  . (System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext , System.String ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-12-04 16:21:48---------------------------------------------------------------
+	Error:https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=wx6522a9d862ae7a0f&secret=2742914b63c29a7084d81025790d506f
+	Error getting response stream (ReadDone2): ReceiveFailure
+

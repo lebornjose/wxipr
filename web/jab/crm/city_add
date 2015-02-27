@@ -1,0 +1,1 @@
+<tr><th>名称</th><td><input type="text" maxlength="50" name="title" /></td></tr><tr><th>排序</th><td><input type="text" maxlength="10" value="1" name="index" koo="act-jump-digit"/></td></tr>

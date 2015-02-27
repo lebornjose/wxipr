@@ -1,0 +1,24 @@
+﻿--------2015-01-08 13:51:30---------------------------------------------------------------
+	Error:获取ExcuteScalar失败core
+	Table 'crm-dev.auto_id' doesn't exist\nselect jab_val from auto_id where jab_id='cat_tag'
+
+--------2015-01-08 13:59:29---------------------------------------------------------------
+	Error:获取ExcuteScalar失败core
+	Table 'crm-dev.auto_id' doesn't exist\nselect jab_val from auto_id where jab_id='cat_tag'
+
+--------2015-01-08 14:00:04---------------------------------------------------------------
+	Error:获取ExcuteScalar失败core
+	Table 'crm-dev.auto_id' doesn't exist\nselect jab_val from auto_id where jab_id='cat_tag'
+
+--------2015-01-08 14:02:06---------------------------------------------------------------
+	Error:获取ExcuteScalar失败core
+	Table 'crm-dev.auto_id' doesn't exist\nselect jab_val from auto_id where jab_id='cat'
+
+--------2015-01-08 14:02:41---------------------------------------------------------------
+	Error:获取ExcuteScalar失败core
+	Table 'crm-dev.auto_id' doesn't exist\nselect jab_val from auto_id where jab_id='cat_id'
+
+--------2015-01-08 14:06:45---------------------------------------------------------------
+	Error:获取ExcuteScalar失败core
+	Table 'crm-dev.auto_id' doesn't exist\nselect jab_val from auto_id where jab_id='cat_tag'
+

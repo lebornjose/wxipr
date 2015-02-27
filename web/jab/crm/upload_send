@@ -1,0 +1,1 @@
+<tr><th>分组</th><td><select name="group"><option value="">全部用户</option><option value="0">未分组</option><option value="1">黑名单</option><option value="2">星标组</option><:foreach collection="?categoryList?" var="list"><option value="?list.categoryId?">?list.title?</option></:foreach></select><input type="hidden" name="mediaId" value="?mediaId?"></td></tr>

@@ -1,0 +1,36 @@
+﻿--------2015-01-09 10:05:07---------------------------------------------------------------
+	Error:应用错误
+	System.Threading.ThreadAbortException: Thread was being aborted
+  at Jabinfo.JabinfoController._JabinfoExcute (System.String[] userParam, Jabinfo.JabinfoContext context) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2015-01-09 10:14:05---------------------------------------------------------------
+	Error:应用错误
+	System.Threading.ThreadAbortException: Thread was being aborted
+  at Jabinfo.JabinfoController._JabinfoExcute (System.String[] userParam, Jabinfo.JabinfoContext context) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2015-01-09 11:42:55---------------------------------------------------------------
+	Error:应用错误
+	System.OverflowException: Value is too large
+  at System.Int32.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at System.Convert.ToInt32 (System.String value) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoController._JabinfoExcute (System.String[] userParam, Jabinfo.JabinfoContext context) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2015-01-09 15:48:09---------------------------------------------------------------
+	Error:执行sql语句Excute失败crm
+	Duplicate entry '' for key 'PRIMARY'\nALTER TABLE `menu` ADD PRIMARY KEY(`menu_id`)
+
+--------2015-01-09 15:48:09---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: 执行sql语句Excute失败crm
+	Duplicate entry '' for key 'PRIMARY'\nALTER TABLE `menu` ADD PRIMARY KEY(`menu_id`)
+  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Query.Excute (System.String sql) [0x00000] in <filename unknown>:0 
+  at  . (System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  . (System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+

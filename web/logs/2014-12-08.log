@@ -1,0 +1,121 @@
+﻿--------2014-12-08 09:53:55---------------------------------------------------------------
+	Error:应用错误
+	System.NullReferenceException: Object reference not set to an instance of an object
+  at  . (Jabinfo.JabinfoContext , System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-12-08 09:54:56---------------------------------------------------------------
+	Error:应用错误
+	System.NullReferenceException: Object reference not set to an instance of an object
+  at  . (Jabinfo.JabinfoContext , System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-12-08 09:55:11---------------------------------------------------------------
+	Error:应用错误
+	System.NullReferenceException: Object reference not set to an instance of an object
+  at  . (Jabinfo.JabinfoContext , System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-12-08 09:57:16---------------------------------------------------------------
+	Error:应用错误
+	System.NullReferenceException: Object reference not set to an instance of an object
+  at  . (Jabinfo.JabinfoContext , System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-12-08 10:30:36---------------------------------------------------------------
+	Error:应用错误
+	System.NullReferenceException: Object reference not set to an instance of an object
+  at  . (Jabinfo.JabinfoContext , System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-12-08 10:31:19---------------------------------------------------------------
+	Error:应用错误
+	System.NullReferenceException: Object reference not set to an instance of an object
+  at  . (Jabinfo.JabinfoContext , System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-12-08 10:33:21---------------------------------------------------------------
+	Error:应用错误
+	System.NullReferenceException: Object reference not set to an instance of an object
+  at  . (Jabinfo.JabinfoContext , System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-12-08 10:33:30---------------------------------------------------------------
+	Error:应用错误
+	System.NullReferenceException: Object reference not set to an instance of an object
+  at  . (Jabinfo.JabinfoContext , System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-12-08 10:34:26---------------------------------------------------------------
+	Error:应用错误
+	System.NullReferenceException: Object reference not set to an instance of an object
+  at  . (Jabinfo.JabinfoContext , System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-12-08 10:34:47---------------------------------------------------------------
+	Error:应用错误
+	System.NullReferenceException: Object reference not set to an instance of an object
+  at  . (Jabinfo.JabinfoContext , System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-12-08 10:35:35---------------------------------------------------------------
+	Error:应用错误
+	System.NullReferenceException: Object reference not set to an instance of an object
+  at  . (Jabinfo.JabinfoContext , System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-12-08 11:00:34---------------------------------------------------------------
+	Error:应用错误
+	System.NullReferenceException: Object reference not set to an instance of an object
+  at  . (Jabinfo.JabinfoContext , System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-12-08 11:04:11---------------------------------------------------------------
+	Error:获取ExcuteScalar失败
+	MySql.Data.MySqlClient.MySqlException: Authentication to host 'sinbo520.mysql.rds.aliyuncs.com' for user 'demo' using method 'mysql_native_password' failed with message: Authentication Failed For RDS maybe username or password is incorrect ---> MySql.Data.MySqlClient.MySqlException: Authentication Failed For RDS maybe username or password is incorrect
+  at MySql.Data.MySqlClient.MySqlStream.ReadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.NativeDriver.ReadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket () [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed (System.Exception ex) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate (Boolean reset) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.NativeDriver.Authenticate (System.String authMethod, Boolean reset) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.NativeDriver.Open () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Driver.Open () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Driver.Create (MySql.Data.MySqlClient.MySqlConnectionStringBuilder settings) [0x00000] in <filename unknown>:0 -----SELECT COUNT(article_id) FROM article
+
+--------2014-12-08 11:04:14---------------------------------------------------------------
+	Error:获取ExcuteScalar失败
+	MySql.Data.MySqlClient.MySqlException: Authentication to host 'sinbo520.mysql.rds.aliyuncs.com' for user 'demo' using method 'mysql_native_password' failed with message: Authentication Failed For RDS maybe username or password is incorrect ---> MySql.Data.MySqlClient.MySqlException: Authentication Failed For RDS maybe username or password is incorrect
+  at MySql.Data.MySqlClient.MySqlStream.ReadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.NativeDriver.ReadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket () [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed (System.Exception ex) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate (Boolean reset) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.NativeDriver.Authenticate (System.String authMethod, Boolean reset) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.NativeDriver.Open () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Driver.Open () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Driver.Create (MySql.Data.MySqlClient.MySqlConnectionStringBuilder settings) [0x00000] in <filename unknown>:0 -----SELECT COUNT(article_id) FROM article
+
+--------2014-12-08 16:42:57---------------------------------------------------------------
+	Error:应用错误
+	System.NullReferenceException: Object reference not set to an instance of an object
+  at  . (Jabinfo.JabinfoContext , System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+

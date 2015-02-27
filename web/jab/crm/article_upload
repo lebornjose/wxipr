@@ -1,0 +1,1 @@
+<tr><th>标题</th><td><input type="text" name="title" koo="act-jump"/><input type="hidden" name="articles" value="?articles?"></td></tr>

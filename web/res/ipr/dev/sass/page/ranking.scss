@@ -1,0 +1,32 @@
+.ipr-rank-content{
+  width:90%;
+  margin:10px auto;
+  h3{
+  	line-height: 2rem;
+    border-bottom: 2px solid #ccc;
+  }
+}
+.ipr-rank{
+  dl{
+  	height: 6rem;
+  	margin-top: 10px;
+  	border-bottom:1px dashed #999;
+  }
+  dt{
+  	line-height: 25px;
+  	font-size: 14px;
+  	color: #00a498;
+  }
+  dd{
+  	line-height: 20px;
+  	height: 40px;
+  	overflow: hidden;
+  }
+  span{
+  	margin-left: 4px;
+  	display: inline-block;
+  }
+  .last{
+  	color: #888;
+  }
+}

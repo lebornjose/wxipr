@@ -1,0 +1,256 @@
+﻿--------2014-10-27 12:40:16---------------------------------------------------------------
+	Error:执行Update失败
+	UPDATE `article` SET  where `article_id`=?article_id\nMySql.Data.MySqlClient.MySqlException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where `article_id`=NULL' at line 1
+  at MySql.Data.MySqlClient.MySqlStream.ReadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.NativeDriver.GetResult (System.Int32& affectedRow, System.Int64& insertedId) [0x00000] in <filename unknown>:0 \nMySql.Data.MySqlClient.MySqlPacket ReadPacket()\nMySql.Data
+
+--------2014-10-27 12:40:58---------------------------------------------------------------
+	Error:执行Update失败
+	UPDATE `article` SET  where `article_id`=?article_id\nMySql.Data.MySqlClient.MySqlException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where `article_id`=NULL' at line 1
+  at MySql.Data.MySqlClient.MySqlStream.ReadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.NativeDriver.GetResult (System.Int32& affectedRow, System.Int64& insertedId) [0x00000] in <filename unknown>:0 \nMySql.Data.MySqlClient.MySqlPacket ReadPacket()\nMySql.Data
+
+--------2014-10-27 12:44:32---------------------------------------------------------------
+	Error:应用错误
+	System.Threading.ThreadAbortException: Thread was being aborted
+  at Jabinfo.JabinfoController._JabinfoExcute (System.String[] userParam, Jabinfo.JabinfoContext context) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-10-27 12:44:44---------------------------------------------------------------
+	Error:执行Update失败
+	UPDATE `article` SET  where `article_id`=?article_id\nMySql.Data.MySqlClient.MySqlException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where `article_id`=NULL' at line 1
+  at MySql.Data.MySqlClient.MySqlStream.ReadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.NativeDriver.GetResult (System.Int32& affectedRow, System.Int64& insertedId) [0x00000] in <filename unknown>:0 \nMySql.Data.MySqlClient.MySqlPacket ReadPacket()\nMySql.Data
+
+--------2014-10-27 12:45:10---------------------------------------------------------------
+	Error:执行Update失败
+	UPDATE `article` SET  where `article_id`=?article_id\nMySql.Data.MySqlClient.MySqlException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where `article_id`=NULL' at line 1
+  at MySql.Data.MySqlClient.MySqlStream.ReadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.NativeDriver.GetResult (System.Int32& affectedRow, System.Int64& insertedId) [0x00000] in <filename unknown>:0 \nMySql.Data.MySqlClient.MySqlPacket ReadPacket()\nMySql.Data
+
+--------2014-10-27 12:47:57---------------------------------------------------------------
+	Error:获取dataTable失败
+	MySql.Data.MySqlClient.MySqlException: Fatal error encountered during command execution. ---> MySql.Data.MySqlClient.MySqlException: Parameter '?article_id' must be defined.
+  at MySql.Data.MySqlClient.Statement.SerializeParameter (MySql.Data.MySqlClient.MySqlParameterCollection parameters, MySql.Data.MySqlClient.MySqlPacket packet, System.String parmName, Int32 parameterIndex) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.InternalBindParameters (System.String sql, MySql.Data.MySqlClient.MySqlParameterCollection parameters, MySql.Data.MySqlClient.MySqlPacket packet) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.BindParameters () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.Execute () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.PreparableStatement.Execute () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at System.Data.Common.DbCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at System.Data.Common.DbDataAdapter.Fill (System.Data.DataTable dataTable, IDbCommand command, CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at System.Data.Common.DbDataAdapter.Fill (System.Data.DataTable dataTable) [0x00000] in <filename unknown>:0 
+  at (wrapper remoting-invoke-with-check) System.Data.Common.DbDataAdapter:Fill (System.Data.DataTable)
+  at Jabinfo.DB.MySQL.Select.All () [0x00000] in <filename unknown>:0 -----SELECT * FROM article WHERE article_id=?article_id LIMIT 0,1
+
+--------2014-10-27 12:48:03---------------------------------------------------------------
+	Error:获取dataTable失败
+	MySql.Data.MySqlClient.MySqlException: Fatal error encountered during command execution. ---> MySql.Data.MySqlClient.MySqlException: Parameter '?article_id' must be defined.
+  at MySql.Data.MySqlClient.Statement.SerializeParameter (MySql.Data.MySqlClient.MySqlParameterCollection parameters, MySql.Data.MySqlClient.MySqlPacket packet, System.String parmName, Int32 parameterIndex) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.InternalBindParameters (System.String sql, MySql.Data.MySqlClient.MySqlParameterCollection parameters, MySql.Data.MySqlClient.MySqlPacket packet) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.BindParameters () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.Execute () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.PreparableStatement.Execute () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at System.Data.Common.DbCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at System.Data.Common.DbDataAdapter.Fill (System.Data.DataTable dataTable, IDbCommand command, CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at System.Data.Common.DbDataAdapter.Fill (System.Data.DataTable dataTable) [0x00000] in <filename unknown>:0 
+  at (wrapper remoting-invoke-with-check) System.Data.Common.DbDataAdapter:Fill (System.Data.DataTable)
+  at Jabinfo.DB.MySQL.Select.All () [0x00000] in <filename unknown>:0 -----SELECT * FROM article WHERE article_id=?article_id LIMIT 0,1
+
+--------2014-10-27 12:48:24---------------------------------------------------------------
+	Error:获取dataTable失败
+	MySql.Data.MySqlClient.MySqlException: Fatal error encountered during command execution. ---> MySql.Data.MySqlClient.MySqlException: Parameter '?article_id' must be defined.
+  at MySql.Data.MySqlClient.Statement.SerializeParameter (MySql.Data.MySqlClient.MySqlParameterCollection parameters, MySql.Data.MySqlClient.MySqlPacket packet, System.String parmName, Int32 parameterIndex) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.InternalBindParameters (System.String sql, MySql.Data.MySqlClient.MySqlParameterCollection parameters, MySql.Data.MySqlClient.MySqlPacket packet) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.BindParameters () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.Execute () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.PreparableStatement.Execute () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at System.Data.Common.DbCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at System.Data.Common.DbDataAdapter.Fill (System.Data.DataTable dataTable, IDbCommand command, CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at System.Data.Common.DbDataAdapter.Fill (System.Data.DataTable dataTable) [0x00000] in <filename unknown>:0 
+  at (wrapper remoting-invoke-with-check) System.Data.Common.DbDataAdapter:Fill (System.Data.DataTable)
+  at Jabinfo.DB.MySQL.Select.All () [0x00000] in <filename unknown>:0 -----SELECT * FROM article WHERE article_id=?article_id LIMIT 0,1
+
+--------2014-10-27 12:49:57---------------------------------------------------------------
+	Error:执行Update失败
+	UPDATE `article` SET  where `article_id`=?article_id\nMySql.Data.MySqlClient.MySqlException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where `article_id`='1410271238166561117'' at line 1
+  at MySql.Data.MySqlClient.MySqlStream.ReadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.NativeDriver.GetResult (System.Int32& affectedRow, System.Int64& insertedId) [0x00000] in <filename unknown>:0 \nMySql.Data.MySqlClient.MySqlPacket ReadPacket()\nMySql.Data
+
+--------2014-10-27 12:50:45---------------------------------------------------------------
+	Error:执行Update失败
+	UPDATE `article` SET  where `article_id`=?article_id\nMySql.Data.MySqlClient.MySqlException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where `article_id`='1410271238166561117'' at line 1
+  at MySql.Data.MySqlClient.MySqlStream.ReadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.NativeDriver.GetResult (System.Int32& affectedRow, System.Int64& insertedId) [0x00000] in <filename unknown>:0 \nMySql.Data.MySqlClient.MySqlPacket ReadPacket()\nMySql.Data
+
+--------2014-10-27 12:52:41---------------------------------------------------------------
+	Error:执行Update失败
+	UPDATE `article` SET  where `article_id`=?article_id\nMySql.Data.MySqlClient.MySqlException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where `article_id`='1410271238166561117'' at line 1
+  at MySql.Data.MySqlClient.MySqlStream.ReadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.NativeDriver.GetResult (System.Int32& affectedRow, System.Int64& insertedId) [0x00000] in <filename unknown>:0 \nMySql.Data.MySqlClient.MySqlPacket ReadPacket()\nMySql.Data
+
+--------2014-10-27 12:53:08---------------------------------------------------------------
+	Error:执行Update失败
+	UPDATE `article` SET  where `article_id`=?article_id\nMySql.Data.MySqlClient.MySqlException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where `article_id`='1410271238166561117'' at line 1
+  at MySql.Data.MySqlClient.MySqlStream.ReadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.NativeDriver.GetResult (System.Int32& affectedRow, System.Int64& insertedId) [0x00000] in <filename unknown>:0 \nMySql.Data.MySqlClient.MySqlPacket ReadPacket()\nMySql.Data
+
+--------2014-10-27 12:53:49---------------------------------------------------------------
+	Error:执行Update失败
+	UPDATE `article` SET  where `article_id`=?article_id\nMySql.Data.MySqlClient.MySqlException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where `article_id`='1410271238166561117'' at line 1
+  at MySql.Data.MySqlClient.MySqlStream.ReadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.NativeDriver.GetResult (System.Int32& affectedRow, System.Int64& insertedId) [0x00000] in <filename unknown>:0 \nMySql.Data.MySqlClient.MySqlPacket ReadPacket()\nMySql.Data
+
+--------2014-10-27 12:55:01---------------------------------------------------------------
+	Error:执行Update失败
+	UPDATE `article` SET  where `article_id`=?article_id\nMySql.Data.MySqlClient.MySqlException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where `article_id`='1410271238166561117'' at line 1
+  at MySql.Data.MySqlClient.MySqlStream.ReadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.NativeDriver.GetResult (System.Int32& affectedRow, System.Int64& insertedId) [0x00000] in <filename unknown>:0 \nMySql.Data.MySqlClient.MySqlPacket ReadPacket()\nMySql.Data
+
+--------2014-10-27 12:56:33---------------------------------------------------------------
+	Error:获取dataTable失败
+	MySql.Data.MySqlClient.MySqlException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY tags_id DESC LIMIT 0,100' at line 1
+  at MySql.Data.MySqlClient.MySqlStream.ReadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.NativeDriver.GetResult (System.Int32& affectedRow, System.Int64& insertedId) [0x00000] in <filename unknown>:0 -----SELECT * FROM tags where `category_id` =  ORDER BY tags_id DESC LIMIT 0,100
+
+--------2014-10-27 12:56:42---------------------------------------------------------------
+	Error:获取dataTable失败
+	MySql.Data.MySqlClient.MySqlException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY tags_id DESC LIMIT 0,100' at line 1
+  at MySql.Data.MySqlClient.MySqlStream.ReadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.NativeDriver.GetResult (System.Int32& affectedRow, System.Int64& insertedId) [0x00000] in <filename unknown>:0 -----SELECT * FROM tags where `category_id` =  ORDER BY tags_id DESC LIMIT 0,100
+
+--------2014-10-27 12:59:19---------------------------------------------------------------
+	Error:获取dataTable失败
+	MySql.Data.MySqlClient.MySqlException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY tags_id DESC LIMIT 0,100' at line 1
+  at MySql.Data.MySqlClient.MySqlStream.ReadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.NativeDriver.GetResult (System.Int32& affectedRow, System.Int64& insertedId) [0x00000] in <filename unknown>:0 -----SELECT * FROM tags where `category_id` =  ORDER BY tags_id DESC LIMIT 0,100
+
+--------2014-10-27 12:59:51---------------------------------------------------------------
+	Error:获取dataTable失败
+	MySql.Data.MySqlClient.MySqlException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY tags_id DESC LIMIT 0,100' at line 1
+  at MySql.Data.MySqlClient.MySqlStream.ReadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.NativeDriver.GetResult (System.Int32& affectedRow, System.Int64& insertedId) [0x00000] in <filename unknown>:0 -----SELECT * FROM tags where `category_id` =  ORDER BY tags_id DESC LIMIT 0,100
+
+--------2014-10-27 13:10:42---------------------------------------------------------------
+	Error:应用错误
+	System.Threading.ThreadAbortException: Thread was being aborted
+  at Jabinfo.JabinfoController._JabinfoExcute (System.String[] userParam, Jabinfo.JabinfoContext context) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-10-27 14:36:00---------------------------------------------------------------
+	Error:获取dataTable失败
+	MySql.Data.MySqlClient.MySqlException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''%,?categoryId,% ORDER BY article_id DESC LIMIT 0,30' at line 1
+  at MySql.Data.MySqlClient.MySqlStream.ReadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.NativeDriver.GetResult (System.Int32& affectedRow, System.Int64& insertedId) [0x00000] in <filename unknown>:0 -----SELECT * FROM article where categorys like '%,?categoryId,% ORDER BY article_id DESC LIMIT 0,30
+
+--------2014-10-27 14:38:37---------------------------------------------------------------
+	Error:获取dataTable失败
+	MySql.Data.MySqlClient.MySqlException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''%,?categoryId,% ORDER BY article_id DESC LIMIT 0,30' at line 1
+  at MySql.Data.MySqlClient.MySqlStream.ReadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.NativeDriver.GetResult (System.Int32& affectedRow, System.Int64& insertedId) [0x00000] in <filename unknown>:0 -----SELECT * FROM article where categorys like '%,?categoryId,% ORDER BY article_id DESC LIMIT 0,30
+
+--------2014-10-27 14:39:03---------------------------------------------------------------
+	Error:获取dataTable失败
+	MySql.Data.MySqlClient.MySqlException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''%?,categoryId,% ORDER BY article_id DESC LIMIT 0,30' at line 1
+  at MySql.Data.MySqlClient.MySqlStream.ReadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.NativeDriver.GetResult (System.Int32& affectedRow, System.Int64& insertedId) [0x00000] in <filename unknown>:0 -----SELECT * FROM article where categorys like '%?,categoryId,% ORDER BY article_id DESC LIMIT 0,30
+
+--------2014-10-27 14:39:04---------------------------------------------------------------
+	Error:获取dataTable失败
+	MySql.Data.MySqlClient.MySqlException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''%?,categoryId,% ORDER BY article_id DESC LIMIT 0,30' at line 1
+  at MySql.Data.MySqlClient.MySqlStream.ReadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.NativeDriver.GetResult (System.Int32& affectedRow, System.Int64& insertedId) [0x00000] in <filename unknown>:0 -----SELECT * FROM article where categorys like '%?,categoryId,% ORDER BY article_id DESC LIMIT 0,30
+
+--------2014-10-27 14:39:04---------------------------------------------------------------
+	Error:获取dataTable失败
+	MySql.Data.MySqlClient.MySqlException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''%?,categoryId,% ORDER BY article_id DESC LIMIT 0,30' at line 1
+  at MySql.Data.MySqlClient.MySqlStream.ReadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.NativeDriver.GetResult (System.Int32& affectedRow, System.Int64& insertedId) [0x00000] in <filename unknown>:0 -----SELECT * FROM article where categorys like '%?,categoryId,% ORDER BY article_id DESC LIMIT 0,30
+
+--------2014-10-27 14:39:05---------------------------------------------------------------
+	Error:获取dataTable失败
+	MySql.Data.MySqlClient.MySqlException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''%?,categoryId,% ORDER BY article_id DESC LIMIT 0,30' at line 1
+  at MySql.Data.MySqlClient.MySqlStream.ReadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.NativeDriver.GetResult (System.Int32& affectedRow, System.Int64& insertedId) [0x00000] in <filename unknown>:0 -----SELECT * FROM article where categorys like '%?,categoryId,% ORDER BY article_id DESC LIMIT 0,30
+
+--------2014-10-27 14:39:05---------------------------------------------------------------
+	Error:获取dataTable失败
+	MySql.Data.MySqlClient.MySqlException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''%?,categoryId,% ORDER BY article_id DESC LIMIT 0,30' at line 1
+  at MySql.Data.MySqlClient.MySqlStream.ReadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.NativeDriver.GetResult (System.Int32& affectedRow, System.Int64& insertedId) [0x00000] in <filename unknown>:0 -----SELECT * FROM article where categorys like '%?,categoryId,% ORDER BY article_id DESC LIMIT 0,30
+
+--------2014-10-27 14:39:05---------------------------------------------------------------
+	Error:获取dataTable失败
+	MySql.Data.MySqlClient.MySqlException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''%?,categoryId,% ORDER BY article_id DESC LIMIT 0,30' at line 1
+  at MySql.Data.MySqlClient.MySqlStream.ReadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.NativeDriver.GetResult (System.Int32& affectedRow, System.Int64& insertedId) [0x00000] in <filename unknown>:0 -----SELECT * FROM article where categorys like '%?,categoryId,% ORDER BY article_id DESC LIMIT 0,30
+
+--------2014-10-27 14:39:20---------------------------------------------------------------
+	Error:获取dataTable失败
+	MySql.Data.MySqlClient.MySqlException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''%?categoryId% ORDER BY article_id DESC LIMIT 0,30' at line 1
+  at MySql.Data.MySqlClient.MySqlStream.ReadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.NativeDriver.GetResult (System.Int32& affectedRow, System.Int64& insertedId) [0x00000] in <filename unknown>:0 -----SELECT * FROM article where categorys like '%?categoryId% ORDER BY article_id DESC LIMIT 0,30
+
+--------2014-10-27 14:39:22---------------------------------------------------------------
+	Error:获取dataTable失败
+	MySql.Data.MySqlClient.MySqlException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''%?categoryId% ORDER BY article_id DESC LIMIT 0,30' at line 1
+  at MySql.Data.MySqlClient.MySqlStream.ReadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.NativeDriver.GetResult (System.Int32& affectedRow, System.Int64& insertedId) [0x00000] in <filename unknown>:0 -----SELECT * FROM article where categorys like '%?categoryId% ORDER BY article_id DESC LIMIT 0,30
+
+--------2014-10-27 20:30:42---------------------------------------------------------------
+	Error:获取dataTable失败
+	MySql.Data.MySqlClient.MySqlException: Unable to connect to any of the specified MySQL hosts.
+  at MySql.Data.MySqlClient.NativeDriver.Open () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Driver.Open () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Driver.Create (MySql.Data.MySqlClient.MySqlConnectionStringBuilder settings) [0x00000] in <filename unknown>:0 -----
+
+--------2014-10-27 20:31:11---------------------------------------------------------------
+	Error:获取dataTable失败
+	MySql.Data.MySqlClient.MySqlException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''%?categoryId% ORDER BY article_id DESC LIMIT 0,30' at line 1
+  at MySql.Data.MySqlClient.MySqlStream.ReadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.NativeDriver.GetResult (System.Int32& affectedRow, System.Int64& insertedId) [0x00000] in <filename unknown>:0 -----SELECT * FROM article where categorys like '%?categoryId% ORDER BY article_id DESC LIMIT 0,30
+
+--------2014-10-27 20:31:26---------------------------------------------------------------
+	Error:获取dataTable失败
+	MySql.Data.MySqlClient.MySqlException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''%?categoryId% ORDER BY article_id DESC LIMIT 0,30' at line 1
+  at MySql.Data.MySqlClient.MySqlStream.ReadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.NativeDriver.GetResult (System.Int32& affectedRow, System.Int64& insertedId) [0x00000] in <filename unknown>:0 -----SELECT * FROM article where categorys like '%?categoryId% ORDER BY article_id DESC LIMIT 0,30
+
+--------2014-10-27 20:31:28---------------------------------------------------------------
+	Error:获取dataTable失败
+	MySql.Data.MySqlClient.MySqlException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''%?categoryId% ORDER BY article_id DESC LIMIT 0,30' at line 1
+  at MySql.Data.MySqlClient.MySqlStream.ReadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.NativeDriver.GetResult (System.Int32& affectedRow, System.Int64& insertedId) [0x00000] in <filename unknown>:0 -----SELECT * FROM article where categorys like '%?categoryId% ORDER BY article_id DESC LIMIT 0,30
+
+--------2014-10-27 20:58:18---------------------------------------------------------------
+	Error:获取ExcuteScalar失败
+	MySql.Data.MySqlClient.MySqlException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%,categoryId,%' at line 1
+  at MySql.Data.MySqlClient.MySqlStream.ReadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.NativeDriver.GetResult (System.Int32& affectedRow, System.Int64& insertedId) [0x00000] in <filename unknown>:0 -----select count(article_id) from article where article_id like ?%,categoryId,%
+
+--------2014-10-27 20:58:44---------------------------------------------------------------
+	Error:获取ExcuteScalar失败
+	MySql.Data.MySqlClient.MySqlException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%'375317',categoryId,%' at line 1
+  at MySql.Data.MySqlClient.MySqlStream.ReadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.NativeDriver.GetResult (System.Int32& affectedRow, System.Int64& insertedId) [0x00000] in <filename unknown>:0 -----select count(article_id) from article where article_id like %?,categoryId,%
+
+--------2014-10-27 21:01:45---------------------------------------------------------------
+	Error:获取dataTable失败
+	MySql.Data.MySqlClient.MySqlException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%,categoryId,% ORDER BY article_id DESC LIMIT 0,30' at line 1
+  at MySql.Data.MySqlClient.MySqlStream.ReadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.NativeDriver.GetResult (System.Int32& affectedRow, System.Int64& insertedId) [0x00000] in <filename unknown>:0 -----SELECT * FROM article where categorys like ?%,categoryId,% ORDER BY article_id DESC LIMIT 0,30
+

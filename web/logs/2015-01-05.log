@@ -1,0 +1,165 @@
+﻿--------2015-01-05 14:50:15---------------------------------------------------------------
+	Error:获取ExcuteScalar失败
+	MySql.Data.MySqlClient.MySqlException: Table 'crm-dev.page' doesn't exist
+  at MySql.Data.MySqlClient.MySqlStream.ReadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.NativeDriver.GetResult (System.Int32& affectedRow, System.Int64& insertedId) [0x00000] in <filename unknown>:0 -----SELECT COUNT(page_id) FROM page
+
+--------2015-01-05 14:50:20---------------------------------------------------------------
+	Error:获取ExcuteScalar失败
+	MySql.Data.MySqlClient.MySqlException: Table 'crm-dev.page' doesn't exist
+  at MySql.Data.MySqlClient.MySqlStream.ReadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.NativeDriver.GetResult (System.Int32& affectedRow, System.Int64& insertedId) [0x00000] in <filename unknown>:0 -----SELECT COUNT(page_id) FROM page
+
+--------2015-01-05 14:51:32---------------------------------------------------------------
+	Error:获取ExcuteScalar失败
+	MySql.Data.MySqlClient.MySqlException: Table 'crm-dev.position' doesn't exist
+  at MySql.Data.MySqlClient.MySqlStream.ReadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.NativeDriver.GetResult (System.Int32& affectedRow, System.Int64& insertedId) [0x00000] in <filename unknown>:0 -----SELECT COUNT(position_id) FROM position
+
+--------2015-01-05 15:34:30---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: <h2>找不到job数据库链接配置</h2>
+  at Jabinfo.JabinfoDB.Instance (System.String name) [0x00000] in <filename unknown>:0 
+  at  . (System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext , System.String ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2015-01-05 16:19:15---------------------------------------------------------------
+	Error:获取ExcuteScalar失败
+	MySql.Data.MySqlClient.MySqlException: Table 'crm-dev.menu' doesn't exist
+  at MySql.Data.MySqlClient.MySqlStream.ReadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.NativeDriver.GetResult (System.Int32& affectedRow, System.Int64& insertedId) [0x00000] in <filename unknown>:0 -----SELECT COUNT(meun_id) FROM menu
+
+--------2015-01-05 16:19:18---------------------------------------------------------------
+	Error:获取ExcuteScalar失败
+	MySql.Data.MySqlClient.MySqlException: Table 'crm-dev.menu' doesn't exist
+  at MySql.Data.MySqlClient.MySqlStream.ReadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.NativeDriver.GetResult (System.Int32& affectedRow, System.Int64& insertedId) [0x00000] in <filename unknown>:0 -----SELECT COUNT(meun_id) FROM menu
+
+--------2015-01-05 16:28:16---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: <h2>找不到job数据库链接配置</h2>
+  at Jabinfo.JabinfoDB.Instance (System.String name) [0x00000] in <filename unknown>:0 
+  at  . (System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext , System.String ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2015-01-05 16:28:32---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: <h2>找不到job数据库链接配置</h2>
+  at Jabinfo.JabinfoDB.Instance (System.String name) [0x00000] in <filename unknown>:0 
+  at  . (System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext , System.String ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2015-01-05 16:28:36---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: <h2>找不到job数据库链接配置</h2>
+  at Jabinfo.JabinfoDB.Instance (System.String name) [0x00000] in <filename unknown>:0 
+  at  . (System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext , System.String ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2015-01-05 16:29:48---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: <h2>找不到job数据库链接配置</h2>
+  at Jabinfo.JabinfoDB.Instance (System.String name) [0x00000] in <filename unknown>:0 
+  at  . (System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext , System.String ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2015-01-05 16:29:52---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: <h2>找不到job数据库链接配置</h2>
+  at Jabinfo.JabinfoDB.Instance (System.String name) [0x00000] in <filename unknown>:0 
+  at  . (System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext , System.String ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2015-01-05 16:30:14---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: <h2>找不到job数据库链接配置</h2>
+  at Jabinfo.JabinfoDB.Instance (System.String name) [0x00000] in <filename unknown>:0 
+  at  . (System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext , System.String ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2015-01-05 16:32:00---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: <h2>找不到work数据库链接配置</h2>
+  at Jabinfo.JabinfoDB.Instance (System.String name) [0x00000] in <filename unknown>:0 
+  at  . (System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext , System.String ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2015-01-05 16:32:02---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: <h2>找不到work数据库链接配置</h2>
+  at Jabinfo.JabinfoDB.Instance (System.String name) [0x00000] in <filename unknown>:0 
+  at  . (System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext , System.String ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2015-01-05 16:33:18---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: <h2>找不到job数据库链接配置</h2>
+  at Jabinfo.JabinfoDB.Instance (System.String name) [0x00000] in <filename unknown>:0 
+  at  . (System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext , System.String ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2015-01-05 16:38:15---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: <h2>找不到job数据库链接配置</h2>
+  at Jabinfo.JabinfoDB.Instance (System.String name) [0x00000] in <filename unknown>:0 
+  at  . (System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext , System.String ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2015-01-05 16:38:17---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: <h2>找不到work数据库链接配置</h2>
+  at Jabinfo.JabinfoDB.Instance (System.String name) [0x00000] in <filename unknown>:0 
+  at  . (System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext , System.String ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2015-01-05 16:38:24---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: <h2>找不到daily数据库链接配置</h2>
+  at Jabinfo.JabinfoDB.Instance (System.String name) [0x00000] in <filename unknown>:0 
+  at  . (System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext , System.String ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2015-01-05 16:38:27---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: <h2>找不到sprite数据库链接配置</h2>
+  at Jabinfo.JabinfoDB.Instance (System.String name) [0x00000] in <filename unknown>:0 
+  at  . (System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext , System.String ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2015-01-05 16:38:58---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: <h2>找不到job数据库链接配置</h2>
+  at Jabinfo.JabinfoDB.Instance (System.String name) [0x00000] in <filename unknown>:0 
+  at  . (System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext , System.String ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+

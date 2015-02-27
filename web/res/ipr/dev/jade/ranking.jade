@@ -1,0 +1,19 @@
+extend mods/body
+block title
+  title 排行榜
+block script
+  script(type="text/javascript", src="js/base/jquery-1.11.2.min.js")
+  script(type="text/javascript", src="js/base/jquery.superslide.2.1.1.js")
+block content
+  .ipr-rank-content
+    .ipr-rank
+      h3 排行榜
+      each i in [0,0,0,0,0,0,0,0,0,0,0,0,0]
+        dl
+          dt: h4 如何科学的抢红包
+          dd 大家好，我是IDF实验室的@无所不能的黄法人！红包纷纷何所似？胡子曰：撒钱空中差可拟发送到发送到凡事都复活点开始.....
+          dd.last
+            span 2015-02-21
+            span 作者：猫儿
+            span 阅读次数：100
+      

@@ -1,0 +1,19 @@
+﻿--------2014-12-07 19:48:43---------------------------------------------------------------
+	Error:获取dataTable失败
+	MySql.Data.MySqlClient.MySqlException: Fatal error encountered during command execution. ---> MySql.Data.MySqlClient.MySqlException: Parameter '?keyword' must be defined.
+  at MySql.Data.MySqlClient.Statement.SerializeParameter (MySql.Data.MySqlClient.MySqlParameterCollection parameters, MySql.Data.MySqlClient.MySqlPacket packet, System.String parmName, Int32 parameterIndex) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.InternalBindParameters (System.String sql, MySql.Data.MySqlClient.MySqlParameterCollection parameters, MySql.Data.MySqlClient.MySqlPacket packet) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.BindParameters () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.Execute () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.PreparableStatement.Execute () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at System.Data.Common.DbCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at System.Data.Common.DbDataAdapter.Fill (System.Data.DataTable dataTable, IDbCommand command, CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at System.Data.Common.DbDataAdapter.Fill (System.Data.DataTable dataTable) [0x00000] in <filename unknown>:0 
+  at (wrapper remoting-invoke-with-check) System.Data.Common.DbDataAdapter:Fill (System.Data.DataTable)
+  at Jabinfo.DB.MySQL.Select.All () [0x00000] in <filename unknown>:0 -----SELECT * FROM `article` where `keyword` like ?keyword  LIMIT 0,4
+

@@ -1,0 +1,29 @@
+extend mods/body
+block title
+  title 分类
+block script
+  script(type="text/javascript", src="js/base/jquery-1.11.2.min.js")
+  script(type="text/javascript", src="js/base/jquery.superslide.2.1.1.js")
+block content
+  .ipr-con-cat
+    .ipr-cat
+      h3 分类资讯
+      each i in[0,0,0,0,0,0,0,0,0]
+        .list
+          h4: a(href="detail.html") 著作权的合理使用的边界探讨（一）
+          dl.left
+            dt
+              img(src="img/con.jpeg", alt="著作权")
+              dd 如何认定适当引用是判断是否构成合理使用的关键。每个人有自己“适当”的标准，笔者将通过针对以下的案例对目前实务中关于“适当”标准进行探究。
+              p.last 上海知识产权研究所 &nbsp;&nbsp;&nbsp; 2015-02-11 &nbsp;|&nbsp; 阅读7000次
+    .ipr-page
+      | 共
+      span 70
+      | 条记录
+      em 1
+      a(href="#") 2
+      a(href="#") 3
+      a(href="#") 4
+      a(href="#") 5
+      a(href="#") 下一页
+      a(href="#") 尾页

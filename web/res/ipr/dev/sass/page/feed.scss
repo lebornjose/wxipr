@@ -1,0 +1,44 @@
+.ipr-feed-content{
+  width:90%;
+  margin:10px auto;
+  .title{
+  	font-size: 16px;
+  	line-height: 30px;
+  	color:#00a498;
+  }
+  .text{
+    line-height: 1.5rem;
+    text-indent: 1rem;
+  }
+}
+.ipr-feed{
+  label{
+  	line-height: 25px;
+  	display: block;
+  }
+  input,textarea{
+  	width:100%;
+  	line-height: 20px;
+  	border:1px solid #ddd;
+  	border-radius:0;
+  	text-rendering: auto;
+  	letter-spacing: normal;
+	word-spacing: normal;
+	text-transform: none;
+	text-indent: 0px;
+	text-shadow: none;
+	display: inline-block;
+	text-align: start;
+  }
+  textarea{
+  	height: 100px;
+  }
+  button{
+  	background-color: #e5eff9;
+    padding: 2px 10px;
+    border:1px solid #ddd;
+  	line-height: 25px;
+  	margin-top: 10px;
+    color: #00a498;
+  }
+}

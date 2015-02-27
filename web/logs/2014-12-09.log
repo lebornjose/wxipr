@@ -1,0 +1,57 @@
+﻿--------2014-12-09 13:28:18---------------------------------------------------------------
+	Error:应用错误
+	System.NullReferenceException: Object reference not set to an instance of an object
+  at  . (Jabinfo.JabinfoContext , System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-12-09 15:49:17---------------------------------------------------------------
+	Error:应用错误
+	System.NullReferenceException: Object reference not set to an instance of an object
+  at  . (Jabinfo.JabinfoContext , System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-12-09 15:49:23---------------------------------------------------------------
+	Error:应用错误
+	System.NullReferenceException: Object reference not set to an instance of an object
+  at  . (Jabinfo.JabinfoContext , System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-12-09 16:15:19---------------------------------------------------------------
+	Error:应用错误
+	System.NullReferenceException: Object reference not set to an instance of an object
+  at  . (Jabinfo.JabinfoContext , System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-12-09 16:15:39---------------------------------------------------------------
+	Error:应用错误
+	System.NullReferenceException: Object reference not set to an instance of an object
+  at  . (Jabinfo.JabinfoContext , System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-12-09 16:15:46---------------------------------------------------------------
+	Error:应用错误
+	System.NullReferenceException: Object reference not set to an instance of an object
+  at  . (Jabinfo.JabinfoContext , System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-12-09 16:34:41---------------------------------------------------------------
+	Error:应用错误
+	System.NullReferenceException: Object reference not set to an instance of an object
+  at  . () [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-12-09 16:59:58---------------------------------------------------------------
+	Error:应用错误
+	System.NullReferenceException: Object reference not set to an instance of an object
+  at  . (Jabinfo.JabinfoContext , System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+

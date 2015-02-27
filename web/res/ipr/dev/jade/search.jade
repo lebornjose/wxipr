@@ -1,0 +1,27 @@
+extend mods/body
+block title
+  title 搜索
+block script
+  script(type="text/javascript", src="js/base/jquery-1.11.2.min.js")
+  script(type="text/javascript", src="js/base/jquery.superslide.2.1.1.js")
+block content
+  .ipr-sea-content
+    h3 结果：找到 “红包” 相关内容30个
+    each i in [0,0,0,0,0,0,0,0]
+      dl
+        dt 从微信红包，看2015年的微电商怎么玩！
+        dd.text 2015年央视春晚已落幕，支付宝最后一轮红包也已结束，但是微信红包还远没有结束，今天，微信摇一摇又变身可以摇附近商户的卡卷。当然了，支付宝钱包也不示弱，开始了中文口令红包的接龙游戏....
+        dd.over 
+          span 2015-02-11
+          span 阅读100次
+    .ipr-page
+      | 共
+      span 70
+      | 条记录
+      em 1
+      a(href="#") 2
+      a(href="#") 3
+      a(href="#") 4
+      a(href="#") 5
+      a(href="#") 下一页
+      a(href="#") 尾页

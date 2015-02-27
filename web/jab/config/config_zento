@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="utf-8" ?><dataset><group name="doctype" title="文档类型"><key name="mind" value="思维导图" /><key name="md" value="Markdown" /><key name="doc" value="基础文档" /><key name="play" value="幻灯片" /><key name="flow" value="流程图" /></group></dataset>

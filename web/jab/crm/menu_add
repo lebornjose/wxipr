@@ -1,0 +1,1 @@
+﻿<tr><th>类型</th><td><select name="type"><option value="click">点击推事件</option><option value="view">跳转URL</option></select><tr><th>名称</th><td><input type="text" maxlength="20" name="name" koo="act-jump-need"/></td></tr><tr><th>动作</th><td><input type="text" maxlength="60" name="key" /></td></tr>

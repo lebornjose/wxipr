@@ -1,0 +1,55 @@
+﻿--------2015-01-07 11:05:59---------------------------------------------------------------
+	Error:执行sql语句Excute失败crm
+	You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jkv COMMENT '其他',
+	`type` Char COMMENT '工作类型' DEFAULT '',
+	PRIMARY K' at line 14\nCREATE TABLE `job` (`job_id` char(24) COMMENT '编号',
+	`title` varchar(50) COMMENT '标题名称' DEFAULT '',
+	`region` varchar(30) COMMENT '工作区域' DEFAULT '',
+	`reads` int COMMENT '查看次数' DEFAULT 0,
+	`sex` char(1) COMMENT '性别要求' DEFAULT '',
+	`height` char(1) COMMENT '身高要求' DEFAULT '',
+	`overtime` int(11) COMMENT '报名截止日期' DEFAULT 0,
+	`context` text COMMENT '工作内容',
+	`j_time` int(11) COMMENT '集合时间' DEFAULT 0,
+	`j_address` varchar(50) COMMENT '集合地点' DEFAULT '',
+	`mobile` varchar(20) COMMENT '联系电话' DEFAULT '',
+	`spec` varchar(200) COMMENT '特殊要求' DEFAULT '',
+	`note` text COMMENT '备注',
+	`extend` jkv COMMENT '其他',
+	`type` Char COMMENT '工作类型' DEFAULT '',
+	PRIMARY KEY  (`job_id`)
+) COMMENT '兼职表';
+
+
+
+--------2015-01-07 11:05:59---------------------------------------------------------------
+	Error:应用错误
+	System.Exception: 执行sql语句Excute失败crm
+	You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jkv COMMENT '其他',
+	`type` Char COMMENT '工作类型' DEFAULT '',
+	PRIMARY K' at line 14\nCREATE TABLE `job` (`job_id` char(24) COMMENT '编号',
+	`title` varchar(50) COMMENT '标题名称' DEFAULT '',
+	`region` varchar(30) COMMENT '工作区域' DEFAULT '',
+	`reads` int COMMENT '查看次数' DEFAULT 0,
+	`sex` char(1) COMMENT '性别要求' DEFAULT '',
+	`height` char(1) COMMENT '身高要求' DEFAULT '',
+	`overtime` int(11) COMMENT '报名截止日期' DEFAULT 0,
+	`context` text COMMENT '工作内容',
+	`j_time` int(11) COMMENT '集合时间' DEFAULT 0,
+	`j_address` varchar(50) COMMENT '集合地点' DEFAULT '',
+	`mobile` varchar(20) COMMENT '联系电话' DEFAULT '',
+	`spec` varchar(200) COMMENT '特殊要求' DEFAULT '',
+	`note` text COMMENT '备注',
+	`extend` jkv COMMENT '其他',
+	`type` Char COMMENT '工作类型' DEFAULT '',
+	PRIMARY KEY  (`job_id`)
+) COMMENT '兼职表';
+
+
+  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00000] in <filename unknown>:0 
+  at Jabinfo.DB.MySQL.Query.Excute (System.String sql) [0x00000] in <filename unknown>:0 
+  at  . (System.String , System.String , System.String ) [0x00000] in <filename unknown>:0 
+  at  . (Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at  ._JabinfoExcute (System.String[] , Jabinfo.JabinfoContext ) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+

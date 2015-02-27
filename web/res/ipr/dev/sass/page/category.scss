@@ -1,0 +1,58 @@
+.ipr-con-cat{
+  width:100%;
+  .ipr-cat{
+    margin-top:10px;
+    width:90%;
+    margin-left: 6%;	
+    .list{
+    padding-bottom:7px;
+    border-bottom: 1px dashed #999;
+    }
+    h3{
+      line-height: 2rem;
+      border-bottom: 2px solid #ccc;
+    }
+    h4{
+      line-height: 24px;
+    }
+    dl{
+  	  dt{
+  	    width:30%;
+  	    height: 80px;	
+  	    }
+  	  dd{
+  	    width:65%;
+        height: 80px;
+        overflow: hidden;
+        line-height:20px;
+  	    margin-left:5%;
+  	  }
+    }
+    .last{
+    color: #999;
+    line-height: 25px;
+    }
+  }
+}
+.ipr-page{
+  width:90%;
+  margin:10px auto;
+  span{
+    color:#00a498;
+    font-weight: bold;
+  }
+  em{
+    margin-left: 5px;
+    background-color:#00A498;
+    padding:2 8px;
+    border:1px solid #00A498;
+  }
+  a{
+    padding:2 8px;
+    margin-top: 4px;
+    border:1px solid #ddd;
+    margin-left: 4px;
+    display: inline-block;
+    background-color: #F0F4F8
+  }
+}

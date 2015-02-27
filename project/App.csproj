@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{ACC4C817-5FCD-467C-823A-9A1D431B707C}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Jabinfo</RootNamespace>
+    <AssemblyName>App</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <StartArguments>D:\Users\t001\project\study\output</StartArguments>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <NoStdLib>False</NoStdLib>
+    <WarningLevel>4</WarningLevel>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+    <BaseIntermediateOutputPath>..\Web\temp\</BaseIntermediateOutputPath>
+    <StartWorkingDirectory>/</StartWorkingDirectory>
+    <TargetFrameworkProfile />
+    <NoWin32Manifest>False</NoWin32Manifest>
+    <RunPostBuildEvent>OnOutputUpdated</RunPostBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <RegisterForComInterop>False</RegisterForComInterop>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+    <BaseAddress>4194304</BaseAddress>
+    <PlatformTarget>x86</PlatformTarget>
+    <FileAlignment>4096</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>..\Web\temp\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <StartAction>Program</StartAction>
+    <StartProgram>E:\libary\Jabinfo Server.exe</StartProgram>
+    <IntermediateOutputPath>..\Web\temp\</IntermediateOutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>..\Web\temp\</OutputPath>
+    <DebugSymbols>false</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+    <StartAction>Program</StartAction>
+    <StartProgram>E:\documents\dlls\Jabinfo Server.exe</StartProgram>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <RegisterForComInterop>False</RegisterForComInterop>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+    <BaseAddress>4194304</BaseAddress>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <FileAlignment>4096</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="Jabinfo">
+      <HintPath>libary\Jabinfo.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\project\Crm\Controller\Company.cs">
+      <Link>Crm\Controller\Company.cs</Link>
+    </Compile>
+    <Compile Include="..\project\Crm\VO\CompanyMapper.cs">
+      <Link>Crm\VO\CompanyMapper.cs</Link>
+    </Compile>
+    <Compile Include="..\project\Crm\VO\CompanyVO.cs">
+      <Link>Crm\VO\CompanyVO.cs</Link>
+    </Compile>
+    <Compile Include="Crm\Register.cs" />
+    <Compile Include="..\project\Crm\Model\CompanyModel.cs">
+      <Link>Crm\Model\CompanyModel.cs</Link>
+    </Compile>
+    <Compile Include="..\project\Crm\Controller\Article.cs">
+      <Link>Crm\Controller\Article.cs</Link>
+    </Compile>
+    <Compile Include="..\project\Crm\Model\ArticleModel.cs">
+      <Link>Crm\Model\ArticleModel.cs</Link>
+    </Compile>
+    <Compile Include="..\project\Crm\VO\ArticleMapper.cs">
+      <Link>Crm\VO\ArticleMapper.cs</Link>
+    </Compile>
+    <Compile Include="..\project\Crm\VO\ArticleVO.cs">
+      <Link>Crm\VO\ArticleVO.cs</Link>
+    </Compile>
+    <Compile Include="..\project\Crm\Controller\ArticleDetail.cs">
+      <Link>Crm\Controller\ArticleDetail.cs</Link>
+    </Compile>
+    <Compile Include="..\project\Crm\Model\ArticleDetailModel.cs">
+      <Link>Crm\Model\ArticleDetailModel.cs</Link>
+    </Compile>
+    <Compile Include="..\project\Crm\VO\ArticleDetailMapper.cs">
+      <Link>Crm\VO\ArticleDetailMapper.cs</Link>
+    </Compile>
+    <Compile Include="..\project\Crm\VO\ArticleDetailVO.cs">
+      <Link>Crm\VO\ArticleDetailVO.cs</Link>
+    </Compile>
+    <Compile Include="..\project\Crm\Controller\Category.cs">
+      <Link>Crm\Controller\Category.cs</Link>
+    </Compile>
+    <Compile Include="..\project\Crm\Model\CategoryModel.cs">
+      <Link>Crm\Model\CategoryModel.cs</Link>
+    </Compile>
+    <Compile Include="..\project\Crm\VO\CategoryMapper.cs">
+      <Link>Crm\VO\CategoryMapper.cs</Link>
+    </Compile>
+    <Compile Include="..\project\Crm\VO\CategoryVO.cs">
+      <Link>Crm\VO\CategoryVO.cs</Link>
+    </Compile>
+    <Compile Include="Crm\API.cs" />
+    <Compile Include="..\project\Crm\Controller\Page.cs">
+      <Link>Crm\Controller\Page.cs</Link>
+    </Compile>
+    <Compile Include="..\project\Crm\Model\PageModel.cs">
+      <Link>Crm\Model\PageModel.cs</Link>
+    </Compile>
+    <Compile Include="..\project\Crm\VO\PageMapper.cs">
+      <Link>Crm\VO\PageMapper.cs</Link>
+    </Compile>
+    <Compile Include="..\project\Crm\VO\PageVO.cs">
+      <Link>Crm\VO\PageVO.cs</Link>
+    </Compile>
+    <Compile Include="Crm\Home.cs" />
+    <Compile Include="..\project\Crm\Controller\Token.cs">
+      <Link>Crm\Controller\Token.cs</Link>
+    </Compile>
+    <Compile Include="..\project\Crm\Model\TokenModel.cs">
+      <Link>Crm\Model\TokenModel.cs</Link>
+    </Compile>
+    <Compile Include="..\project\Crm\VO\TokenMapper.cs">
+      <Link>Crm\VO\TokenMapper.cs</Link>
+    </Compile>
+    <Compile Include="..\project\Crm\VO\TokenVO.cs">
+      <Link>Crm\VO\TokenVO.cs</Link>
+    </Compile>
+    <Compile Include="..\project\Crm\Controller\Menu.cs">
+      <Link>Crm\Controller\Menu.cs</Link>
+    </Compile>
+    <Compile Include="..\project\Crm\Model\MenuModel.cs">
+      <Link>Crm\Model\MenuModel.cs</Link>
+    </Compile>
+    <Compile Include="..\project\Crm\VO\MenuMapper.cs">
+      <Link>Crm\VO\MenuMapper.cs</Link>
+    </Compile>
+    <Compile Include="..\project\Crm\VO\MenuVO.cs">
+      <Link>Crm\VO\MenuVO.cs</Link>
+    </Compile>
+    <Compile Include="..\project\Crm\Controller\Feedback.cs">
+      <Link>Crm\Controller\Feedback.cs</Link>
+    </Compile>
+    <Compile Include="..\project\Crm\Controller\Follow.cs">
+      <Link>Crm\Controller\Follow.cs</Link>
+    </Compile>
+    <Compile Include="..\project\Crm\Model\FeedbackModel.cs">
+      <Link>Crm\Model\FeedbackModel.cs</Link>
+    </Compile>
+    <Compile Include="..\project\Crm\Model\FollowModel.cs">
+      <Link>Crm\Model\FollowModel.cs</Link>
+    </Compile>
+    <Compile Include="..\project\Crm\VO\FeedbackMapper.cs">
+      <Link>Crm\VO\FeedbackMapper.cs</Link>
+    </Compile>
+    <Compile Include="..\project\Crm\VO\FeedbackVO.cs">
+      <Link>Crm\VO\FeedbackVO.cs</Link>
+    </Compile>
+    <Compile Include="..\project\Crm\VO\FollowMapper.cs">
+      <Link>Crm\VO\FollowMapper.cs</Link>
+    </Compile>
+    <Compile Include="..\project\Crm\VO\FollowVO.cs">
+      <Link>Crm\VO\FollowVO.cs</Link>
+    </Compile>
+    <Compile Include="..\project\Crm\Controller\Upload.cs">
+      <Link>Crm\Controller\Upload.cs</Link>
+    </Compile>
+    <Compile Include="..\project\Crm\Model\UploadModel.cs">
+      <Link>Crm\Model\UploadModel.cs</Link>
+    </Compile>
+    <Compile Include="..\project\Crm\VO\UploadMapper.cs">
+      <Link>Crm\VO\UploadMapper.cs</Link>
+    </Compile>
+    <Compile Include="..\project\Crm\VO\UploadVO.cs">
+      <Link>Crm\VO\UploadVO.cs</Link>
+    </Compile>
+    <Compile Include="Crm\Libary\Weixin.cs" />
+    <Compile Include="Crm\Libary\Utils.cs" />
+    <Compile Include="..\project\Crm\Controller\Ticket.cs">
+      <Link>Crm\Controller\Ticket.cs</Link>
+    </Compile>
+    <Compile Include="..\project\Crm\Model\TicketModel.cs">
+      <Link>Crm\Model\TicketModel.cs</Link>
+    </Compile>
+    <Compile Include="..\project\Crm\VO\TicketMapper.cs">
+      <Link>Crm\VO\TicketMapper.cs</Link>
+    </Compile>
+    <Compile Include="..\project\Crm\VO\TicketVO.cs">
+      <Link>Crm\VO\TicketVO.cs</Link>
+    </Compile>
+    <Compile Include="Crm\Libary\Msg.cs" />
+    <Compile Include="..\project\Crm\Controller\Request.cs">
+      <Link>Crm\Controller\Request.cs</Link>
+    </Compile>
+    <Compile Include="..\project\Crm\Model\RequestModel.cs">
+      <Link>Crm\Model\RequestModel.cs</Link>
+    </Compile>
+    <Compile Include="..\project\Crm\VO\RequestMapper.cs">
+      <Link>Crm\VO\RequestMapper.cs</Link>
+    </Compile>
+    <Compile Include="..\project\Crm\VO\RequestVO.cs">
+      <Link>Crm\VO\RequestVO.cs</Link>
+    </Compile>
+    <Compile Include="Crm\VO\WXArticle.cs" />
+    <Compile Include="Crm\VO\WXMusic.cs" />
+    <Compile Include="Crm\VO\GroupVO.cs" />
+    <Compile Include="..\project\Crm\Controller\Msglog.cs">
+      <Link>Crm\Controller\Msglog.cs</Link>
+    </Compile>
+    <Compile Include="..\project\Crm\Model\MsglogModel.cs">
+      <Link>Crm\Model\MsglogModel.cs</Link>
+    </Compile>
+    <Compile Include="..\project\Crm\VO\MsglogMapper.cs">
+      <Link>Crm\VO\MsglogMapper.cs</Link>
+    </Compile>
+    <Compile Include="..\project\Crm\VO\MsglogVO.cs">
+      <Link>Crm\VO\MsglogVO.cs</Link>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.Targets" />
+  <ItemGroup>
+    <Folder Include="Crm\" />
+    <Folder Include="Crm\Controller\" />
+    <Folder Include="Crm\Model\" />
+    <Folder Include="Crm\VO\" />
+    <Folder Include="..\project\Crm\Controller\Controller\" />
+    <Folder Include="..\project\Crm\Model\Model\" />
+    <Folder Include="..\project\Crm\VO\VO\" />
+    <Folder Include="Crm\Libary\" />
+    <Folder Include="Crm\Controller\Crm\" />
+    <Folder Include="Crm\Crm\" />
+    <Folder Include="Crm\Crm\Controller\" />
+    <Folder Include="Crm\Crm\Model\" />
+    <Folder Include="Crm\Crm\VO\" />
+  </ItemGroup>
+</Project>

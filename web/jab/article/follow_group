@@ -1,0 +1,1 @@
+﻿<tr><th>分组</th><td><select name="group"><:foreach collection="?categoryList?" var="list"><option value="?list.categoryId?">?list.title?</option></:foreach></select><input type="hidden" name="openid" value="?openid?"/></td></tr>

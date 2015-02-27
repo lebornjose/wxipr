@@ -1,0 +1,54 @@
+﻿--------2014-12-16 13:58:22---------------------------------------------------------------
+	Error:应用错误
+	System.Reflection.AmbiguousMatchException: Ambiguous matching in method resolution
+  at System.Reflection.Binder.FindMostDerivedMatch (System.Reflection.MethodBase[] match) [0x00000] in <filename unknown>:0 
+  at System.MonoType.GetMethodImpl (System.String name, BindingFlags bindingAttr, System.Reflection.Binder binder, CallingConventions callConvention, System.Type[] types, System.Reflection.ParameterModifier[] modifiers) [0x00000] in <filename unknown>:0 
+  at System.Type.GetMethod (System.String name) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoController._JabinfoExcute (System.String[] userParam, Jabinfo.JabinfoContext context) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-12-16 13:58:28---------------------------------------------------------------
+	Error:应用错误
+	System.Reflection.AmbiguousMatchException: Ambiguous matching in method resolution
+  at System.Reflection.Binder.FindMostDerivedMatch (System.Reflection.MethodBase[] match) [0x00000] in <filename unknown>:0 
+  at System.MonoType.GetMethodImpl (System.String name, BindingFlags bindingAttr, System.Reflection.Binder binder, CallingConventions callConvention, System.Type[] types, System.Reflection.ParameterModifier[] modifiers) [0x00000] in <filename unknown>:0 
+  at System.Type.GetMethod (System.String name) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoController._JabinfoExcute (System.String[] userParam, Jabinfo.JabinfoContext context) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-12-16 13:58:31---------------------------------------------------------------
+	Error:应用错误
+	System.Reflection.AmbiguousMatchException: Ambiguous matching in method resolution
+  at System.Reflection.Binder.FindMostDerivedMatch (System.Reflection.MethodBase[] match) [0x00000] in <filename unknown>:0 
+  at System.MonoType.GetMethodImpl (System.String name, BindingFlags bindingAttr, System.Reflection.Binder binder, CallingConventions callConvention, System.Type[] types, System.Reflection.ParameterModifier[] modifiers) [0x00000] in <filename unknown>:0 
+  at System.Type.GetMethod (System.String name) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoController._JabinfoExcute (System.String[] userParam, Jabinfo.JabinfoContext context) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-12-16 13:58:41---------------------------------------------------------------
+	Error:应用错误
+	System.Reflection.AmbiguousMatchException: Ambiguous matching in method resolution
+  at System.Reflection.Binder.FindMostDerivedMatch (System.Reflection.MethodBase[] match) [0x00000] in <filename unknown>:0 
+  at System.MonoType.GetMethodImpl (System.String name, BindingFlags bindingAttr, System.Reflection.Binder binder, CallingConventions callConvention, System.Type[] types, System.Reflection.ParameterModifier[] modifiers) [0x00000] in <filename unknown>:0 
+  at System.Type.GetMethod (System.String name) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoController._JabinfoExcute (System.String[] userParam, Jabinfo.JabinfoContext context) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-12-16 13:58:49---------------------------------------------------------------
+	Error:应用错误
+	System.Reflection.AmbiguousMatchException: Ambiguous matching in method resolution
+  at System.Reflection.Binder.FindMostDerivedMatch (System.Reflection.MethodBase[] match) [0x00000] in <filename unknown>:0 
+  at System.MonoType.GetMethodImpl (System.String name, BindingFlags bindingAttr, System.Reflection.Binder binder, CallingConventions callConvention, System.Type[] types, System.Reflection.ParameterModifier[] modifiers) [0x00000] in <filename unknown>:0 
+  at System.Type.GetMethod (System.String name) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoController._JabinfoExcute (System.String[] userParam, Jabinfo.JabinfoContext context) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2014-12-16 14:00:06---------------------------------------------------------------
+	Error:应用错误
+	System.Reflection.AmbiguousMatchException: Ambiguous matching in method resolution
+  at System.Reflection.Binder.FindMostDerivedMatch (System.Reflection.MethodBase[] match) [0x00000] in <filename unknown>:0 
+  at System.MonoType.GetMethodImpl (System.String name, BindingFlags bindingAttr, System.Reflection.Binder binder, CallingConventions callConvention, System.Type[] types, System.Reflection.ParameterModifier[] modifiers) [0x00000] in <filename unknown>:0 
+  at System.Type.GetMethod (System.String name) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoController._JabinfoExcute (System.String[] userParam, Jabinfo.JabinfoContext context) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+

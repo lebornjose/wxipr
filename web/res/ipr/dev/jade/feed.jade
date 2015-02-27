@@ -1,0 +1,20 @@
+extend mods/body
+block title
+  title 反馈
+block script
+  script(type="text/javascript", src="js/base/jquery-1.11.2.min.js")
+  script(type="text/javascript", src="js/base/jquery.superslide.2.1.1.js")
+block content
+  .ipr-feed-content
+    h3.title 用户反馈
+    p.text 不积跬步,无以致千里,你们的每一个小小建议都能帮助我们更好的完善产品，请留下你的邮箱和电话，如果你的建议被我们采纳，并有助于我们产品的进步，我们会精心为你准备小礼品已供感谢。
+    form(method="", action="",class="ipr-feed")
+      label 姓名：
+      input(type="text", placeholder="请留下你的姓名")
+      label 邮箱：
+      input(type="text", placeholder="请留下你的邮箱")
+      label 电话：
+      input(type="text", placeholder="请留下你的电话")
+      label 反馈建议：
+      textarea(placeholder="请留下你的反馈和建议")
+      button(type="submit") 提交

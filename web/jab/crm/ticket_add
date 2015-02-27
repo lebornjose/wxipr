@@ -1,0 +1,1 @@
+<tr><th>标题</th><td><input type="text" name="title" koo="need"/></td></tr><tr><th>类型</th><td><select name="action"><option value="true">临时</option><option value="false">永久</option></select></td></tr><tr><th>场景值ID</th><td><input type="text" maxlength="5" value="10" koo="act-jump-digit"></td></tr><tr><th></th><td>场景值支持1-100000</td></tr>

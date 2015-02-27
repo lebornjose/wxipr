@@ -1,0 +1,556 @@
+﻿--------2014-01-01 17:44:44---------------------------------------------------------------
+	Error:rosy.site.js方法不存在
+	POSITOIN:
+	URL:http://127.0.0.1:8080/rosy/site/js/site.js
+	Referrer:/rosy/site/detail
+	POST:
+	GET:
+	COOKIE:jabinfo381=l011457599841416; uid=1002032132328300875; ukey=irXqyDnsL8TjaottGOxBXEd9efbFnLTvD; username=sinbo%40jabinfo.com; 
+	DATA:
+	IP:127.0.0.1
+
+
+--------2014-01-01 17:44:44---------------------------------------------------------------
+	Error:rosy.site.js方法不存在
+	POSITOIN:
+	URL:http://127.0.0.1:8080/rosy/site/js/site.js
+	Referrer:
+	POST:
+	GET:
+	COOKIE:jabinfo381=l011457599841416; uid=1002032132328300875; ukey=irXqyDnsL8TjaottGOxBXEd9efbFnLTvD; username=sinbo%40jabinfo.com; 
+	DATA:
+	IP:127.0.0.1
+
+
+--------2014-01-01 17:58:01---------------------------------------------------------------
+	Error:获取dataTable失败
+	Unknown column 'sort' in 'order clause'-----SELECT * FROM `page`  where site_id='' order by sort desc limit 0,30
+
+--------2014-01-01 17:58:01---------------------------------------------------------------
+	Error:获取dataTable失败
+	Unknown column 'sort' in 'order clause'-----SELECT * FROM `page`  where site_id='' order by sort desc limit 0,30
+	POSITOIN:  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00149] in /Users/zizhu/projects/apps/JabinfoFramework/Jabinfo/JabinfoLoger.cs:207 
+  at Sinbo.SelectMySQL.Table () [0x000b5] in /Users/zizhu/projects/apps/JabinfoFramework/Jabinfo/Schema/MySQL/CmdSelect.cs:312 
+  at Jabinfo.Rosy.Model.PageModel.Select (System.String site_id) [0x00029] in /Users/zizhu/projects/zento/project/Rosy/Model/PageModel.cs:56 
+  at Jabinfo.Rosy.Site.detail (System.String site_id) [0x00009] in /Users/zizhu/projects/zento/project/Rosy/Controller/Site.cs:41 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in <filename unknown>:0 
+	URL:http://127.0.0.1:8080/rosy/site/detail
+	Referrer:
+	POST:
+	GET:
+	COOKIE:jabinfo381=l011457599841416; uid=1002032132328300875; ukey=irXqyDnsL8TjaottGOxBXEd9efbFnLTvD; username=sinbo%40jabinfo.com; 
+	DATA:
+	IP:127.0.0.1
+
+
+--------2014-01-01 17:58:03---------------------------------------------------------------
+	Error:获取dataTable失败
+	Unknown column 'sort' in 'order clause'-----SELECT * FROM `page`  where site_id='' order by sort desc limit 0,30
+
+--------2014-01-01 17:58:03---------------------------------------------------------------
+	Error:获取dataTable失败
+	Unknown column 'sort' in 'order clause'-----SELECT * FROM `page`  where site_id='' order by sort desc limit 0,30
+	POSITOIN:  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00149] in /Users/zizhu/projects/apps/JabinfoFramework/Jabinfo/JabinfoLoger.cs:207 
+  at Sinbo.SelectMySQL.Table () [0x000b5] in /Users/zizhu/projects/apps/JabinfoFramework/Jabinfo/Schema/MySQL/CmdSelect.cs:312 
+  at Jabinfo.Rosy.Model.PageModel.Select (System.String site_id) [0x00029] in /Users/zizhu/projects/zento/project/Rosy/Model/PageModel.cs:56 
+  at Jabinfo.Rosy.Site.detail (System.String site_id) [0x00009] in /Users/zizhu/projects/zento/project/Rosy/Controller/Site.cs:41 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in <filename unknown>:0 
+	URL:http://127.0.0.1:8080/rosy/site/detail
+	Referrer:
+	POST:
+	GET:
+	COOKIE:jabinfo381=l011457599841416; uid=1002032132328300875; ukey=irXqyDnsL8TjaottGOxBXEd9efbFnLTvD; username=sinbo%40jabinfo.com; 
+	DATA:
+	IP:127.0.0.1
+
+
+--------2014-01-01 17:58:08---------------------------------------------------------------
+	Error:获取dataTable失败
+	Unknown column 'sort' in 'order clause'-----SELECT * FROM `page`  where site_id='' order by sort desc limit 0,30
+
+--------2014-01-01 17:58:08---------------------------------------------------------------
+	Error:获取dataTable失败
+	Unknown column 'sort' in 'order clause'-----SELECT * FROM `page`  where site_id='' order by sort desc limit 0,30
+	POSITOIN:  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00149] in /Users/zizhu/projects/apps/JabinfoFramework/Jabinfo/JabinfoLoger.cs:207 
+  at Sinbo.SelectMySQL.Table () [0x000b5] in /Users/zizhu/projects/apps/JabinfoFramework/Jabinfo/Schema/MySQL/CmdSelect.cs:312 
+  at Jabinfo.Rosy.Model.PageModel.Select (System.String site_id) [0x00029] in /Users/zizhu/projects/zento/project/Rosy/Model/PageModel.cs:56 
+  at Jabinfo.Rosy.Site.detail (System.String site_id) [0x00009] in /Users/zizhu/projects/zento/project/Rosy/Controller/Site.cs:41 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in <filename unknown>:0 
+	URL:http://127.0.0.1:8080/rosy/site/detail
+	Referrer:
+	POST:
+	GET:
+	COOKIE:jabinfo381=l011457599841416; uid=1002032132328300875; ukey=irXqyDnsL8TjaottGOxBXEd9efbFnLTvD; username=sinbo%40jabinfo.com; 
+	DATA:
+	IP:127.0.0.1
+
+
+--------2014-01-01 17:58:09---------------------------------------------------------------
+	Error:获取dataTable失败
+	Unknown column 'sort' in 'order clause'-----SELECT * FROM `page`  where site_id='' order by sort desc limit 0,30
+
+--------2014-01-01 17:58:09---------------------------------------------------------------
+	Error:获取dataTable失败
+	Unknown column 'sort' in 'order clause'-----SELECT * FROM `page`  where site_id='' order by sort desc limit 0,30
+	POSITOIN:  at Jabinfo.JabinfoLoger.Error (System.String title, System.String message) [0x00149] in /Users/zizhu/projects/apps/JabinfoFramework/Jabinfo/JabinfoLoger.cs:207 
+  at Sinbo.SelectMySQL.Table () [0x000b5] in /Users/zizhu/projects/apps/JabinfoFramework/Jabinfo/Schema/MySQL/CmdSelect.cs:312 
+  at Jabinfo.Rosy.Model.PageModel.Select (System.String site_id) [0x00029] in /Users/zizhu/projects/zento/project/Rosy/Model/PageModel.cs:56 
+  at Jabinfo.Rosy.Site.detail (System.String site_id) [0x00009] in /Users/zizhu/projects/zento/project/Rosy/Controller/Site.cs:41 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in <filename unknown>:0 
+	URL:http://127.0.0.1:8080/rosy/site/detail
+	Referrer:
+	POST:
+	GET:
+	COOKIE:jabinfo381=l011457599841416; uid=1002032132328300875; ukey=irXqyDnsL8TjaottGOxBXEd9efbFnLTvD; username=sinbo%40jabinfo.com; 
+	DATA:
+	IP:127.0.0.1
+
+
+--------2014-01-01 18:03:18---------------------------------------------------------------
+	Error:rosy.site.js方法不存在
+	POSITOIN:
+	URL:http://127.0.0.1:8080/rosy/site/js/site.js
+	Referrer:/rosy/site/detail
+	POST:
+	GET:
+	COOKIE:jabinfo381=l011457599841416; uid=1002032132328300875; ukey=irXqyDnsL8TjaottGOxBXEd9efbFnLTvD; username=sinbo%40jabinfo.com; 
+	DATA:
+	IP:127.0.0.1
+
+
+--------2014-01-01 18:03:19---------------------------------------------------------------
+	Error:rosy.site.js方法不存在
+	POSITOIN:
+	URL:http://127.0.0.1:8080/rosy/site/js/site.js
+	Referrer:
+	POST:
+	GET:
+	COOKIE:jabinfo381=l011457599841416; uid=1002032132328300875; ukey=irXqyDnsL8TjaottGOxBXEd9efbFnLTvD; username=sinbo%40jabinfo.com; 
+	DATA:
+	IP:127.0.0.1
+
+
+--------2014-01-01 18:03:29---------------------------------------------------------------
+	Error:rosy.site.js方法不存在
+	POSITOIN:
+	URL:http://127.0.0.1:8080/rosy/site/js/site.js
+	Referrer:
+	POST:
+	GET:
+	COOKIE:jabinfo381=l011457599841416; uid=1002032132328300875; ukey=irXqyDnsL8TjaottGOxBXEd9efbFnLTvD; username=sinbo%40jabinfo.com; 
+	DATA:
+	IP:127.0.0.1
+
+
+--------2014-01-01 18:06:40---------------------------------------------------------------
+	Error:rosy.site.js方法不存在
+	POSITOIN:
+	URL:http://127.0.0.1:8080/rosy/site/js/mods/site-context.js
+	Referrer:/rosy/site/detail
+	POST:
+	GET:
+	COOKIE:jabinfo381=l011457599841416; uid=1002032132328300875; ukey=irXqyDnsL8TjaottGOxBXEd9efbFnLTvD; username=sinbo%40jabinfo.com; 
+	DATA:
+	IP:127.0.0.1
+
+
+--------2014-01-01 18:06:40---------------------------------------------------------------
+	Error:rosy.site.js方法不存在
+	POSITOIN:
+	URL:http://127.0.0.1:8080/rosy/site/js/mods/site-directive.js
+	Referrer:/rosy/site/detail
+	POST:
+	GET:
+	COOKIE:jabinfo381=l011457599841416; uid=1002032132328300875; ukey=irXqyDnsL8TjaottGOxBXEd9efbFnLTvD; username=sinbo%40jabinfo.com; 
+	DATA:
+	IP:127.0.0.1
+
+
+--------2014-01-01 18:06:40---------------------------------------------------------------
+	Error:rosy.site.js方法不存在
+	POSITOIN:
+	URL:http://127.0.0.1:8080/rosy/site/js/mods/site-model.js
+	Referrer:/rosy/site/detail
+	POST:
+	GET:
+	COOKIE:jabinfo381=l011457599841416; uid=1002032132328300875; ukey=irXqyDnsL8TjaottGOxBXEd9efbFnLTvD; username=sinbo%40jabinfo.com; 
+	DATA:
+	IP:127.0.0.1
+
+
+--------2014-01-01 18:06:40---------------------------------------------------------------
+	Error:rosy.site.js方法不存在
+	POSITOIN:
+	URL:http://127.0.0.1:8080/rosy/site/js/mods/site-theme.js
+	Referrer:/rosy/site/detail
+	POST:
+	GET:
+	COOKIE:jabinfo381=l011457599841416; uid=1002032132328300875; ukey=irXqyDnsL8TjaottGOxBXEd9efbFnLTvD; username=sinbo%40jabinfo.com; 
+	DATA:
+	IP:127.0.0.1
+
+
+--------2014-01-01 18:06:40---------------------------------------------------------------
+	Error:rosy.site.js方法不存在
+	POSITOIN:
+	URL:http://127.0.0.1:8080/rosy/site/js/mods/site-manage.js
+	Referrer:/rosy/site/detail
+	POST:
+	GET:
+	COOKIE:jabinfo381=l011457599841416; uid=1002032132328300875; ukey=irXqyDnsL8TjaottGOxBXEd9efbFnLTvD; username=sinbo%40jabinfo.com; 
+	DATA:
+	IP:127.0.0.1
+
+
+--------2014-01-01 18:06:40---------------------------------------------------------------
+	Error:rosy.site.js方法不存在
+	POSITOIN:
+	URL:http://127.0.0.1:8080/rosy/site/js/mods/site-component.js
+	Referrer:/rosy/site/detail
+	POST:
+	GET:
+	COOKIE:jabinfo381=l011457599841416; uid=1002032132328300875; ukey=irXqyDnsL8TjaottGOxBXEd9efbFnLTvD; username=sinbo%40jabinfo.com; 
+	DATA:
+	IP:127.0.0.1
+
+
+--------2014-01-01 18:06:40---------------------------------------------------------------
+	Error:rosy.site.js方法不存在
+	POSITOIN:
+	URL:http://127.0.0.1:8080/rosy/site/js/base/spectrum.js
+	Referrer:/rosy/site/detail
+	POST:
+	GET:
+	COOKIE:jabinfo381=l011457599841416; uid=1002032132328300875; ukey=irXqyDnsL8TjaottGOxBXEd9efbFnLTvD; username=sinbo%40jabinfo.com; 
+	DATA:
+	IP:127.0.0.1
+
+
+--------2014-01-01 18:06:40---------------------------------------------------------------
+	Error:rosy.site.js方法不存在
+	POSITOIN:
+	URL:http://127.0.0.1:8080/rosy/site/js/base/spectrum.css
+	Referrer:/rosy/site/detail
+	POST:
+	GET:
+	COOKIE:jabinfo381=l011457599841416; uid=1002032132328300875; ukey=irXqyDnsL8TjaottGOxBXEd9efbFnLTvD; username=sinbo%40jabinfo.com; 
+	DATA:
+	IP:127.0.0.1
+
+
+--------2014-01-01 18:06:40---------------------------------------------------------------
+	Error:rosy.site.js方法不存在
+	POSITOIN:
+	URL:http://127.0.0.1:8080/rosy/site/js/mods/site-view-site.js
+	Referrer:/rosy/site/detail
+	POST:
+	GET:
+	COOKIE:jabinfo381=l011457599841416; uid=1002032132328300875; ukey=irXqyDnsL8TjaottGOxBXEd9efbFnLTvD; username=sinbo%40jabinfo.com; 
+	DATA:
+	IP:127.0.0.1
+
+
+--------2014-01-01 18:06:41---------------------------------------------------------------
+	Error:rosy.site.js方法不存在
+	POSITOIN:
+	URL:http://127.0.0.1:8080/rosy/site/js/mods/site-context.js
+	Referrer:
+	POST:
+	GET:
+	COOKIE:jabinfo381=l011457599841416; uid=1002032132328300875; ukey=irXqyDnsL8TjaottGOxBXEd9efbFnLTvD; username=sinbo%40jabinfo.com; 
+	DATA:
+	IP:127.0.0.1
+
+
+--------2014-01-01 18:06:41---------------------------------------------------------------
+	Error:rosy.site.js方法不存在
+	POSITOIN:
+	URL:http://127.0.0.1:8080/rosy/site/js/mods/site-directive.js
+	Referrer:
+	POST:
+	GET:
+	COOKIE:jabinfo381=l011457599841416; uid=1002032132328300875; ukey=irXqyDnsL8TjaottGOxBXEd9efbFnLTvD; username=sinbo%40jabinfo.com; 
+	DATA:
+	IP:127.0.0.1
+
+
+--------2014-01-01 18:06:41---------------------------------------------------------------
+	Error:rosy.site.js方法不存在
+	POSITOIN:
+	URL:http://127.0.0.1:8080/rosy/site/js/mods/site-model.js
+	Referrer:
+	POST:
+	GET:
+	COOKIE:jabinfo381=l011457599841416; uid=1002032132328300875; ukey=irXqyDnsL8TjaottGOxBXEd9efbFnLTvD; username=sinbo%40jabinfo.com; 
+	DATA:
+	IP:127.0.0.1
+
+
+--------2014-01-01 18:06:41---------------------------------------------------------------
+	Error:rosy.site.js方法不存在
+	POSITOIN:
+	URL:http://127.0.0.1:8080/rosy/site/js/mods/site-theme.js
+	Referrer:
+	POST:
+	GET:
+	COOKIE:jabinfo381=l011457599841416; uid=1002032132328300875; ukey=irXqyDnsL8TjaottGOxBXEd9efbFnLTvD; username=sinbo%40jabinfo.com; 
+	DATA:
+	IP:127.0.0.1
+
+
+--------2014-01-01 18:06:41---------------------------------------------------------------
+	Error:rosy.site.js方法不存在
+	POSITOIN:
+	URL:http://127.0.0.1:8080/rosy/site/js/mods/site-manage.js
+	Referrer:
+	POST:
+	GET:
+	COOKIE:jabinfo381=l011457599841416; uid=1002032132328300875; ukey=irXqyDnsL8TjaottGOxBXEd9efbFnLTvD; username=sinbo%40jabinfo.com; 
+	DATA:
+	IP:127.0.0.1
+
+
+--------2014-01-01 18:06:41---------------------------------------------------------------
+	Error:rosy.site.js方法不存在
+	POSITOIN:
+	URL:http://127.0.0.1:8080/rosy/site/js/mods/site-component.js
+	Referrer:
+	POST:
+	GET:
+	COOKIE:jabinfo381=l011457599841416; uid=1002032132328300875; ukey=irXqyDnsL8TjaottGOxBXEd9efbFnLTvD; username=sinbo%40jabinfo.com; 
+	DATA:
+	IP:127.0.0.1
+
+
+--------2014-01-01 18:06:41---------------------------------------------------------------
+	Error:rosy.site.js方法不存在
+	POSITOIN:
+	URL:http://127.0.0.1:8080/rosy/site/js/base/spectrum.js
+	Referrer:
+	POST:
+	GET:
+	COOKIE:jabinfo381=l011457599841416; uid=1002032132328300875; ukey=irXqyDnsL8TjaottGOxBXEd9efbFnLTvD; username=sinbo%40jabinfo.com; 
+	DATA:
+	IP:127.0.0.1
+
+
+--------2014-01-01 18:06:41---------------------------------------------------------------
+	Error:rosy.site.js方法不存在
+	POSITOIN:
+	URL:http://127.0.0.1:8080/rosy/site/js/mods/site-view-site.js
+	Referrer:
+	POST:
+	GET:
+	COOKIE:jabinfo381=l011457599841416; uid=1002032132328300875; ukey=irXqyDnsL8TjaottGOxBXEd9efbFnLTvD; username=sinbo%40jabinfo.com; 
+	DATA:
+	IP:127.0.0.1
+
+
+--------2014-01-01 18:06:42---------------------------------------------------------------
+	Error:rosy.site.js方法不存在
+	POSITOIN:
+	URL:http://127.0.0.1:8080/rosy/site/js/mods/site-context.js
+	Referrer:/rosy/site/detail
+	POST:
+	GET:
+	COOKIE:jabinfo381=l011457599841416; uid=1002032132328300875; ukey=irXqyDnsL8TjaottGOxBXEd9efbFnLTvD; username=sinbo%40jabinfo.com; 
+	DATA:
+	IP:127.0.0.1
+
+
+--------2014-01-01 18:06:42---------------------------------------------------------------
+	Error:rosy.site.js方法不存在
+	POSITOIN:
+	URL:http://127.0.0.1:8080/rosy/site/js/mods/site-directive.js
+	Referrer:/rosy/site/detail
+	POST:
+	GET:
+	COOKIE:jabinfo381=l011457599841416; uid=1002032132328300875; ukey=irXqyDnsL8TjaottGOxBXEd9efbFnLTvD; username=sinbo%40jabinfo.com; 
+	DATA:
+	IP:127.0.0.1
+
+
+--------2014-01-01 18:06:42---------------------------------------------------------------
+	Error:rosy.site.js方法不存在
+	POSITOIN:
+	URL:http://127.0.0.1:8080/rosy/site/js/mods/site-model.js
+	Referrer:/rosy/site/detail
+	POST:
+	GET:
+	COOKIE:jabinfo381=l011457599841416; uid=1002032132328300875; ukey=irXqyDnsL8TjaottGOxBXEd9efbFnLTvD; username=sinbo%40jabinfo.com; 
+	DATA:
+	IP:127.0.0.1
+
+
+--------2014-01-01 18:06:42---------------------------------------------------------------
+	Error:rosy.site.js方法不存在
+	POSITOIN:
+	URL:http://127.0.0.1:8080/rosy/site/js/mods/site-theme.js
+	Referrer:/rosy/site/detail
+	POST:
+	GET:
+	COOKIE:jabinfo381=l011457599841416; uid=1002032132328300875; ukey=irXqyDnsL8TjaottGOxBXEd9efbFnLTvD; username=sinbo%40jabinfo.com; 
+	DATA:
+	IP:127.0.0.1
+
+
+--------2014-01-01 18:06:42---------------------------------------------------------------
+	Error:rosy.site.js方法不存在
+	POSITOIN:
+	URL:http://127.0.0.1:8080/rosy/site/js/mods/site-manage.js
+	Referrer:/rosy/site/detail
+	POST:
+	GET:
+	COOKIE:jabinfo381=l011457599841416; uid=1002032132328300875; ukey=irXqyDnsL8TjaottGOxBXEd9efbFnLTvD; username=sinbo%40jabinfo.com; 
+	DATA:
+	IP:127.0.0.1
+
+
+--------2014-01-01 18:06:42---------------------------------------------------------------
+	Error:rosy.site.js方法不存在
+	POSITOIN:
+	URL:http://127.0.0.1:8080/rosy/site/js/mods/site-component.js
+	Referrer:/rosy/site/detail
+	POST:
+	GET:
+	COOKIE:jabinfo381=l011457599841416; uid=1002032132328300875; ukey=irXqyDnsL8TjaottGOxBXEd9efbFnLTvD; username=sinbo%40jabinfo.com; 
+	DATA:
+	IP:127.0.0.1
+
+
+--------2014-01-01 18:06:42---------------------------------------------------------------
+	Error:rosy.site.js方法不存在
+	POSITOIN:
+	URL:http://127.0.0.1:8080/rosy/site/js/base/spectrum.css
+	Referrer:/rosy/site/detail
+	POST:
+	GET:
+	COOKIE:jabinfo381=l011457599841416; uid=1002032132328300875; ukey=irXqyDnsL8TjaottGOxBXEd9efbFnLTvD; username=sinbo%40jabinfo.com; 
+	DATA:
+	IP:127.0.0.1
+
+
+--------2014-01-01 18:06:42---------------------------------------------------------------
+	Error:rosy.site.js方法不存在
+	POSITOIN:
+	URL:http://127.0.0.1:8080/rosy/site/js/base/spectrum.js
+	Referrer:/rosy/site/detail
+	POST:
+	GET:
+	COOKIE:jabinfo381=l011457599841416; uid=1002032132328300875; ukey=irXqyDnsL8TjaottGOxBXEd9efbFnLTvD; username=sinbo%40jabinfo.com; 
+	DATA:
+	IP:127.0.0.1
+
+
+--------2014-01-01 18:06:42---------------------------------------------------------------
+	Error:rosy.site.js方法不存在
+	POSITOIN:
+	URL:http://127.0.0.1:8080/rosy/site/js/mods/site-view-site.js
+	Referrer:/rosy/site/detail
+	POST:
+	GET:
+	COOKIE:jabinfo381=l011457599841416; uid=1002032132328300875; ukey=irXqyDnsL8TjaottGOxBXEd9efbFnLTvD; username=sinbo%40jabinfo.com; 
+	DATA:
+	IP:127.0.0.1
+
+
+--------2014-01-01 18:06:42---------------------------------------------------------------
+	Error:rosy.site.js方法不存在
+	POSITOIN:
+	URL:http://127.0.0.1:8080/rosy/site/js/mods/site-context.js
+	Referrer:
+	POST:
+	GET:
+	COOKIE:jabinfo381=l011457599841416; uid=1002032132328300875; ukey=irXqyDnsL8TjaottGOxBXEd9efbFnLTvD; username=sinbo%40jabinfo.com; 
+	DATA:
+	IP:127.0.0.1
+
+
+--------2014-01-01 18:06:42---------------------------------------------------------------
+	Error:rosy.site.js方法不存在
+	POSITOIN:
+	URL:http://127.0.0.1:8080/rosy/site/js/mods/site-directive.js
+	Referrer:
+	POST:
+	GET:
+	COOKIE:jabinfo381=l011457599841416; uid=1002032132328300875; ukey=irXqyDnsL8TjaottGOxBXEd9efbFnLTvD; username=sinbo%40jabinfo.com; 
+	DATA:
+	IP:127.0.0.1
+
+
+--------2014-01-01 18:06:42---------------------------------------------------------------
+	Error:rosy.site.js方法不存在
+	POSITOIN:
+	URL:http://127.0.0.1:8080/rosy/site/js/mods/site-model.js
+	Referrer:
+	POST:
+	GET:
+	COOKIE:jabinfo381=l011457599841416; uid=1002032132328300875; ukey=irXqyDnsL8TjaottGOxBXEd9efbFnLTvD; username=sinbo%40jabinfo.com; 
+	DATA:
+	IP:127.0.0.1
+
+
+--------2014-01-01 18:06:42---------------------------------------------------------------
+	Error:rosy.site.js方法不存在
+	POSITOIN:
+	URL:http://127.0.0.1:8080/rosy/site/js/mods/site-theme.js
+	Referrer:
+	POST:
+	GET:
+	COOKIE:jabinfo381=l011457599841416; uid=1002032132328300875; ukey=irXqyDnsL8TjaottGOxBXEd9efbFnLTvD; username=sinbo%40jabinfo.com; 
+	DATA:
+	IP:127.0.0.1
+
+
+--------2014-01-01 18:06:42---------------------------------------------------------------
+	Error:rosy.site.js方法不存在
+	POSITOIN:
+	URL:http://127.0.0.1:8080/rosy/site/js/mods/site-manage.js
+	Referrer:
+	POST:
+	GET:
+	COOKIE:jabinfo381=l011457599841416; uid=1002032132328300875; ukey=irXqyDnsL8TjaottGOxBXEd9efbFnLTvD; username=sinbo%40jabinfo.com; 
+	DATA:
+	IP:127.0.0.1
+
+
+--------2014-01-01 18:06:42---------------------------------------------------------------
+	Error:rosy.site.js方法不存在
+	POSITOIN:
+	URL:http://127.0.0.1:8080/rosy/site/js/mods/site-component.js
+	Referrer:
+	POST:
+	GET:
+	COOKIE:jabinfo381=l011457599841416; uid=1002032132328300875; ukey=irXqyDnsL8TjaottGOxBXEd9efbFnLTvD; username=sinbo%40jabinfo.com; 
+	DATA:
+	IP:127.0.0.1
+
+
+--------2014-01-01 18:06:42---------------------------------------------------------------
+	Error:rosy.site.js方法不存在
+	POSITOIN:
+	URL:http://127.0.0.1:8080/rosy/site/js/base/spectrum.js
+	Referrer:
+	POST:
+	GET:
+	COOKIE:jabinfo381=l011457599841416; uid=1002032132328300875; ukey=irXqyDnsL8TjaottGOxBXEd9efbFnLTvD; username=sinbo%40jabinfo.com; 
+	DATA:
+	IP:127.0.0.1
+
+
+--------2014-01-01 18:06:42---------------------------------------------------------------
+	Error:rosy.site.js方法不存在
+	POSITOIN:
+	URL:http://127.0.0.1:8080/rosy/site/js/mods/site-view-site.js
+	Referrer:
+	POST:
+	GET:
+	COOKIE:jabinfo381=l011457599841416; uid=1002032132328300875; ukey=irXqyDnsL8TjaottGOxBXEd9efbFnLTvD; username=sinbo%40jabinfo.com; 
+	DATA:
+	IP:127.0.0.1
+
+

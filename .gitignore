@@ -1,0 +1,10 @@
+document/
+*.psd
+bin/
+obj/
+temp/
+svn/
+upload/
+.sass-cache/
+node_modules/
+editor/£

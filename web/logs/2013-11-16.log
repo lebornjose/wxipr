@@ -1,0 +1,24 @@
+﻿--------2013-11-16 22:05:03---------------------------------------------------------------
+	Error:article.home控制器没有注册
+	POSITOIN:
+	URL:http://localhost:6178/article/home/category/3284
+	Referrer:/jabinfo/specification
+	POST:
+	GET:
+	COOKIE:jabinfo381=l1311161315314741175; uid=1002032132328300875; ukey=7Xxb1vwocPLhYSatftfttghmI3gtt4l5K0cJ; username=sinbo%40jabinfo.com; 
+	DATA:
+	IP:::1
+
+
+--------2013-11-16 22:05:10---------------------------------------------------------------
+	Error:article.home控制器没有注册
+	POSITOIN:
+	URL:http://localhost:6178/article/home/category/3284
+	Referrer:/jabinfo/js
+	POST:
+	GET:
+	COOKIE:jabinfo381=l1311161315314741175; uid=1002032132328300875; ukey=7Xxb1vwocPLhYSatftfttghmI3gtt4l5K0cJ; username=sinbo%40jabinfo.com; 
+	DATA:
+	IP:::1
+
+
