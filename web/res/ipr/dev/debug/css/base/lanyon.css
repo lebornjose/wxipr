@@ -16,11 +16,10 @@
 /* Style and "hide" the sidebar */
 .sidebar {
   position: fixed;
-  top: 0;
+  top: 1;
   bottom: 0;
   left: -14rem;
-  z-index: 999;
-  width: 8rem;
+  width: 9rem;
   visibility: hidden;
   overflow-y: auto;
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
@@ -42,7 +41,7 @@
   color: #fff;
 }
 .sidebar-item {
-  padding: 1rem;
+  padding: 2rem;
 }
 .sidebar-item p:last-child {
   margin-bottom: 0;
@@ -87,11 +86,11 @@ a.sidebar-nav-item:focus {
 /* Style the `label` that we use to target the `.sidebar-checkbox` */
 .sidebar-toggle {
   position: absolute;
-  top:  0.5rem;
+  top:  .5rem;
   right: 1rem;
   display: block;
   width: 1rem;
-  padding: .5rem .65rem;
+  padding: 0.5rem .65rem;
   color: #00a498;
   background-color: #fff;
   border-radius: 4px;
@@ -111,8 +110,7 @@ a.sidebar-nav-item:focus {
           box-sizing: border-box;
 }
 
-.sidebar-toggle:active,
-#sidebar-checkbox:checked ~ .sidebar-toggle {
+.sidebar-toggle:active, #sidebar-checkbox:checked ~ .sidebar-toggle {
   color: #fff;
   background-color: #505050;
 }

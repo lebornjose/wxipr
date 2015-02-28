@@ -162,22 +162,23 @@ ul.left li, ol.left li, dl.left dt, dl.left dd {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wxipr\/web\/res\/ipr\/dev\/sass\/mods\/head\.scss}line{font-family:\000031}}
 .header {
-  padding-top: 6px; }
+  padding-top: 10px; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wxipr\/web\/res\/ipr\/dev\/sass\/mods\/head\.scss}line{font-family:\000033}}
   .header .logo {
     width: 80%;
+    height: 45px;
     text-align: left;
     margin-left: 4%;
     color: #00a498;
     font-family: 'Avenir Next', 'Hiragino Sans GB', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 26px;
     font-weight: bold; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wxipr\/web\/res\/ipr\/dev\/sass\/mods\/head\.scss}line{font-family:\0000312}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wxipr\/web\/res\/ipr\/dev\/sass\/mods\/head\.scss}line{font-family:\0000313}}
   .header .search {
     width: 100%;
     text-align: center;
     margin: 0 auto; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wxipr\/web\/res\/ipr\/dev\/sass\/mods\/head\.scss}line{font-family:\0000316}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wxipr\/web\/res\/ipr\/dev\/sass\/mods\/head\.scss}line{font-family:\0000317}}
     .header .search input {
       width: 70%;
       padding-left: 2%;
@@ -186,7 +187,7 @@ ul.left li, ol.left li, dl.left dt, dl.left dd {
       border-radius: 5px;
       background: #efedee;
       line-height: 24px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wxipr\/web\/res\/ipr\/dev\/sass\/mods\/head\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wxipr\/web\/res\/ipr\/dev\/sass\/mods\/head\.scss}line{font-family:\0000326}}
     .header .search button {
       width: 20%;
       border: none;
@@ -332,33 +333,32 @@ ul.left li, ol.left li, dl.left dt, dl.left dd {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wxipr\/web\/res\/ipr\/dev\/sass\/page\/index\.scss}line{font-family:\0000314}}
 .main_image h5 {
-  margin-left: 5%;
-  width: 88%;
+  width: 90%;
+  margin: 0 auto;
+  top: -40px;
   color: #00a498;
   background-color: #000;
   padding-left: 2;
-  height: 20px;
   opacity: 0.6;
   line-height: 20px;
-  position: absolute;
-  top: 109px; }
+  text-align: center;
+  position: relative; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wxipr\/web\/res\/ipr\/dev\/sass\/page\/index\.scss}line{font-family:\0000315}}
 .main_visual {
-  height: 140px;
+  height: 160px;
   overflow: hidden;
   position: relative; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wxipr\/web\/res\/ipr\/dev\/sass\/page\/index\.scss}line{font-family:\0000316}}
 .main_image {
-  height: 140px;
+  height: 160px;
   overflow: hidden;
   position: relative; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wxipr\/web\/res\/ipr\/dev\/sass\/page\/index\.scss}line{font-family:\0000317}}
 .main_image ul {
-  width: 90%;
-  height: 140px;
+  height: 160px;
   overflow: hidden;
   position: absolute;
   top: 0;
@@ -367,34 +367,37 @@ ul.left li, ol.left li, dl.left dt, dl.left dd {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wxipr\/web\/res\/ipr\/dev\/sass\/page\/index\.scss}line{font-family:\0000318}}
 .main_image li {
   float: left;
-  width: 90%;
-  height: 140px; }
+  height: 160px; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wxipr\/web\/res\/ipr\/dev\/sass\/page\/index\.scss}line{font-family:\0000319}}
+.main_image li img {
+  height: 160px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wxipr\/web\/res\/ipr\/dev\/sass\/page\/index\.scss}line{font-family:\0000320}}
 .main_image li span {
   display: block;
   width: 90%;
-  height: 140px;
+  height: 160px;
   text-align: center;
   margin: 10px auto; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wxipr\/web\/res\/ipr\/dev\/sass\/page\/index\.scss}line{font-family:\0000320}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wxipr\/web\/res\/ipr\/dev\/sass\/page\/index\.scss}line{font-family:\0000321}}
 .main_image li a {
   display: block;
   width: 90%;
-  height: 140px; }
+  height: 160px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wxipr\/web\/res\/ipr\/dev\/sass\/page\/index\.scss}line{font-family:\0000321}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wxipr\/web\/res\/ipr\/dev\/sass\/page\/index\.scss}line{font-family:\0000322}}
 div.flicking_con {
   position: absolute;
-  top: 90px;
+  top: 120px;
   left: 50%;
   z-index: 9;
   width: 300px;
   height: 21px;
   margin: 0 0 0 -50px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wxipr\/web\/res\/ipr\/dev\/sass\/page\/index\.scss}line{font-family:\0000322}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wxipr\/web\/res\/ipr\/dev\/sass\/page\/index\.scss}line{font-family:\0000323}}
 div.flicking_con a {
   float: left;
   width: 21px;
@@ -405,66 +408,85 @@ div.flicking_con a {
   display: block;
   text-indent: -1000px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wxipr\/web\/res\/ipr\/dev\/sass\/page\/index\.scss}line{font-family:\0000323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wxipr\/web\/res\/ipr\/dev\/sass\/page\/index\.scss}line{font-family:\0000324}}
 div.flicking_con a.on {
   background-position: 0 -21px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wxipr\/web\/res\/ipr\/dev\/sass\/page\/index\.scss}line{font-family:\0000324}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wxipr\/web\/res\/ipr\/dev\/sass\/page\/index\.scss}line{font-family:\0000325}}
+#btn_prev, #btn_next {
+  z-index: 11111;
+  position: absolute;
+  display: block;
+  width: 73px !important;
+  height: 74px !important;
+  top: 50%;
+  margin-top: -37px;
+  display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wxipr\/web\/res\/ipr\/dev\/sass\/page\/index\.scss}line{font-family:\0000326}}
+#btn_prev {
+  left: 100px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wxipr\/web\/res\/ipr\/dev\/sass\/page\/index\.scss}line{font-family:\0000327}}
+#btn_next {
+  right: 100px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wxipr\/web\/res\/ipr\/dev\/sass\/page\/index\.scss}line{font-family:\0000328}}
 .ipr-index-mian {
   width: 90%;
   margin-left: 6%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wxipr\/web\/res\/ipr\/dev\/sass\/page\/index\.scss}line{font-family:\0000329}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wxipr\/web\/res\/ipr\/dev\/sass\/page\/index\.scss}line{font-family:\0000333}}
 .ipr-index-top h3 {
   color: #00a498;
   font-weight: bold;
   font-size: 14px;
   margin-bottom: 8px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wxipr\/web\/res\/ipr\/dev\/sass\/page\/index\.scss}line{font-family:\0000335}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wxipr\/web\/res\/ipr\/dev\/sass\/page\/index\.scss}line{font-family:\0000339}}
 .ipr-index-top img {
   width: 45%;
   height: 70px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wxipr\/web\/res\/ipr\/dev\/sass\/page\/index\.scss}line{font-family:\0000339}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wxipr\/web\/res\/ipr\/dev\/sass\/page\/index\.scss}line{font-family:\0000343}}
 .ipr-index-top .twopic {
   margin-left: 5%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wxipr\/web\/res\/ipr\/dev\/sass\/page\/index\.scss}line{font-family:\0000342}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wxipr\/web\/res\/ipr\/dev\/sass\/page\/index\.scss}line{font-family:\0000346}}
 .ipr-index-top ul {
   width: 100%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wxipr\/web\/res\/ipr\/dev\/sass\/page\/index\.scss}line{font-family:\0000344}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wxipr\/web\/res\/ipr\/dev\/sass\/page\/index\.scss}line{font-family:\0000348}}
   .ipr-index-top ul li {
     line-height: 25px;
     border-bottom: 1px dashed #999;
     width: 100%;
     overflow: hidden; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wxipr\/web\/res\/ipr\/dev\/sass\/page\/index\.scss}line{font-family:\0000352}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wxipr\/web\/res\/ipr\/dev\/sass\/page\/index\.scss}line{font-family:\0000356}}
 .index-content {
   margin-top: 10px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wxipr\/web\/res\/ipr\/dev\/sass\/page\/index\.scss}line{font-family:\0000354}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wxipr\/web\/res\/ipr\/dev\/sass\/page\/index\.scss}line{font-family:\0000358}}
   .index-content .list {
     padding-bottom: 7px;
     border-bottom: 1px dashed #999; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wxipr\/web\/res\/ipr\/dev\/sass\/page\/index\.scss}line{font-family:\0000358}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wxipr\/web\/res\/ipr\/dev\/sass\/page\/index\.scss}line{font-family:\0000362}}
   .index-content h3 {
     color: #00a498;
     font-weight: bold;
     font-size: 14px;
     margin-bottom: 8px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wxipr\/web\/res\/ipr\/dev\/sass\/page\/index\.scss}line{font-family:\0000364}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wxipr\/web\/res\/ipr\/dev\/sass\/page\/index\.scss}line{font-family:\0000368}}
   .index-content h4 {
     line-height: 24px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wxipr\/web\/res\/ipr\/dev\/sass\/page\/index\.scss}line{font-family:\0000368}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wxipr\/web\/res\/ipr\/dev\/sass\/page\/index\.scss}line{font-family:\0000372}}
   .index-content dl dt {
     width: 30%;
     height: 80px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wxipr\/web\/res\/ipr\/dev\/sass\/page\/index\.scss}line{font-family:\0000373}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wxipr\/web\/res\/ipr\/dev\/sass\/page\/index\.scss}line{font-family:\0000377}}
   .index-content dl dd {
     width: 65%;
     height: 80px;
     overflow: hidden;
     line-height: 20px;
     margin-left: 5%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wxipr\/web\/res\/ipr\/dev\/sass\/page\/index\.scss}line{font-family:\0000382}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wxipr\/web\/res\/ipr\/dev\/sass\/page\/index\.scss}line{font-family:\0000386}}
   .index-content .last {
     color: #999;
     line-height: 25px; }
