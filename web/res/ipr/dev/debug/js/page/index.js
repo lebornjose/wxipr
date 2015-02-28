@@ -1,15 +1,56 @@
 $(document).ready(function(){
-	/*鼠标移过，左右按钮显示*/
-	$(".index-anmation").hover(function(){
-		$(this).find(".prev,.next").fadeTo("show",0.1);
+
+	$(".main_visual").hover(function(){
+		$("#btn_prev,#btn_next").fadeIn()
 	},function(){
-		$(this).find(".prev,.next").hide();
-	})
-	/*鼠标移过某个按钮 高亮显示*/
-	$(".prev,.next").hover(function(){
-		$(this).fadeTo("show",0.7);
+		$("#btn_prev,#btn_next").fadeOut()
+	});
+
+	$dragBln = false;
+
+	$(".main_image").touchSlider({
+		flexible : true,
+		speed : 200,
+		btn_prev : $("#btn_prev"),
+		btn_next : $("#btn_next"),
+		paging : $(".flicking_con a"),
+		counter : function (e){
+			$(".flicking_con a").removeClass("on").eq(e.current-1).addClass("on");
+		}
+	});
+
+	$(".main_image").bind("mousedown", function() {
+		$dragBln = false;
+	});
+
+	$(".main_image").bind("dragstart", function() {
+		$dragBln = true;
+	});
+
+	$(".main_image a").click(function(){
+		if($dragBln) {
+			return false;
+		}
+	});
+
+	timer = setInterval(function(){
+		$("#btn_next").click();
+	}, 5000);
+
+	$(".main_visual").hover(function(){
+		clearInterval(timer);
 	},function(){
-		$(this).fadeTo("show",0.1);
-	})
-	$(".index-anmation").slide({ titCell:".num ul" , mainCell:".pic" , effect:"fold", autoPlay:true, delayTime:700 , autoPage:true });	
-})
+		timer = setInterval(function(){
+			$("#btn_next").click();
+		},5000);
+	});
+
+	$(".main_image").bind("touchstart",function(){
+		clearInterval(timer);
+	}).bind("touchend", function(){
+		timer = setInterval(function(){
+			$("#btn_next").click();
+		}, 5000);
+	});
+
+});

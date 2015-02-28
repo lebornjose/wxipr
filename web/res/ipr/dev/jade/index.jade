@@ -3,31 +3,30 @@ block title
   title 首页
 block script
   script(type="text/javascript", src="js/base/jquery-1.11.2.min.js")
-  script(type="text/javascript", src="js/base/jquery.superslide.2.1.1.js")
+  script(type="text/javascript", src="js/base/jquery.event.drag-1.5.min.js")
+  script(type="text/javascript", src="js/base/jquery.touchSlider.js")
   script(type="text/javascript", src="js/page/index.js")
 block content
-  .ipr-content-index
-    .index-anmation
-      ul.pic.left
+  .main_visual
+    .flicking_con
+      a(href="#") 1
+      a(href="#") 2
+      a(href="#") 3
+      a(href="#") 4
+    .main_image
+      ul
         li
-          a(href="#", target="_blank") 
-            img(src="img/0.jpg", alt="")
-          h5 恭贺新年
+          span: img(src="img/1.jpg")
+          h5 2015年十大案例评选
         li
-          a(href="#", target="_blank") 
-            img(src="img/1.jpg", alt="")
-          h5 三阳开泰
+          span: img(src="img/2.jpg")
+          h5 滴滴快递合并案
         li
-          a(href="#", target="_blank") 
-            img(src="img/2.jpg", alt="")
-          h5 喜洋洋，没洋洋
+          span: img(src="img/3.jpg")
+          h5 上海知识产权研究所恭祝大家新年好
         li
-          a(href="#", target="_blank") 
-            img(src="img/3.jpg", alt="")
+          span: img(src="img/4.jpg")
           h5 啦啦啦啦德玛西亚
-      a(class="prev" href="javascript:void(0)")
-      a(class="next",href="javascript:void(0)")
-      .num: ul
   .ipr-index-mian
     .ipr-index-top
       h3 案例报告

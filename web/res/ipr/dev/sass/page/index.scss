@@ -9,62 +9,18 @@
       blr: expression(this.onFocus=this.blur());
       outline: none;
     }
-    h5{
-      width: 100%;
-      color: #00a498;
-      background-color:#000;
-      height: 20px;
-      opacity: 0.6;
-      padding-left: 6px;
-      line-height: 20px;
-      position:absolute;	
-      top:100px;
-    }
   }
 }
-.index-anmation{
-   height: 330px;
-   margin:25px auto; 
-   position: relative; 
-   overflow:hidden; 
-   margin-bottom: 15px;
-   .num{
-     overflow:hidden; 
-     height: 25px; 
-     position: absolute; 
-     bottom:20px; 
-     right: 15px; 
-     zoom:1; 
-     z-index:3;
-     li{
-       width: 14px; 
-       height: 14px; 
-       line-height: 14px; 
-       text-align: center; 
-       font-weight: 400; 
-       font-family: "微软雅黑", Arial; 
-       color: #FFFFFF; 
-       background: #444444; 
-       margin-right: 10px; 
-       border-radius:50%; 
-       cursor:pointer; 
-       float: left;
-     }
-     li.on{
-       background: #00a498;
-     }
-   }
-   .prev,.next{
-   	  display: none; 
-   	  width: 40px; 
-   	  height: 20px; 
-   	  background: url(../img/btn.png) no-repeat; 
-   	  position: absolute; 
-   	  top: 40px;
-   }
-   .prev { left: 0; }
-   .next { right: 0; background-position: right }
-}
+.main_image h5{margin-left:5%;width:88%;color: #00a498;background-color:#000;padding-left:2;height: 20px;opacity: 0.6;line-height: 20px;position:absolute;top:109px;}
+.main_visual{height:140px;overflow:hidden;position:relative;}
+.main_image{height:140px;overflow:hidden;position:relative;}
+.main_image ul{width:90%;height:140px;overflow:hidden;position:absolute;top:0;left:0}
+.main_image li{float:left;width:90%;height:140px;}
+.main_image li span{display:block;width:90%;height:140px;text-align:center;margin:10px auto;}
+.main_image li a{display:block;width:90%;height:140px}
+div.flicking_con{position:absolute;top:90px;left:50%;z-index:9;width:300px;height:21px;margin:0 0 0 -50px;}
+div.flicking_con a{float:left;width:21px;height:21px;margin:0;padding:0;background:url('../img/btn_main_img.png') 0 0 no-repeat;display:block;text-indent:-1000px}
+div.flicking_con a.on{background-position:0 -21px}
 .ipr-index-mian{
   width:90%;
   margin-left: 6%;	
