@@ -238,6 +238,15 @@
     <Compile Include="..\project\Crm\VO\MsglogVO.cs">
       <Link>Crm\VO\MsglogVO.cs</Link>
     </Compile>
+    <Compile Include="Crm\Web.cs" />
+    <Compile Include="Crm\Controller\Animation.cs" />
+    <Compile Include="Crm\Model\AnimationModel.cs" />
+    <Compile Include="Crm\VO\AnimationMapper.cs" />
+    <Compile Include="Crm\VO\AnimationVO.cs" />
+    <Compile Include="Crm\Controller\Basic.cs" />
+    <Compile Include="Crm\Model\BasicModel.cs" />
+    <Compile Include="Crm\VO\BasicMapper.cs" />
+    <Compile Include="Crm\VO\BasicVO.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.Targets" />
@@ -250,10 +259,10 @@
     <Folder Include="..\project\Crm\Model\Model\" />
     <Folder Include="..\project\Crm\VO\VO\" />
     <Folder Include="Crm\Libary\" />
-    <Folder Include="Crm\Controller\Crm\" />
-    <Folder Include="Crm\Crm\" />
-    <Folder Include="Crm\Crm\Controller\" />
-    <Folder Include="Crm\Crm\Model\" />
-    <Folder Include="Crm\Crm\VO\" />
+    <Folder Include="..\project\Crm\Controller\Crm\" />
+    <Folder Include="..\project\Crm\Crm\" />
+    <Folder Include="..\project\Crm\Crm\Controller\" />
+    <Folder Include="..\project\Crm\Crm\Model\" />
+    <Folder Include="..\project\Crm\Crm\VO\" />
   </ItemGroup>
 </Project>

@@ -1,0 +1,321 @@
+﻿--------2015-03-02 10:48:42---------------------------------------------------------------
+	Error:获取dataTable失败
+	MySql.Data.MySqlClient.MySqlException: Fatal error encountered during command execution. ---> MySql.Data.MySqlClient.MySqlException: Parameter '?categoryId' must be defined.
+  at MySql.Data.MySqlClient.Statement.SerializeParameter (MySql.Data.MySqlClient.MySqlParameterCollection parameters, MySql.Data.MySqlClient.MySqlPacket packet, System.String parmName, Int32 parameterIndex) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.InternalBindParameters (System.String sql, MySql.Data.MySqlClient.MySqlParameterCollection parameters, MySql.Data.MySqlClient.MySqlPacket packet) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.BindParameters () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.Execute () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.PreparableStatement.Execute () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at System.Data.Common.DbCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at System.Data.Common.DbDataAdapter.Fill (System.Data.DataTable dataTable, IDbCommand command, CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at System.Data.Common.DbDataAdapter.Fill (System.Data.DataTable dataTable) [0x00000] in <filename unknown>:0 
+  at (wrapper remoting-invoke-with-check) System.Data.Common.DbDataAdapter:Fill (System.Data.DataTable)
+  at Jabinfo.DB.MySQL.Select.All () [0x00000] in <filename unknown>:0 -----SELECT * FROM `article` where `categorys` like ?categoryId  LIMIT 0,30
+
+--------2015-03-02 10:48:48---------------------------------------------------------------
+	Error:获取dataTable失败
+	MySql.Data.MySqlClient.MySqlException: Fatal error encountered during command execution. ---> MySql.Data.MySqlClient.MySqlException: Parameter '?categoryId' must be defined.
+  at MySql.Data.MySqlClient.Statement.SerializeParameter (MySql.Data.MySqlClient.MySqlParameterCollection parameters, MySql.Data.MySqlClient.MySqlPacket packet, System.String parmName, Int32 parameterIndex) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.InternalBindParameters (System.String sql, MySql.Data.MySqlClient.MySqlParameterCollection parameters, MySql.Data.MySqlClient.MySqlPacket packet) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.BindParameters () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.Execute () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.PreparableStatement.Execute () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at System.Data.Common.DbCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at System.Data.Common.DbDataAdapter.Fill (System.Data.DataTable dataTable, IDbCommand command, CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at System.Data.Common.DbDataAdapter.Fill (System.Data.DataTable dataTable) [0x00000] in <filename unknown>:0 
+  at (wrapper remoting-invoke-with-check) System.Data.Common.DbDataAdapter:Fill (System.Data.DataTable)
+  at Jabinfo.DB.MySQL.Select.All () [0x00000] in <filename unknown>:0 -----SELECT * FROM `article` where `categorys` like ?categoryId  LIMIT 0,30
+
+--------2015-03-02 10:49:08---------------------------------------------------------------
+	Error:获取dataTable失败
+	MySql.Data.MySqlClient.MySqlException: Fatal error encountered during command execution. ---> MySql.Data.MySqlClient.MySqlException: Parameter '?categoryId' must be defined.
+  at MySql.Data.MySqlClient.Statement.SerializeParameter (MySql.Data.MySqlClient.MySqlParameterCollection parameters, MySql.Data.MySqlClient.MySqlPacket packet, System.String parmName, Int32 parameterIndex) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.InternalBindParameters (System.String sql, MySql.Data.MySqlClient.MySqlParameterCollection parameters, MySql.Data.MySqlClient.MySqlPacket packet) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.BindParameters () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.Execute () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.PreparableStatement.Execute () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at System.Data.Common.DbCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at System.Data.Common.DbDataAdapter.Fill (System.Data.DataTable dataTable, IDbCommand command, CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at System.Data.Common.DbDataAdapter.Fill (System.Data.DataTable dataTable) [0x00000] in <filename unknown>:0 
+  at (wrapper remoting-invoke-with-check) System.Data.Common.DbDataAdapter:Fill (System.Data.DataTable)
+  at Jabinfo.DB.MySQL.Select.All () [0x00000] in <filename unknown>:0 -----SELECT * FROM `article` where `categorys` like ?categoryId  LIMIT 0,30
+
+--------2015-03-02 10:49:27---------------------------------------------------------------
+	Error:获取dataTable失败
+	MySql.Data.MySqlClient.MySqlException: Fatal error encountered during command execution. ---> MySql.Data.MySqlClient.MySqlException: Parameter '?categoryId' must be defined.
+  at MySql.Data.MySqlClient.Statement.SerializeParameter (MySql.Data.MySqlClient.MySqlParameterCollection parameters, MySql.Data.MySqlClient.MySqlPacket packet, System.String parmName, Int32 parameterIndex) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.InternalBindParameters (System.String sql, MySql.Data.MySqlClient.MySqlParameterCollection parameters, MySql.Data.MySqlClient.MySqlPacket packet) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.BindParameters () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.Execute () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.PreparableStatement.Execute () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at System.Data.Common.DbCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at System.Data.Common.DbDataAdapter.Fill (System.Data.DataTable dataTable, IDbCommand command, CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at System.Data.Common.DbDataAdapter.Fill (System.Data.DataTable dataTable) [0x00000] in <filename unknown>:0 
+  at (wrapper remoting-invoke-with-check) System.Data.Common.DbDataAdapter:Fill (System.Data.DataTable)
+  at Jabinfo.DB.MySQL.Select.All () [0x00000] in <filename unknown>:0 -----SELECT * FROM `article` where `categorys` like ?categoryId  LIMIT 0,30
+
+--------2015-03-02 10:58:54---------------------------------------------------------------
+	Error:应用错误
+	System.FormatException: Input string was not in the correct format
+  at System.Int32.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at System.Convert.ToInt32 (System.String value) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoController._JabinfoExcute (System.String[] userParam, Jabinfo.JabinfoContext context) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2015-03-02 10:58:54---------------------------------------------------------------
+	Error:应用错误
+	System.FormatException: Input string was not in the correct format
+  at System.Int32.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at System.Convert.ToInt32 (System.String value) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoController._JabinfoExcute (System.String[] userParam, Jabinfo.JabinfoContext context) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2015-03-02 10:58:54---------------------------------------------------------------
+	Error:应用错误
+	System.FormatException: Input string was not in the correct format
+  at System.Int32.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at System.Convert.ToInt32 (System.String value) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoController._JabinfoExcute (System.String[] userParam, Jabinfo.JabinfoContext context) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2015-03-02 11:00:16---------------------------------------------------------------
+	Error:应用错误
+	System.FormatException: Input string was not in the correct format
+  at System.Int32.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at System.Convert.ToInt32 (System.String value) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoController._JabinfoExcute (System.String[] userParam, Jabinfo.JabinfoContext context) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2015-03-02 11:00:16---------------------------------------------------------------
+	Error:应用错误
+	System.FormatException: Input string was not in the correct format
+  at System.Int32.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at System.Convert.ToInt32 (System.String value) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoController._JabinfoExcute (System.String[] userParam, Jabinfo.JabinfoContext context) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2015-03-02 11:00:33---------------------------------------------------------------
+	Error:应用错误
+	System.FormatException: Input string was not in the correct format
+  at System.Int32.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at System.Convert.ToInt32 (System.String value) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoController._JabinfoExcute (System.String[] userParam, Jabinfo.JabinfoContext context) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2015-03-02 11:00:33---------------------------------------------------------------
+	Error:应用错误
+	System.FormatException: Input string was not in the correct format
+  at System.Int32.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at System.Convert.ToInt32 (System.String value) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoController._JabinfoExcute (System.String[] userParam, Jabinfo.JabinfoContext context) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2015-03-02 11:00:40---------------------------------------------------------------
+	Error:获取dataTable失败
+	MySql.Data.MySqlClient.MySqlException: Fatal error encountered during command execution. ---> MySql.Data.MySqlClient.MySqlException: Parameter '?category_id' must be defined.
+  at MySql.Data.MySqlClient.Statement.SerializeParameter (MySql.Data.MySqlClient.MySqlParameterCollection parameters, MySql.Data.MySqlClient.MySqlPacket packet, System.String parmName, Int32 parameterIndex) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.InternalBindParameters (System.String sql, MySql.Data.MySqlClient.MySqlParameterCollection parameters, MySql.Data.MySqlClient.MySqlPacket packet) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.BindParameters () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.Execute () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.PreparableStatement.Execute () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at System.Data.Common.DbCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at System.Data.Common.DbDataAdapter.Fill (System.Data.DataTable dataTable, IDbCommand command, CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at System.Data.Common.DbDataAdapter.Fill (System.Data.DataTable dataTable) [0x00000] in <filename unknown>:0 
+  at (wrapper remoting-invoke-with-check) System.Data.Common.DbDataAdapter:Fill (System.Data.DataTable)
+  at Jabinfo.DB.MySQL.Select.All () [0x00000] in <filename unknown>:0 -----SELECT * FROM category WHERE category_id=?category_id LIMIT 0,1
+
+--------2015-03-02 11:00:43---------------------------------------------------------------
+	Error:应用错误
+	System.FormatException: Input string was not in the correct format
+  at System.Int32.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at System.Convert.ToInt32 (System.String value) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoController._JabinfoExcute (System.String[] userParam, Jabinfo.JabinfoContext context) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2015-03-02 11:00:43---------------------------------------------------------------
+	Error:应用错误
+	System.FormatException: Input string was not in the correct format
+  at System.Int32.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at System.Convert.ToInt32 (System.String value) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoController._JabinfoExcute (System.String[] userParam, Jabinfo.JabinfoContext context) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2015-03-02 11:00:57---------------------------------------------------------------
+	Error:应用错误
+	System.FormatException: Input string was not in the correct format
+  at System.Int32.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at System.Convert.ToInt32 (System.String value) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoController._JabinfoExcute (System.String[] userParam, Jabinfo.JabinfoContext context) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2015-03-02 11:00:57---------------------------------------------------------------
+	Error:应用错误
+	System.FormatException: Input string was not in the correct format
+  at System.Int32.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at System.Convert.ToInt32 (System.String value) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoController._JabinfoExcute (System.String[] userParam, Jabinfo.JabinfoContext context) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2015-03-02 11:07:35---------------------------------------------------------------
+	Error:获取dataTable失败
+	MySql.Data.MySqlClient.MySqlException: Fatal error encountered during command execution. ---> MySql.Data.MySqlClient.MySqlException: Parameter '?category_id' must be defined.
+  at MySql.Data.MySqlClient.Statement.SerializeParameter (MySql.Data.MySqlClient.MySqlParameterCollection parameters, MySql.Data.MySqlClient.MySqlPacket packet, System.String parmName, Int32 parameterIndex) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.InternalBindParameters (System.String sql, MySql.Data.MySqlClient.MySqlParameterCollection parameters, MySql.Data.MySqlClient.MySqlPacket packet) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.BindParameters () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Statement.Execute () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.PreparableStatement.Execute () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at System.Data.Common.DbCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader (CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at System.Data.Common.DbDataAdapter.Fill (System.Data.DataTable dataTable, IDbCommand command, CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at System.Data.Common.DbDataAdapter.Fill (System.Data.DataTable dataTable) [0x00000] in <filename unknown>:0 
+  at (wrapper remoting-invoke-with-check) System.Data.Common.DbDataAdapter:Fill (System.Data.DataTable)
+  at Jabinfo.DB.MySQL.Select.All () [0x00000] in <filename unknown>:0 -----SELECT * FROM category WHERE category_id=?category_id LIMIT 0,1
+
+--------2015-03-02 11:11:48---------------------------------------------------------------
+	Error:应用错误
+	System.FormatException: Input string was not in the correct format
+  at System.Int32.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at System.Convert.ToInt32 (System.String value) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoController._JabinfoExcute (System.String[] userParam, Jabinfo.JabinfoContext context) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2015-03-02 11:11:58---------------------------------------------------------------
+	Error:应用错误
+	System.FormatException: Input string was not in the correct format
+  at System.Int32.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at System.Convert.ToInt32 (System.String value) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoController._JabinfoExcute (System.String[] userParam, Jabinfo.JabinfoContext context) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2015-03-02 11:12:11---------------------------------------------------------------
+	Error:应用错误
+	System.FormatException: Input string was not in the correct format
+  at System.Int32.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at System.Convert.ToInt32 (System.String value) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoController._JabinfoExcute (System.String[] userParam, Jabinfo.JabinfoContext context) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2015-03-02 11:12:14---------------------------------------------------------------
+	Error:应用错误
+	System.FormatException: Input string was not in the correct format
+  at System.Int32.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at System.Convert.ToInt32 (System.String value) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoController._JabinfoExcute (System.String[] userParam, Jabinfo.JabinfoContext context) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2015-03-02 11:13:44---------------------------------------------------------------
+	Error:应用错误
+	System.FormatException: Input string was not in the correct format
+  at System.Int32.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at System.Convert.ToInt32 (System.String value) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoController._JabinfoExcute (System.String[] userParam, Jabinfo.JabinfoContext context) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2015-03-02 11:13:49---------------------------------------------------------------
+	Error:应用错误
+	System.FormatException: Input string was not in the correct format
+  at System.Int32.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at System.Convert.ToInt32 (System.String value) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoController._JabinfoExcute (System.String[] userParam, Jabinfo.JabinfoContext context) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2015-03-02 11:14:31---------------------------------------------------------------
+	Error:应用错误
+	System.FormatException: Input string was not in the correct format
+  at System.Int32.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at System.Convert.ToInt32 (System.String value) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoController._JabinfoExcute (System.String[] userParam, Jabinfo.JabinfoContext context) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2015-03-02 11:15:15---------------------------------------------------------------
+	Error:应用错误
+	System.FormatException: Input string was not in the correct format
+  at System.Int32.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at System.Convert.ToInt32 (System.String value) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoController._JabinfoExcute (System.String[] userParam, Jabinfo.JabinfoContext context) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2015-03-02 11:16:22---------------------------------------------------------------
+	Error:应用错误
+	System.FormatException: Input string was not in the correct format
+  at System.Int32.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at System.Convert.ToInt32 (System.String value) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoController._JabinfoExcute (System.String[] userParam, Jabinfo.JabinfoContext context) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2015-03-02 11:17:15---------------------------------------------------------------
+	Error:应用错误
+	System.FormatException: Input string was not in the correct format
+  at System.Int32.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at System.Convert.ToInt32 (System.String value) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoController._JabinfoExcute (System.String[] userParam, Jabinfo.JabinfoContext context) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2015-03-02 11:17:23---------------------------------------------------------------
+	Error:应用错误
+	System.FormatException: Input string was not in the correct format
+  at System.Int32.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at System.Convert.ToInt32 (System.String value) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoController._JabinfoExcute (System.String[] userParam, Jabinfo.JabinfoContext context) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2015-03-02 11:17:38---------------------------------------------------------------
+	Error:应用错误
+	System.FormatException: Input string was not in the correct format
+  at System.Int32.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at System.Convert.ToInt32 (System.String value) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoController._JabinfoExcute (System.String[] userParam, Jabinfo.JabinfoContext context) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2015-03-02 11:19:06---------------------------------------------------------------
+	Error:应用错误
+	System.FormatException: Input string was not in the correct format
+  at System.Int32.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at System.Convert.ToInt32 (System.String value) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoController._JabinfoExcute (System.String[] userParam, Jabinfo.JabinfoContext context) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2015-03-02 11:19:08---------------------------------------------------------------
+	Error:应用错误
+	System.FormatException: Input string was not in the correct format
+  at System.Int32.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at System.Convert.ToInt32 (System.String value) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoController._JabinfoExcute (System.String[] userParam, Jabinfo.JabinfoContext context) [0x00000] in <filename unknown>:0 
+  at Jabinfo.JabinfoHandle.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+
+--------2015-03-02 16:33:42---------------------------------------------------------------
+	Error:获取dataTable失败
+	MySql.Data.MySqlClient.MySqlException: Unable to connect to any of the specified MySQL hosts.
+  at MySql.Data.MySqlClient.NativeDriver.Open () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Driver.Open () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Driver.Create (MySql.Data.MySqlClient.MySqlConnectionStringBuilder settings) [0x00000] in <filename unknown>:0 -----
+

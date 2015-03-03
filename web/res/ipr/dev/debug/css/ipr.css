@@ -237,15 +237,17 @@ ul.left li, ol.left li, dl.left dt, dl.left dd {
   margin: 10px auto; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wxipr\/web\/res\/ipr\/dev\/sass\/page\/category\.scss}line{font-family:\0000340}}
   .ipr-page span {
-    color: #00a498;
     font-weight: bold; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wxipr\/web\/res\/ipr\/dev\/sass\/page\/category\.scss}line{font-family:\0000344}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wxipr\/web\/res\/ipr\/dev\/sass\/page\/category\.scss}line{font-family:\0000343}}
+  .ipr-page strong {
+    color: #00a498; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wxipr\/web\/res\/ipr\/dev\/sass\/page\/category\.scss}line{font-family:\0000346}}
   .ipr-page em {
     margin-left: 5px;
     background-color: #00A498;
     padding: 2 8px;
     border: 1px solid #00A498; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wxipr\/web\/res\/ipr\/dev\/sass\/page\/category\.scss}line{font-family:\0000350}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wxipr\/web\/res\/ipr\/dev\/sass\/page\/category\.scss}line{font-family:\0000352}}
   .ipr-page a {
     padding: 2 8px;
     margin-top: 4px;
@@ -436,57 +438,60 @@ div.flicking_con a.on {
   width: 90%;
   margin-left: 6%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wxipr\/web\/res\/ipr\/dev\/sass\/page\/index\.scss}line{font-family:\0000333}}
-.ipr-index-top h3 {
-  color: #00a498;
-  font-weight: bold;
-  font-size: 14px;
-  margin-bottom: 8px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wxipr\/web\/res\/ipr\/dev\/sass\/page\/index\.scss}line{font-family:\0000339}}
-.ipr-index-top img {
-  width: 45%;
-  height: 70px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wxipr\/web\/res\/ipr\/dev\/sass\/page\/index\.scss}line{font-family:\0000343}}
-.ipr-index-top .twopic {
-  margin-left: 5%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wxipr\/web\/res\/ipr\/dev\/sass\/page\/index\.scss}line{font-family:\0000346}}
-.ipr-index-top ul {
-  width: 100%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wxipr\/web\/res\/ipr\/dev\/sass\/page\/index\.scss}line{font-family:\0000348}}
-  .ipr-index-top ul li {
-    line-height: 25px;
-    border-bottom: 1px dashed #999;
-    width: 100%;
-    overflow: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wxipr\/web\/res\/ipr\/dev\/sass\/page\/index\.scss}line{font-family:\0000332}}
+.ipr-index-top {
+  margin-top: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wxipr\/web\/res\/ipr\/dev\/sass\/page\/index\.scss}line{font-family:\0000334}}
+  .ipr-index-top h3 {
+    color: #00a498;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 8px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wxipr\/web\/res\/ipr\/dev\/sass\/page\/index\.scss}line{font-family:\0000340}}
+  .ipr-index-top img {
+    width: 45%;
+    height: 70px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wxipr\/web\/res\/ipr\/dev\/sass\/page\/index\.scss}line{font-family:\0000344}}
+  .ipr-index-top .twopic {
+    margin-left: 5%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wxipr\/web\/res\/ipr\/dev\/sass\/page\/index\.scss}line{font-family:\0000347}}
+  .ipr-index-top ul {
+    width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wxipr\/web\/res\/ipr\/dev\/sass\/page\/index\.scss}line{font-family:\0000349}}
+    .ipr-index-top ul li {
+      line-height: 25px;
+      border-bottom: 1px dashed #999;
+      width: 100%;
+      overflow: hidden; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wxipr\/web\/res\/ipr\/dev\/sass\/page\/index\.scss}line{font-family:\0000356}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wxipr\/web\/res\/ipr\/dev\/sass\/page\/index\.scss}line{font-family:\0000357}}
 .index-content {
   margin-top: 10px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wxipr\/web\/res\/ipr\/dev\/sass\/page\/index\.scss}line{font-family:\0000358}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wxipr\/web\/res\/ipr\/dev\/sass\/page\/index\.scss}line{font-family:\0000359}}
   .index-content .list {
     padding-bottom: 7px;
     border-bottom: 1px dashed #999; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wxipr\/web\/res\/ipr\/dev\/sass\/page\/index\.scss}line{font-family:\0000362}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wxipr\/web\/res\/ipr\/dev\/sass\/page\/index\.scss}line{font-family:\0000363}}
   .index-content h3 {
     color: #00a498;
     font-weight: bold;
     font-size: 14px;
     margin-bottom: 8px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wxipr\/web\/res\/ipr\/dev\/sass\/page\/index\.scss}line{font-family:\0000368}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wxipr\/web\/res\/ipr\/dev\/sass\/page\/index\.scss}line{font-family:\0000369}}
   .index-content h4 {
     line-height: 24px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wxipr\/web\/res\/ipr\/dev\/sass\/page\/index\.scss}line{font-family:\0000372}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wxipr\/web\/res\/ipr\/dev\/sass\/page\/index\.scss}line{font-family:\0000373}}
   .index-content dl dt {
     width: 30%;
     height: 80px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wxipr\/web\/res\/ipr\/dev\/sass\/page\/index\.scss}line{font-family:\0000377}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wxipr\/web\/res\/ipr\/dev\/sass\/page\/index\.scss}line{font-family:\0000378}}
   .index-content dl dd {
     width: 65%;
     height: 80px;
     overflow: hidden;
     line-height: 20px;
     margin-left: 5%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wxipr\/web\/res\/ipr\/dev\/sass\/page\/index\.scss}line{font-family:\0000386}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wxipr\/web\/res\/ipr\/dev\/sass\/page\/index\.scss}line{font-family:\0000387}}
   .index-content .last {
     color: #999;
     line-height: 25px; }
@@ -537,17 +542,19 @@ div.flicking_con a.on {
     margin-left: 5%; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wxipr\/web\/res\/ipr\/dev\/sass\/page\/search\.scss}line{font-family:\0000312}}
   .ipr-sea-content dt {
-    color: #00a498;
     font-weight: bold;
     font-size: 14px;
     line-height: 25px;
     display: list-item;
     text-align: -webkit-match-parent; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wxipr\/web\/res\/ipr\/dev\/sass\/page\/search\.scss}line{font-family:\0000320}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wxipr\/web\/res\/ipr\/dev\/sass\/page\/search\.scss}line{font-family:\0000318}}
+    .ipr-sea-content dt a {
+      color: #00a498; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wxipr\/web\/res\/ipr\/dev\/sass\/page\/search\.scss}line{font-family:\0000322}}
   .ipr-sea-content .text {
     height: 60px;
     overflow: hidden; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wxipr\/web\/res\/ipr\/dev\/sass\/page\/search\.scss}line{font-family:\0000324}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/wxipr\/web\/res\/ipr\/dev\/sass\/page\/search\.scss}line{font-family:\0000326}}
   .ipr-sea-content .over {
     margin-top: 10px;
     color: #999; }

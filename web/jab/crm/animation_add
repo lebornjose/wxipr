@@ -1,0 +1,1 @@
+<tr><th>标题</th><td><input type="text" maxlength="30" name="title" koo="need"/></td></tr><tr><th>照片</th><td><input type="file" name="image"></td></tr><tr><th>地址</th><td><input type="text" maxlength="100" name="url" value="http://" /></td></tr><tr><th>排序</th><td><input type="text" maxlength="10" name="index" value="0"/></td></tr>

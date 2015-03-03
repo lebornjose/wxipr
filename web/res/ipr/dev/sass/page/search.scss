@@ -10,12 +10,14 @@
   	margin-left: 5%;
   }
   dt{
-  	color: #00a498;
   	font-weight: bold;
   	font-size: 14px;
   	line-height: 25px;
   	display: list-item;
     text-align: -webkit-match-parent;
+    a{
+      color: #00a498;
+    }
   }
   .text{
   	height: 60px;

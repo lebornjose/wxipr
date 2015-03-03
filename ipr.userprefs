@@ -1,17 +1,21 @@
 ﻿<Properties StartupItem="web/web.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="project/Crm/Model/MenuModel.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Project/Crm/Web.cs">
     <Files>
-      <File FileName="Project/Crm/Libary/Weixin.cs" Line="12" Column="12" />
-      <File FileName="project/Crm/Controller/Menu.cs" Line="27" Column="27" />
-      <File FileName="Project/Crm/Home.cs" Line="22" Column="22" />
-      <File FileName="project/Crm/Controller/Msglog.cs" Line="4" Column="4" />
-      <File FileName="project/Crm/Controller/Follow.cs" Line="1" Column="1" />
-      <File FileName="project/Crm/Model/MenuModel.cs" Line="1" Column="1" />
+      <File FileName="Project/Crm/Libary/Weixin.cs" Line="1" Column="1" />
+      <File FileName="Project/Crm/Home.cs" Line="1" Column="1" />
+      <File FileName="project/Crm/Controller/Msglog.cs" Line="1" Column="1" />
+      <File FileName="Project/Crm/Web.cs" Line="37" Column="37" />
+      <File FileName="Project/Crm/Register.cs" Line="1" Column="1" />
+      <File FileName="Project/Crm/Controller/Animation.cs" Line="1" Column="1" />
+      <File FileName="Project/Crm/API.cs" Line="1" Column="1" />
+      <File FileName="project/Crm/Controller/Article.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="project/Crm/Controller/Article.cs" line="221" offsetX="611" offsetY="3300" expression="context.Variable" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
 </Properties>

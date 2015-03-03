@@ -1,0 +1,1 @@
+ <div class="footer"><:set name="tags" value="?api('crm').basic('1')?"/><p>?tags.copyright?</p><P>邮件：?tags.email?</P><p>地址：?tags.address?</p><p>传真：?tags.pro?</p><p>电话：?tags.tel?</p></div></body></html>

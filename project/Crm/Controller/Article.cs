@@ -129,12 +129,12 @@ namespace Jabinfo.Crm
 			//记录图片
 			if (context.Files["image"] != null && context.Files["image"].ContentLength > 10)
 			{
-				Jabinfo.Help.Image.Save(context.Post["article_id"], context.Files["image"]);
+				Jabinfo.Help.Image.Save(context.Post["articleId"], context.Files["image"]);
 				JabinfoKeyValue sizes = Jabinfo.Help.Config.Get("article.photosize");//切图保存
 				foreach (string key in sizes.Keys)
 				{
 					string[] size = sizes[key].Split('x');
-					Jabinfo.Help.Image.Resize(string.Format("{0}_{1}", context.Post["article_id"], key), context.Post["article_id"], Convert.ToInt32(size[0]), Convert.ToInt32(size[1]));
+					Jabinfo.Help.Image.Resize(string.Format("{0}_{1}", context.Post["articleId"], key), context.Post["articleId"], Convert.ToInt32(size[0]), Convert.ToInt32(size[1]));
 				}
 				context.Post["attach"] = "1";//有预览图
 			}
@@ -142,13 +142,13 @@ namespace Jabinfo.Crm
 			{
 				string fileName = context.Files["afile"].FileName;
 				context.Post["model"] = fileName.Substring(fileName.LastIndexOf('.') + 1);
-				Jabinfo.Help.Upload.Save(context.Post["article_id"] + "_file", context.Files["afile"], context.Post["model"]);
+				Jabinfo.Help.Upload.Save(context.Post["articleId"] + "_file", context.Files["afile"], context.Post["model"]);
 			}
 			if (context.Post["iscash"] == null)
 				context.Post["iscash"] = "0";
 			ArticleMapper.I.UpdateByPrimary (context.Post);
-			context.Post["categorys"] = context.Post["category_id"];
-			context.Post["tags"] = context.Post["tag_id"];
+			context.Post["categorys"] = context.Post["categoryId"];
+			context.Post["tags"] = context.Post["tagId"];
 			ArticleDetailMapper.I.UpdateByPrimary(context.Post);
 			context.Jump(string.Format("/crm/article/edit/{0}", context.Post["articleId"]), "编辑成功");
 			return;
@@ -218,11 +218,11 @@ namespace Jabinfo.Crm
 		public void index(JabinfoContext context,string categoryId,int index)
 		{
 			int size = 30;
-     		context.Variable ["total"] = ArticleMapper.I.Ctotal (categoryId);
+			context.Variable ["total"] = ArticleModel.I.Ctotal (categoryId);
 			context.Variable ["size"] = size;
 			context.Variable ["index"] = index;
 			context.Variable ["start"] = index * size;
-  			context.Variable ["articleList"] = ArticleMapper.I.Select1 (categoryId,index,size);
+			context.Variable ["articleList"] = ArticleModel.I.Category(categoryId,index,size);
 			context.Variable["category_id"] = categoryId;
     		context.Variable ["category"] = CategoryMapper.I.Create (categoryId);
 			context.Variable["articletype"] = Jabinfo.Help.Config.Get("article.jtype");

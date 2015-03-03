@@ -1,7 +1,7 @@
 ﻿/*
  * Created:  by JabinfoCoder
  * Contact:  http://www.jabinfo.com
- * Date   :  2015/2/10 20:59:17
+ * Date   :  2015/3/3 9:53:56
  */
 using System;
 using System.Data;
@@ -75,11 +75,11 @@ namespace Jabinfo.Crm.VO
 				return null;
 			FeedbackVO VO = new FeedbackVO ();
         	VO.feedId = dr["feed_id"] as string;
-        	VO.title = dr["title"] as string;
         	VO.context = dr["context"] as string;
-        	VO.username = dr["username"] as string;
-        	VO.status = dr["status"] as string;
         	VO.addtime = Convert.ToInt32(dr["addtime"]);
+        	VO.name = dr["name"] as string;
+        	VO.email = dr["email"] as string;
+        	VO.mobile = dr["mobile"] as string;
 			return VO;
 		}
 
@@ -87,22 +87,22 @@ namespace Jabinfo.Crm.VO
 		{
 			return query.Insert ("feedback").
             	Value("feed_id", data["feedId"], DataType.Char, 24).
-            	Value("title", data["title"], DataType.Varchar, 50).
             	Value("context", data["context"], DataType.Text).
-            	Value("username", data["username"], DataType.Varchar, 30).
-            	Value("status", data["status"], DataType.Char, 1).
             	Value("addtime", data["addtime"], DataType.Int).
+            	Value("name", data["name"], DataType.Varchar, 30).
+            	Value("email", data["email"], DataType.Varchar, 30).
+            	Value("mobile", data["mobile"], DataType.Varchar, 30).
 				Excute ();
 		}
 
 		public int UpdateByPrimary (JabinfoKeyValue data)
 		{
 			return query.Update ("feedback").
-            	Set("title", data["title"], DataType.Varchar, 50).
             	Set("context", data["context"], DataType.Text).
-            	Set("username", data["username"], DataType.Varchar, 30).
-            	Set("status", data["status"], DataType.Char, 1).
             	Set("addtime", data["addtime"], DataType.Int).
+            	Set("name", data["name"], DataType.Varchar, 30).
+            	Set("email", data["email"], DataType.Varchar, 30).
+            	Set("mobile", data["mobile"], DataType.Varchar, 30).
             	Where("feed_id", data["feedId"], DataType.Char, 24).
 				Excute ();
 		}

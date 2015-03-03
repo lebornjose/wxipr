@@ -19,6 +19,8 @@ namespace Jabinfo.Crm
 				return new PageController ();
 			case "menu":
 				return new MenuController ();
+			case "feedback":
+				return new FeedbackController ();
 			case "follow":        //关注者列表
 				return new FollowController ();
 			case "upload":       // 媒体文件
@@ -29,8 +31,14 @@ namespace Jabinfo.Crm
 				return new RequestController ();
 			case "msglog":
 				return new MsglogController ();
+			case "animation":
+				return new AnimationController ();
+			case "basic":
+				return new BasicController ();
 			case "home":
 				return new Home ();
+			case "web":
+				return new Web ();
 			}
 			return null;
 		}

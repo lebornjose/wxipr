@@ -50,6 +50,20 @@ namespace Jabinfo.Crm
 			return stringBuilder.ToString();
 		}
 
+	
+		/// <summary>
+		/// 获取分类下文章
+		/// </summary>
+		/// <param name="category_id">分类编号</param>
+		/// <param name="length">条数</param>
+		/// <returns></returns>
+		public ArticleVO[] category(string categoryId, int length)
+		{
+			ArticleVO[] article = ArticleModel.I.Category (categoryId ,0,length);
+			return article;
+		}
+			
+
 		/// <summary>
 		/// 获取一组分类
 		/// </summary>
@@ -58,6 +72,12 @@ namespace Jabinfo.Crm
 		public CategoryVO[] group(string parent_id)
 		{
 			return CategoryMapper.I.Select1 (parent_id);
+		}
+
+		public BasicVO basic(string basicId)
+		{
+			BasicVO basic = BasicMapper.I.Create (basicId);
+			return basic;
 		}
 	}
 }

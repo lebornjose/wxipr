@@ -1,7 +1,7 @@
 ﻿/*
  * Created:  by JabinfoCoder
  * Contact:  http://www.jabinfo.com
- * Date   :  2015/1/13 15:19:55
+ * Date   :  2015/3/3 9:25:09
  */
 using System;
 using System.Data;
@@ -148,12 +148,38 @@ namespace Jabinfo.Crm.VO
 
 		#region	Self Method
 		
-
+		// 阅读排行榜
+		public ArticleVO[] Ranking (int index, int size)
+		{
+			DataTable table = query.Select ("SELECT * FROM `article` ORDER BY `pubtime` desc").Limit(index, size).
+				All ();
+			ArticleVO[] result = this.Collection (table);
+			for (int i = 0; i < result.Length; i++) {
+				result[i].articleId = table.Rows[i]["article_id"] as string;
+				result[i].title = table.Rows[i]["title"] as string;
+				result[i].caption = table.Rows[i]["caption"] as string;
+				result[i].author = table.Rows[i]["author"] as string;
+				result[i].model = table.Rows[i]["model"] as string;
+				result[i].pubtime = Convert.ToInt32(table.Rows[i]["pubtime"]);
+				result[i].summary = table.Rows[i]["summary"] as string;
+				result[i].reads = Convert.ToInt32(table.Rows[i]["reads"]);
+				result[i].ispost = table.Rows[i]["ispost"] as string;
+				result[i].comeUrl = table.Rows[i]["come_url"] as string;
+				result[i].come = table.Rows[i]["come"] as string;
+				result[i].keyword = table.Rows[i]["keyword"] as string;
+				result[i].uid = table.Rows[i]["uid"] as string;
+				result[i].categorys = table.Rows[i]["categorys"] as string;
+				result[i].jtype = table.Rows[i]["jtype"] as string;
+				result[i].categoryId = table.Rows[i]["category_id"] as string;
+				result[i].iscash = table.Rows[i]["iscash"] as string;
+			}
+			return result;
+		}
 		
 		// 分类查询
 		public ArticleVO[] Select1 (string categoryId, int index, int size)
 		{
-			DataTable table = query.Select ("SELECT * FROM `article` WHERE `category_id`=?categoryId ").
+			DataTable table = query.Select ("SELECT * FROM `article` WHERE `categorys`=?categoryId ").
 	            Param("categoryId", categoryId, DataType.Varchar, 30).Limit(index, size).
 				All ();
 			ArticleVO[] result = this.Collection (table);
@@ -182,7 +208,7 @@ namespace Jabinfo.Crm.VO
 		// 分类统计
 		public int Ctotal (string categoryId)
 		{
-			return query.Select ("SELECT COUNT(*) FROM `article` WHERE `category_id`=?categoryId ").
+			return query.Select ("SELECT COUNT(*) FROM `article` WHERE `categorys`=?categoryId ").
             	Param("categoryId", categoryId, DataType.Varchar, 30).
 			    Count ();
 		}

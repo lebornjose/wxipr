@@ -1,0 +1,6 @@
+﻿--------2015-02-28 17:15:49---------------------------------------------------------------
+	Error:获取ExcuteScalar失败
+	MySql.Data.MySqlClient.MySqlException: Table 'wxipr.syslog' doesn't exist
+  at MySql.Data.MySqlClient.MySqlStream.ReadPacket () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.NativeDriver.GetResult (System.Int32& affectedRow, System.Int64& insertedId) [0x00000] in <filename unknown>:0 -----select count(logid) from syslog WHERE logtype='article_del'
+
