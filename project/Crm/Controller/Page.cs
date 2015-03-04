@@ -65,7 +65,7 @@ namespace Jabinfo.Crm
 				Jabinfo.Help.Image.Save(context.Post ["pageId"], context.Files["file"]);
 			}
 			PageMapper.I.Insert(context.Post);
-			context.Jump("/article/page/home","添加成功");
+			context.Jump("/crm/page/home","添加成功");
 		}
 		#endregion
 

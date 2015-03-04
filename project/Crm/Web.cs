@@ -67,6 +67,11 @@ namespace Jabinfo
 			context.Refresh ();
 		}
 
+		/// <summary>
+		/// 搜索页面
+		/// </summary>
+		/// <param name="context">Context.</param>
+		/// <param name="index">Index.</param>
 		public void search(JabinfoContext context,int index)
 		{
 			int size = 20;
@@ -82,6 +87,15 @@ namespace Jabinfo
 			context.Variable ["size"] = size;
 			context.Variable ["articleList"] = ArticleModel.I.Select (title, index, size);
 			context.Variable ["total"] = ArticleModel.I.Total (title);
+		}
+
+		/// <summary>
+		/// 页面管理
+		/// </summary>
+		/// <param name="pageId">Page identifier.</param>
+		public void page(JabinfoContext context, string pageId)
+		{
+			context.Variable ["page"] = PageMapper.I.Create (pageId);
 		}
 	}
 }

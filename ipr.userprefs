@@ -2,14 +2,12 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Project/Crm/Web.cs">
     <Files>
-      <File FileName="Project/Crm/Libary/Weixin.cs" Line="1" Column="1" />
-      <File FileName="Project/Crm/Home.cs" Line="1" Column="1" />
-      <File FileName="project/Crm/Controller/Msglog.cs" Line="1" Column="1" />
-      <File FileName="Project/Crm/Web.cs" Line="37" Column="37" />
-      <File FileName="Project/Crm/Register.cs" Line="1" Column="1" />
-      <File FileName="Project/Crm/Controller/Animation.cs" Line="1" Column="1" />
-      <File FileName="Project/Crm/API.cs" Line="1" Column="1" />
+      <File FileName="Project/Crm/Libary/Weixin.cs" Line="3" Column="3" />
+      <File FileName="Project/Crm/API.cs" Line="49" Column="49" />
       <File FileName="project/Crm/Controller/Article.cs" Line="1" Column="1" />
+      <File FileName="Project/Crm/Web.cs" Line="16" Column="16" />
+      <File FileName="project/Crm/Model/ArticleModel.cs" Line="38" Column="38" />
+      <File FileName="project/Crm/VO/ArticleMapper.cs" Line="3" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
