@@ -1,1 +1,0 @@
-﻿<tr><th>配置名</th><td><input type="text" id="act-jump-need" name="app"/></td></tr><tr><th>配置组键值</th><td><input type="text" id="app-need" name="name"/></td></tr><tr><th>配置组名称</th><td><input type="text" id="title-need" name="title"/></td></tr>

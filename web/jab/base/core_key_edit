@@ -1,1 +1,0 @@
-﻿<tr><th>配置值</th><td><input type="text" id="title-need" name="value" value="?value?"/><input type="hidden" id="act-jump" name="app" value="?app?"/><input type="hidden" name="name" value="?name?"/><input type="hidden" value="?key?" name="key"/></td></tr>
